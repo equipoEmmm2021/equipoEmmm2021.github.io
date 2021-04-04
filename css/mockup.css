@@ -1,0 +1,108 @@
+.Mock_video{
+    position: relative;
+    height: 225px;
+    background-color: grey;
+    color: rgb(48, 48, 48);
+    font-size: 3rem;
+    line-height: 3rem;
+    text-align: center;
+}
+
+.Mock_video_Desk{
+    position: relative;
+    height: 400px;
+    background-color: grey;
+    color: rgb(48, 48, 48);
+    font-size: 3rem;
+    line-height: 3rem;
+    text-align: center;
+}
+
+.Mock_logoEmpresa{
+    width: 45px;
+    height: 45px;
+    background-color: grey;
+    color: rgb(48, 48, 48);
+    text-align: center;
+}
+
+.Mock_RRSS_M{
+    width: 100%;
+    height: 33px;
+    background-color: grey;
+    color: rgb(48, 48, 48);
+    font-size: 1rem;
+    line-height: 1rem;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.Mock_RRSS_D{
+    width: 100%;
+    height: 33px;
+    background-color: grey;
+    color: rgb(48, 48, 48);
+    font-size: 1rem;
+    line-height: 1rem;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.mockupCampaign_left{
+
+    height: 365px;
+    background-color: aqua;
+    padding: 100px 0px;
+    font-size: 2rem;
+}
+
+.mockupCampaign_center{
+
+    height: 365px;
+    background-color:blueviolet;
+    padding: 100px 0px;
+    font-size: 2rem;
+}
+
+.mockupCampaign_right{
+
+    height: 365px;
+    background-color:bisque;
+    padding: 100px 0px;
+    font-size: 2rem;
+}
+
+.campaignD,.campaignM{
+    height: 500px;
+    background-color: grey;
+    padding: 100px 0px;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.faqD,.faqM{
+    height: 500px;
+    background-color: grey;
+    padding: 100px 0px;
+    font-size: 2rem;
+    text-align: center;
+
+}
+
+.commentsD,.commentsM{
+    height: 500px;
+    background-color: grey;
+    padding: 100px 0px;
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+footer{
+    margin-top: 50px;
+    padding-top: 20px;
+    height: 200px;
+    background-color: grey;
+    font-size: 3rem;
+    text-align: center;
+}

@@ -1,0 +1,206 @@
+body{
+    background-color: #FBFBFA;
+}
+
+.wrapper{
+    max-width: 1280px;
+    display: block;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.logo{
+    padding-top: 15px;
+}
+
+.mainMenu{
+    height: 45px;
+    padding: 28px 0px 0px 14px;
+}
+
+.mainMenuMob{
+    height: 27px;
+    padding: 12px 0px 0px 6px;
+}
+
+.desktop_header{
+    height: 66px;
+    border-bottom: 2px solid rgb(241, 241, 241);
+    background-color: white;
+    margin-top: 0;
+}
+
+.mobile_Header{
+    height: 80px;
+    border-bottom: 2px solid rgb(241, 241, 241);
+    background-color: white;
+}
+
+.bloqueM{
+    padding: 0px 0px 60px;
+    border-bottom: 1px solid rgb(241, 241, 241);
+}
+
+.bloqueD{
+    min-height: 45px;
+}
+
+.mainTitle{
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+.barraEstadoM{
+    width: 20%;
+    height: 0.6rem;
+    border: 1px solid rgb(241, 241, 241);
+    background-color: #009E74;
+    margin-bottom: 20px;
+}
+
+.barraEstado{
+    width: 20%;
+    height: 15px;
+    border: 1px solid rgb(241, 241, 241);
+    background-color: #009E74;
+    margin-top: 20px;
+}
+
+.recaudado{
+    color: #009E74;
+    font-size: 1.5rem;
+}
+
+.subText{
+    font-size: 90%;
+    color: #656969;
+}
+
+.datoNum{
+    font-size: 1.5rem;
+    color: rgb(104, 104, 104);
+}
+
+.mainButton{
+    width: 99%;
+    height: 42px;
+    background-color: #028858;
+    color: white;
+    padding-top: 11px;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 2rem;
+}
+
+.secondButton{
+    width: 99%;
+    height: 35px;
+    border: 1px solid rgb(104, 104, 104);
+    padding-top: 11px;
+    text-align: center;
+    font-size: 0.8rem;
+    line-height: 1.6rem;
+}
+
+.mainTitleDesktop{
+    font-size: 2rem;
+    line-height: 3rem;
+    text-align: center;
+}
+
+.desktopDescription{
+    text-align: center;
+    font-size: 1.3rem;
+    line-height: 2rem;
+
+}
+
+.disclaimer{
+    color: red;
+    text-align: center;
+}
+
+.menuD{
+    height: 65px;
+    background-color: #FFF;
+    border-top: 1px solid rgb(241, 241, 241);
+    border-bottom: 1px solid rgb(241, 241, 241);
+    font-size: small;
+}
+
+.menuM{
+    width: max-content;
+    height: 65px;
+    background-color: #FFF;
+    border-top: 1px solid rgb(241, 241, 241);
+    border-bottom: 1px solid rgb(241, 241, 241);
+    font-size: x-small;
+}
+
+.menuM input{
+    float: left;
+    font-size: x-small;
+}
+
+.menuLink{
+    text-align: center;
+    height: 65px;
+}
+
+.menuLinkM{
+    width: 100px;
+    height: 65px;
+    padding-top: 20px;
+}
+
+.menuActive{
+    color: black;
+    font-weight: 600;
+    border-bottom: 3px solid black;
+}
+
+.menuActiveM{
+    width: 100px;
+    text-align: center;
+    height: 42px;
+    padding-top: 20px;
+    color: black;
+    font-weight: 600;
+    border-bottom: 3px solid black;
+}
+
+.menuActive:hover,.menuLink:hover{
+    color: #009E74;
+}
+
+.video-responsive {
+    position: relative;
+    padding-bottom: 56.25%; /* 16/9 ratio */
+    padding-top: 30px; /* IE6 workaround*/
+    height: 0;
+    overflow: hidden;
+    }
+    
+.video-responsive iframe,.video-responsive object,.video-responsive embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    }
+
+
+@media(min-width: 993px){
+    
+}
+
+@media(max-width: 992px){
+    
+}
+@media(max-width: 768px){
+    
+
+}
+@media(max-width: 576px){
+    
+}
