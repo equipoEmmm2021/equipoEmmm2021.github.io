@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <!-- Required metadata -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title del juego</title>
+    <meta name="description" content="Descripción del juego">
+
+    <!-- RESET CSS -->
+    <link rel="stylesheet" href="css/reset.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/grid.css">
+
+    <!-- Local CSS -->
+    <link rel="stylesheet" href="css/local_css.css">
+
+    <!-- MOCKUP -->
+    <link rel="stylesheet" href="css/mockup.css">
+    
+</head>
+<body>
+    
+
+    <!-- MOBILE -->
+    <div class="row visible-xs visible-sm">
+        <div class="wrapper">
+
+            <!-- HEADER -->
+
+            <div id="localHeaderM" class="row mobile_header">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12">
+                        <img class="img-responsive logo" src="img/logo_kickstarter.png" alt="Logotipo de kickstarter">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-6 col-sm-6">
+                        <div class="row">
+                            <div class="col-xs-5 col-sm-5 mainMenuMob"><a href="#">Descubrir</a></div>
+                            <div class="col-xs-6 col-sm-6 mainMenuMob"><a href="https://www.kickstarter.com/learn?ref=nav">Empezar</a></div>
+                    
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-6">
+                        <div class="row">
+                            <div class="col-xs-3 col-sm-3 mainMenuMob"><a href="#"><span class="fas fa-search"></span></a></div>
+                            <div class="col-xs-8 col-sm-8 mainMenuMob"><a href="">Iniciar sesión</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- HERO -->
+            <div id="heroM" class="row visible-xs visible-sm">
+                
+                <div class="col-xs-12 col-sm-12 disclaimer"><p class="disclaimer">ATENCIÓN: Esta página simula la campaña de microfinanciación de un videojuego ficticio (no representa un producto real). Práctica de Multimedia, 1º GDDV - Curso 20/21 (Móstoles), URJC. La URJC no se hace responsable del contenido expuesto por el autor.</p></div>
+                <div class="col-xs-12 Mock_video"><span style="position: absolute;top: 35%;left: 35%;">Cartel del juego</span></div>
+                
+                <div class="row bloqueM">
+                    <p class="mainTitle">Título del juego</p>
+                    <p>Descripción corta</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio error vel aliquam libero deserunt autem! Modi quisquam unde architecto rem. Doloremque iste cum, dignissimos nemo totam ratione consectetur repellat nisi!</p>
+                </div>
+                <div class="row bloqueM">
+                    <div class="col-xs-2 col-sm-2 Mock_logoEmpresa">LOGO</div>
+                    <div class="col-xs-10 col-sm-10">
+                        <p style="padding-left: 10px;"><strong>Grupo E - Los sin nombre</strong></p>
+                        <p style="padding-left: 10px;">1 proyecto creado · 0 proyectos patrocinados</p>
+                    </div>
+                </div>
+                <div class="row bloqueM">
+                    <div class="row barraEstadoM"></div>
+                    <div class="row">
+                        <div class="col-xs-5 col-sm-5">
+                            <p class="recaudado">3.523,52€</p>
+                            <p class="subText">contribuido de 20.000€</p>
+                        </div>
+                        <div class="col-xs-4 col-sm-4">
+                            <p class="datoNum">100</p>
+                            <p class="subText">patrocinadores</p>
+                        </div>
+                        <div class="col-xs-3 col-sm-3">
+                            <p class="datoNum">200</p>
+                            <p class="subText">días más</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row bloqueM">
+                    <div class="col-xs-4 col-sm-4">
+                        <span class="subText">Nuestros favoritos</span>
+                    </div>
+                    <div class="col-xs-4 col-sm-4">
+                        <span class="subText">VIDeo-juegos</span>
+                    </div>
+                    <div class="col-xs-4 col-sm-4">
+                        <span class="subText">Móstoles (Spain)</span>
+                    </div>
+                </div>
+                <div class="row bloqueM">
+                    <div class="row">
+                            <a href="#"><div class="mainButton">Patrocina este proyecto</div></a>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-6 col-sm-6">
+                            <a href="#"><div class="secondButton">Recordarme</div></a>
+                        </div>
+                        <div class="col-xs-6 col-sm-6"><div class=" Mock_RRSS_M">Bloque RRSS</div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- MENU  -->
+        <div id="MenuCampaignM" class="menuM">
+            <div class="wrapper">
+                <input id="buttonCampaignM" value="Campaña" class="menuLink menuActive" onclick="showCampaignM()" type="button">
+            
+                <input id="buttonFaqsM" value="Preguntas frecuentes" class="menuLink" onclick="showFaqsM()" type="button">
+                
+                <input id="buttonCommentsM" value="Comentarios" class="menuLink" onclick="showCommentsM()" type="button">
+
+            </div>
+        </div>
+
+        <div class="wrapper">
+            <!-- MAIN -->
+            <div id="mainM">
+                <div id="campaignM" class="row campaignM">
+                    <div class="col-xs-12 col-sm-12 video-responsive">
+                        <iframe src="https://www.youtube.com/embed/jk3XSZAxOfA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    
+                </div>
+                <div id="faqsM" class="row faqM hide">FAQS</div>
+                <div id="commentsM" class="row commentsM hide">COMENTARIOS</div>
+
+            </div>
+        </div>
+            
+        <footer>FOOTER</footer>
+
+    </div>
+    
+    <!-- DESKTOP -->
+    <div class="row visible-md visible-lg" style="margin-top: 0;">
+
+        <!-- HEADER -->
+
+        <div id="localHeader" class="row desktop_header">
+            <div class="col-md-1 col-lg-1 mainMenu"><a href="#">Descubrir</a></div>
+            <div class="col-md-2 col-lg-2 mainMenu"><a href="https://www.kickstarter.com/learn?ref=nav">Empieza un proyecto</a></div>
+            
+            <div class="col-md-5 col-lg-5">
+                <img class="img-responsive logo" src="img/logo_kickstarter.png" alt="Logotipo de kickstarter">
+            </div>
+            <div class="col-md-1 col-lg-1 mainMenu" style="float: right;"><a href="#">Búsqueda</span></a></div>
+            <div class="col-md-2 col-lg-2 mainMenu" style="float: right;"><a href="">Iniciar sesión</a></div>
+        </div>
+        <div class="wrapper">
+            <!-- HERO -->
+            <div id="hero" class="row visible-md visible-lg">
+                <div class="row">
+                    <p class="mainTitleDesktop">Título del juego</p>
+                    <p class="desktopDescription">Descripción corta</p>
+                    <p class="desktopDescription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime incidunt assumenda cupiditate dignissimos voluptates alias debitis ullam atque animi quo quia ad illo, cumque sed pariatur dolorem quisquam, provident facere!</p>
+                    <p class="disclaimer">ATENCIÓN: Esta página simula la campaña de microfinanciación de un videojuego ficticio (no representa un producto real). Práctica de Multimedia, 1º GDDV - Curso 20/21 (Móstoles), URJC. La URJC no se hace responsable del contenido expuesto por el autor.</p>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 col-lg-7">
+                        <div class="row">
+                            <div class="Mock_video_Desk">Cartel del juego</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 col-lg-6">
+                                <div class="row bloqueD">
+                                    <div class="col-md-4 col-lg-4">
+                                        <span class="subText">Nuestros favoritos</span>
+                                    </div>
+                                    <div class="col-md-4 col-lg-4">
+                                        <span class="subText">VIDeo-juegos</span>
+                                    </div>
+                                    <div class="col-md-4 col-lg-4">
+                                        <span class="subText">Móstoles (Spain)</span>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                    </div>
+                    <div class="col-md-5 col-lg-5">
+                        <div class="row bloqueD">
+                            <div class="col-md-12 col-lg-12 barraEstado"></div>
+                        </div>
+                        <div class="row bloqueD">
+                            <div class="col-md-5 col-lg-5">
+                                <p class="recaudado">3.523,52€</p>
+                                <p class="subText">contribuido de 20.000€</p>
+                            </div>
+                            <div class="col-md-7 col-lg-7"></div>
+                        </div>
+                        <div class="row bloqueD">
+                            <div class="col-md-4 col-lg-4">
+                                <p class="datoNum">100</p>
+                                <p class="subText">patrocinadores</p>
+                            </div>
+                        </div>
+                        <div class="row bloqueD">
+                            <div class="col-md-3 col-lg-3">
+                                <p class="datoNum">200</p>
+                                <p class="subText">días más</p>
+                            </div>
+                        </div>
+                        <div class="row bloqueD">
+                            <a href="#"><div class="mainButton">Patrocina este proyecto</div></a>
+                        </div>
+                        <div class="row bloqueD">
+                            <div class="col-md-6 col-lg-6">
+                                <a href="#"><div class="secondButton">Recordarme</div></a>
+                            </div>
+                            <div class="col-md-6 col-lg-6">
+                                <div class=" Mock_RRSS_D">Bloque RRSS</div>
+                            </div>
+                        </div>
+                        <div class="row bloqueD">
+                            <div class="col-md-2 col-lg-2 Mock_logoEmpresa">LOGO</div>
+                            <div class="col-md-10 col-lg-10">
+                                <p style="padding-left: 10px;"><strong>Grupo E - Los sin nombre</strong></p>
+                                <p style="padding-left: 10px;">1 proyecto creado · 0 proyectos patrocinados</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- MENU -->
+        <div id="MenuCampaign" class="menuD">
+            <div class="row wrapper">
+                <div class="col-md-1 col-lg-1">
+                    <input id="buttonCampaignD" value="Campaña" class="menuLink menuActive" onclick="showCampaignD()" type="button">
+                </div>
+                <div class="col-md-2 col-lg-2">
+                    <input id="buttonFaqsD" value="Preguntas frecuentes" class="menuLink" onclick="showFaqsD()" type="button">
+                </div>
+                <div class="col-md-1 col-lg-1">
+                    <input id="buttonCommentsD" value="Comentarios" class="menuLink" onclick="showCommentsD()" type="button">
+                </div>
+            </div>
+        </div>
+
+        <div class="wrapper">
+            <!-- MAIN -->
+            <div id="main">
+                <div id="campaignD" class="row campaignD">
+                    <div class="col-md-2 col-lg-2 mockupCampaign_left">Menu</div>
+                    <div class="col-md-7 col-lg-7 mockupCampaign_center" style="margin-right: 1%;">
+                        <div class="row">
+                            <div class="col-md-12 col-lg-12 video-responsive">
+                                <iframe src="https://www.youtube.com/embed/jk3XSZAxOfA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-lg-3 mockupCampaign_right">Recompensas</div>
+                </div>
+                <div id="faqsD" class="row faqD hide">FAQS</div>
+                <div id="commentsD" class="row commentsD hide">COMENTARIOS</div>
+
+            </div>
+        </div>
+        
+        <footer>
+            FOOTER
+        </footer>
+
+
+    </div>
+    
+    <!-- Local JS -->
+    <script src="js/local_js.js"></script>
+
+</body>
+</html>
