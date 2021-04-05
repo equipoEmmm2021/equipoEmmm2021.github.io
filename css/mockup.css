@@ -56,20 +56,8 @@
     font-size: 2rem;
 }
 
-.mockupCampaign_center{
-    padding: 20px 0px;
-}
-
-.mockupCampaign_right{
-
-    height: 365px;
-    background-color:bisque;
-    padding: 20px 0px;
-}
-
 .campaignD{
     padding: 20px 0px;
-    text-align: center;
 }
 
 .musicaMockup{
@@ -100,7 +88,6 @@
 
 
 footer{
-    margin-top: 50px;
     padding-top: 20px;
     height: 200px;
     background-color: grey;

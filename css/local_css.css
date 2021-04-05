@@ -1,3 +1,5 @@
+/* GENERAL */
+
 body{
     background-color: #FBFBFA;
 }
@@ -9,18 +11,10 @@ body{
     padding: 0 10px;
 }
 
+/* HEADER */
+
 .logo{
     padding-top: 15px;
-}
-
-.mainMenu{
-    height: 45px;
-    padding: 28px 0px 0px 14px;
-}
-
-.mainMenuMob{
-    height: 27px;
-    padding: 12px 0px 0px 6px;
 }
 
 .desktop_header{
@@ -36,6 +30,45 @@ body{
     background-color: white;
 }
 
+.mainMenu{
+    height: 45px;
+    padding: 28px 0px 0px 14px;
+}
+
+/* TITLE */
+
+.mainTitle{
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+.mainTitleDesktop{
+    font-size: 2rem;
+    line-height: 3rem;
+    text-align: center;
+}
+
+.desktopDescription{
+    text-align: center;
+    width: 60%;
+    margin: 10px 0% 0px 20%;
+
+}
+
+.disclaimer{
+    margin-top: 10px;
+    color: red;
+    text-align: center;
+}
+
+/* HERO */
+
+
+.mainMenuMob{
+    height: 27px;
+    padding: 12px 0px 0px 6px;
+}
+
 .bloqueM{
     padding: 0px 0px 60px;
     border-bottom: 1px solid rgb(241, 241, 241);
@@ -44,11 +77,6 @@ body{
 .bloqueD{
     min-height: 45px;
     border-bottom: 1px solid rgb(241, 241, 241);
-}
-
-.mainTitle{
-    font-size: 2rem;
-    line-height: 3rem;
 }
 
 .barraEstadoM{
@@ -61,10 +89,11 @@ body{
 
 .barraEstado{
     width: 20%;
-    height: 15px;
+    height: 8px;
     border: 1px solid rgb(241, 241, 241);
     background-color: #009E74;
     margin-top: 20px;
+    border-radius: 3px;
 }
 
 .recaudado{
@@ -103,23 +132,7 @@ body{
     line-height: 1.6rem;
 }
 
-.mainTitleDesktop{
-    font-size: 2rem;
-    line-height: 3rem;
-    text-align: center;
-}
-
-.desktopDescription{
-    text-align: center;
-    font-size: 1.3rem;
-    line-height: 2rem;
-
-}
-
-.disclaimer{
-    color: red;
-    text-align: center;
-}
+/* MENU */
 
 .menuD{
     height: 65px;
@@ -175,6 +188,8 @@ body{
     color: #009E74;
 }
 
+/* CONTENT */
+
 .video-responsive {
     position: relative;
     padding-bottom: 56.25%; /* 16/9 ratio */
@@ -191,6 +206,18 @@ body{
     height: 100%;
     }
 
+
+.contentSubTitle{
+    margin: 20px 0px 5px;
+    font-size: 1.3rem;
+}
+
+.contentMiniTitle{
+    font-weight: 600;
+    margin: 15px 0px 5px;
+}
+
+/* ADAPTING */
 
 @media(min-width: 993px){
     
