@@ -26,7 +26,7 @@
 
     <!-- MOBILE -->
     <div class="row visible-xs visible-sm">
-        <div class="wrapper">
+        <div class=" row wrapper">
 
             <!-- HEADER -->
 
@@ -60,7 +60,7 @@
                 <div class="col-xs-12 Mock_video"><span style="position: absolute;top: 35%;left: 35%;">Cartel del juego</span></div>
                 
                 <div class="row bloqueM">
-                    <p class="mainTitle">Título del juego</p>
+                    <h1 class="mainTitle">Título del juego</h1>
                     <p>Descripción corta</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio error vel aliquam libero deserunt autem! Modi quisquam unde architecto rem. Doloremque iste cum, dignissimos nemo totam ratione consectetur repellat nisi!</p>
                 </div>
@@ -116,6 +116,8 @@
         <div id="MenuCampaignM" class="menuM">
             <div class="wrapper">
                 <input id="buttonCampaignM" value="Campaña" class="menuLink menuActive" onclick="showCampaignM()" type="button">
+
+                <input id="buttonRewardsM" value="Recompensas" class="menuLink" onclick="showRewardsM()" type="button">
             
                 <input id="buttonFaqsM" value="Preguntas frecuentes" class="menuLink" onclick="showFaqsM()" type="button">
                 
@@ -124,22 +126,60 @@
             </div>
         </div>
 
-        <div class="wrapper">
+        <div class="row wrapper">
             <!-- MAIN -->
             <div id="mainM">
                 <div id="campaignM" class="row campaignM">
-                    <div class="col-xs-12 col-sm-12 video-responsive">
-                        <iframe src="https://www.youtube.com/embed/jk3XSZAxOfA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="row">
+                        <div id="videoM" class="col-xs-12 col-sm-12 video-responsive">
+                            <iframe src="https://www.youtube.com/embed/jk3XSZAxOfA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 musicaMockup"> Música original</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 musicaMockup"> Descripción del proyecto</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 musicaMockup">Historia completa</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 musicaMockup">Descripción del gameplay</div>
                     </div>
                     
+                    
+                    
+
+                    
                 </div>
-                <div id="faqsM" class="row faqM hide">FAQS</div>
-                <div id="commentsM" class="row commentsM hide">COMENTARIOS</div>
+                <div id="rewardsM" class="row">
+                    <div class="col-xs-12 col-sm-12 bloqueM">
+                        <h2>El equipo:</h2>
+                        <p>·ALARCÓN RIERA, ÓSCAR - Música original</p>
+                        <p>·BARRIGA PIÑERO, JAVIER - Game design (real: documentación y textos)</p>
+                        <p>·LÓPEZ SÁNCHEZ, ALEJANDRO - Concept Pjs</p>
+                        <p>·MARTIN HERNANDEZ, CARLOS - Animación y programación (real: código web y montaje de vídeo)</p>
+                        <p>·RODRÍGUEZ CORDERO, BORJA - Game design (real: documentación y textos)</p>
+                        <p>·SANZ CORONEL, JORGE - Concept escenarios e items (real: elaboración de imágenes)</p>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 bloqueM">
+                        <h2>Objetivos</h2>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 bloqueM">
+                        <h2>Recompensas</h2>
+                    </div>
+                </div>
+                <div id="faqsM" class="row faqM hide">
+                    <h2>FAQS</h2>
+                </div>
+                <div id="commentsM" class="row commentsM hide">
+                    <h2>COMENTARIOS</h2>
+                </div>
 
             </div>
         </div>
             
-        <footer>FOOTER</footer>
 
     </div>
     
@@ -158,11 +198,11 @@
             <div class="col-md-1 col-lg-1 mainMenu" style="float: right;"><a href="#">Búsqueda</span></a></div>
             <div class="col-md-2 col-lg-2 mainMenu" style="float: right;"><a href="">Iniciar sesión</a></div>
         </div>
-        <div class="wrapper">
+        <div class= "row wrapper">
             <!-- HERO -->
             <div id="hero" class="row visible-md visible-lg">
                 <div class="row">
-                    <p class="mainTitleDesktop">Título del juego</p>
+                    <h1 class="mainTitleDesktop">Título del juego</h1>
                     <p class="desktopDescription">Descripción corta</p>
                     <p class="desktopDescription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime incidunt assumenda cupiditate dignissimos voluptates alias debitis ullam atque animi quo quia ad illo, cumque sed pariatur dolorem quisquam, provident facere!</p>
                     <p class="disclaimer">ATENCIÓN: Esta página simula la campaña de microfinanciación de un videojuego ficticio (no representa un producto real). Práctica de Multimedia, 1º GDDV - Curso 20/21 (Móstoles), URJC. La URJC no se hace responsable del contenido expuesto por el autor.</p>
@@ -235,7 +275,7 @@
             </div>
         </div>
         <!-- MENU -->
-        <div id="MenuCampaign" class="menuD">
+        <div id="MenuCampaign" class="menuD row">
             <div class="row wrapper">
                 <div class="col-md-1 col-lg-1">
                     <input id="buttonCampaignD" value="Campaña" class="menuLink menuActive" onclick="showCampaignD()" type="button">
@@ -249,9 +289,9 @@
             </div>
         </div>
 
-        <div class="wrapper">
+        <div class="row wrapper">
             <!-- MAIN -->
-            <div id="main">
+            <div id="main" class="row">
                 <div id="campaignD" class="row campaignD">
                     <div class="col-md-2 col-lg-2 mockupCampaign_left">Menu</div>
                     <div class="col-md-7 col-lg-7 mockupCampaign_center" style="margin-right: 1%;">
@@ -260,18 +300,48 @@
                                 <iframe src="https://www.youtube.com/embed/jk3XSZAxOfA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             </div>
                         </div>
+                        <div class="row">
+                            <div class="col-md-12 col-lg-12 musicaMockup"> Música original</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 col-lg-12 musicaMockup"> Descripción del proyecto</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 col-lg-12 musicaMockup">Historia completa</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 col-lg-12 musicaMockup">Descripción del gameplay</div>
+                        </div>
                     </div>
-                    <div class="col-md-3 col-lg-3 mockupCampaign_right">Recompensas</div>
+                    <div class="col-md-3 col-lg-3 mockupCampaign_right">
+                        <div id="rewardsD" class="row">
+                            <div class="col-md-12 col-lg-12 bloqueD">
+                                <h2>El equipo:</h2>
+                                <p>·ALARCÓN RIERA, ÓSCAR - Música original</p>
+                                <p>·BARRIGA PIÑERO, JAVIER - Game design (real: documentación y textos)</p>
+                                <p>·LÓPEZ SÁNCHEZ, ALEJANDRO - Concept Pjs</p>
+                                <p>·MARTIN HERNANDEZ, CARLOS - Animación y programación (real: código web y montaje de vídeo)</p>
+                                <p>·RODRÍGUEZ CORDERO, BORJA - Game design (real: documentación y textos)</p>
+                                <p>·SANZ CORONEL, JORGE - Concept escenarios e items (real: elaboración de imágenes)</p>
+                            </div>
+                            <div class="col-md-12 col-lg-12 bloqueD">
+                                <h2>Objetivos</h2>
+                            </div>
+                            <div class="col-md-12 col-lg-12 bloqueD">
+                                <h2>Recompensas</h2>
+                            </div>
+                    </div>
+                    </div>
                 </div>
-                <div id="faqsD" class="row faqD hide">FAQS</div>
-                <div id="commentsD" class="row commentsD hide">COMENTARIOS</div>
+                <div id="faqsD" class="row faqD hide">
+                    <h2>FAQS</h2>
+                </div>
+                <div id="commentsD" class="row commentsD hide">
+                    <h2>COMENTARIOS</h2>
+                </div>
 
             </div>
         </div>
-        
-        <footer>
-            FOOTER
-        </footer>
 
 
     </div>

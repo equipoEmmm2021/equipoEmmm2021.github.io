@@ -52,32 +52,33 @@
 
     height: 365px;
     background-color: aqua;
-    padding: 100px 0px;
+    padding: 20px 0px;
     font-size: 2rem;
 }
 
 .mockupCampaign_center{
-
-    height: 365px;
-    background-color:blueviolet;
-    padding: 100px 0px;
-    font-size: 2rem;
+    padding: 20px 0px;
 }
 
 .mockupCampaign_right{
 
     height: 365px;
     background-color:bisque;
-    padding: 100px 0px;
-    font-size: 2rem;
+    padding: 20px 0px;
 }
 
-.campaignD,.campaignM{
-    height: 500px;
+.campaignD{
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.musicaMockup{
+    height: 50px;
     background-color: grey;
-    padding: 100px 0px;
+    padding: 16px 0px;
     font-size: 2rem;
     text-align: center;
+}
 }
 
 .faqD,.faqM{

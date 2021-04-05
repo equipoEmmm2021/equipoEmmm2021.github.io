@@ -3,6 +3,20 @@
 function showCampaignM(){
     document.getElementById("campaignM").classList.remove("hide");
     document.getElementById("buttonCampaignM").classList.add("menuActive");
+    document.getElementById("rewardsM").classList.add("hide");
+    document.getElementById("buttonRewardsM").classList.remove("menuActive");
+    document.getElementById("faqsM").classList.add("hide");
+    document.getElementById("buttonFaqsM").classList.remove("menuActive");
+    document.getElementById("commentsM").classList.add("hide");
+    document.getElementById("buttonCommentsM").classList.remove("menuActive");
+
+}
+
+function showRewardsM(){
+    document.getElementById("campaignM").classList.add("hide");
+    document.getElementById("buttonCampaignM").classList.remove("menuActive");
+    document.getElementById("rewardsM").classList.remove("hide");
+    document.getElementById("buttonRewardsM").classList.add("menuActive");
     document.getElementById("faqsM").classList.add("hide");
     document.getElementById("buttonFaqsM").classList.remove("menuActive");
     document.getElementById("commentsM").classList.add("hide");
@@ -13,6 +27,8 @@ function showCampaignM(){
 function showFaqsM(){
     document.getElementById("campaignM").classList.add("hide");
     document.getElementById("buttonCampaignM").classList.remove("menuActive");
+    document.getElementById("rewardsM").classList.add("hide");
+    document.getElementById("buttonRewardsM").classList.remove("menuActive");
     document.getElementById("faqsM").classList.remove("hide");
     document.getElementById("buttonFaqsM").classList.add("menuActive");
     document.getElementById("commentsM").classList.add("hide");
@@ -23,6 +39,8 @@ function showFaqsM(){
 function showCommentsM(){
     document.getElementById("campaignM").classList.add("hide");
     document.getElementById("buttonCampaignM").classList.remove("menuActive");
+    document.getElementById("rewardsM").classList.add("hide");
+    document.getElementById("buttonRewardsM").classList.remove("menuActive");
     document.getElementById("faqsM").classList.add("hide");
     document.getElementById("buttonFaqsM").classList.remove("menuActive");
     document.getElementById("commentsM").classList.remove("hide");
