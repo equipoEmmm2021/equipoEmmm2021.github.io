@@ -1,3 +1,30 @@
+//Fixing content menu during scrolling
+
+window.onscroll = function() {
+    var y = window.scrollY;
+    if(y >= 883){
+        document.getElementById("contentMenu").classList.add("menuFixed");
+        document.getElementById("contentMain").style.marginLeft="16.8%";;
+    }else{
+        document.getElementById("contentMenu").classList.remove("menuFixed");
+        document.getElementById("contentMain").style.marginLeft="0px";
+    }
+
+    console.log("Mayor: ",y >= 883)
+};
+
+function contentMenuFixed(){
+    var scrollPosition = window.scrollY;
+
+    if(scrollPosition >= 883){
+        document.getElementById("contentMenu").classList.add("menuFixed");
+        document.getElementById("contentMain").style.marginLeft="16.8%";;
+    }else{
+        document.getElementById("contentMenu").classList.remove("menuFixed");
+        document.getElementById("contentMain").style.marginLeft="0px";
+    }
+}
+
 //Functions to show different content blocks in mobile
 
 function showCampaignM(){

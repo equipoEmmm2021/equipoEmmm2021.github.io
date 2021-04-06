@@ -217,6 +217,26 @@ body{
     margin: 15px 0px 5px;
 }
 
+.content_menuLink{
+    height: 35px;
+    padding: 15px 0px 0px 5px;
+}
+
+.content_menuLink:hover{
+    font-weight: 500;
+    background-color: rgb(241, 241, 241);
+}
+
+.content_menuLink-row{
+    margin: 0px;;
+}
+
+.menuFixed{
+    position: fixed;
+    top: 0px;
+    width: 13%;
+}
+
 /* ADAPTING */
 
 @media(min-width: 993px){
