@@ -56,7 +56,7 @@ body{
 }
 
 .disclaimer{
-    margin-top: 10px;
+    margin: 10px 0px;
     color: red;
     text-align: center;
     font-weight: 600;
