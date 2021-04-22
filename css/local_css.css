@@ -11,6 +11,71 @@ body{
     padding: 0 10px;
 }
 
+/* ALERTS */
+
+
+.alertTextM{
+    width: 50%;
+    position: fixed;
+    display: block;
+    top: 30%;
+    left: 25%;
+    z-index: 2000;
+    border: 1px solid black;
+    background-color: white;
+    opacity: 1;
+    padding: 15px 10px 10px;
+    
+    font-size: 0.7rem;
+
+}
+
+.alertTextM p{
+    color: red;
+}
+
+.alertCloseM{
+    width: 15px;
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    border: 1px solid #DDD;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.alertTextD{
+    width: 50%;
+    height: 11%;
+    position: fixed;
+    display: block;
+    top: 30%;
+    left: 25%;
+    z-index: 2000;
+    border: 1px solid black;
+    background-color: white;
+    opacity: 1;
+    padding: 25px 10px 10px;
+    
+    font-size: 0.7rem;
+
+}
+
+.alertTextD p{
+    color: red;
+}
+
+.alertCloseD{
+    width: 15px;
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    border: 1px solid #DDD;
+    border-radius: 15px;
+    text-align: center;
+    color: black;
+}
+
 /* HEADER */
 
 .logo{
@@ -64,6 +129,9 @@ body{
 
 /* HERO */
 
+#hero{
+    margin-bottom: 40px;
+}
 
 .mainMenuMob{
     height: 27px;

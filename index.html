@@ -23,6 +23,19 @@
 </head>
 <body>
     
+    <div id="alertM" class="alertM hide">
+        <div class="alertTextM">
+            <span class="alertCloseM" onclick="closeAlertM()">X</span>
+            <p>ATENCIÓN: Recuerda que esta página simula la campaña de microfinanciación de un videojuego ficticio (no representa un producto real). Práctica de Multimedia, 1º GDDV - Curso 20/21 (Móstoles), URJC. La URJC no se hace responsable del contenido expuesto por el autor.</p>
+        </div>
+        
+    </div>
+    <div id="alertD" class="alertD hide">
+        <div class="alertTextD">
+            <span class="alertCloseD" onclick="closeAlertD()">X</span>
+            <p>ATENCIÓN: Recuerda que esta página simula la campaña de microfinanciación de un videojuego ficticio (no representa un producto real). Práctica de Multimedia, 1º GDDV - Curso 20/21 (Móstoles), URJC. La URJC no se hace responsable del contenido expuesto por el autor.</p>
+        </div>
+    </div>
 
     <!-- MOBILE -->
     <div class="row visible-xs visible-sm">
@@ -34,21 +47,6 @@
                 <div class="row">
                     <div class="col-xs-12 col-sm-12">
                         <img class="img-responsive logo" src="img/logo_kickstarter.PNG" alt="Logotipo de kickstarter">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xs-6 col-sm-6">
-                        <div class="row">
-                            <div class="col-xs-5 col-sm-5 mainMenuMob"><a href="#">Descubrir</a></div>
-                            <div class="col-xs-6 col-sm-6 mainMenuMob"><a href="#">Empezar</a></div>
-                    
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-sm-6">
-                        <div class="row">
-                            <div class="col-xs-3 col-sm-3 mainMenuMob"><a href="#"><span class="fas fa-search"></span></a></div>
-                            <div class="col-xs-8 col-sm-8 mainMenuMob"><a href="">Iniciar sesión</a></div>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -68,48 +66,9 @@
                     <div class="col-xs-2 col-sm-2 Mock_logoEmpresa">LOGO</div>
                     <div class="col-xs-10 col-sm-10">
                         <p style="padding-left: 10px;"><strong>Grupo E - Los sin nombre</strong></p>
-                        <p style="padding-left: 10px;">1 proyecto creado · 0 proyectos patrocinados</p>
                     </div>
                 </div>
-                <div class="row bloqueM">
-                    <div class="row barraEstadoM"></div>
-                    <div class="row">
-                        <div class="col-xs-5 col-sm-5">
-                            <p class="recaudado">3.523,52€</p>
-                            <p class="subText">contribuido de 20.000€</p>
-                        </div>
-                        <div class="col-xs-4 col-sm-4">
-                            <p class="datoNum">100</p>
-                            <p class="subText">patrocinadores</p>
-                        </div>
-                        <div class="col-xs-3 col-sm-3">
-                            <p class="datoNum">200</p>
-                            <p class="subText">días más</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row bloqueM">
-                    <div class="col-xs-4 col-sm-4">
-                        <span class="subText">Nuestros favoritos</span>
-                    </div>
-                    <div class="col-xs-4 col-sm-4">
-                        <span class="subText">VIDeo-juegos</span>
-                    </div>
-                    <div class="col-xs-4 col-sm-4">
-                        <span class="subText">Móstoles (Spain)</span>
-                    </div>
-                </div>
-                <div class="row bloqueM">
-                    <div class="row">
-                            <a href="#"><div class="mainButton">Patrocina este proyecto</div></a>
-                    </div>
-                    <div class="row">
-                        <div class="col-xs-6 col-sm-6">
-                            <a href="#"><div class="secondButton">Recordarme</div></a>
-                        </div>
-                        <div class="col-xs-6 col-sm-6"><div class=" Mock_RRSS_M">Bloque de RRSS</div></div>
-                    </div>
-                </div>
+                
             </div>
         </div>
         <!-- MENU  -->
@@ -117,11 +76,13 @@
             <div class="wrapper">
                 <input id="buttonCampaignM" value="Campaña" class="menuLink menuActive" onclick="showCampaignM()" type="button">
 
-                <input id="buttonRewardsM" value="Recompensas" class="menuLink" onclick="showRewardsM()" type="button">
+                <input id="buttonRewardsM" value="Colabora" class="menuLink" onclick="showRewardsM()" type="button">
             
                 <input id="buttonFaqsM" value="Preguntas frecuentes" class="menuLink" onclick="showFaqsM()" type="button">
                 
                 <input id="buttonCommentsM" value="Comentarios" class="menuLink" onclick="showCommentsM()" type="button">
+
+                <input id="buttonTeamM" value="Nuestro equipo" class="menuLink" onclick="showTeamM()" type="button">
 
             </div>
         </div>
@@ -290,20 +251,41 @@
                 </div>
 
                 <div id="rewardsM" class="row"> <!-- REWARDS -->
-                    <div class="col-xs-12 col-sm-12 bloqueM">
-                        <h2>Nuestro equipo:</h2>
-                        <p><strong>·ALARCÓN RIERA, ÓSCAR</strong> - Música original</p>
-                        <p><strong>·BARRIGA PIÑERO, JAVIER</strong> - Game design (real: documentación y textos)</p>
-                        <p><strong>·LÓPEZ SÁNCHEZ, ALEJANDRO</strong> - Concept Pjs</p>
-                        <p><strong>·MARTIN HERNANDEZ, CARLOS</strong> - Animación y programación (real: código web y montaje de vídeo)</p>
-                        <p><strong>·RODRÍGUEZ CORDERO, BORJA</strong> - Game design (real: documentación y textos)</p>
-                        <p><strong>·SANZ CORONEL, JORGE</strong> - Concept escenarios e items (real: elaboración de imágenes)</p>
+                    <div class="row bloqueM">
+                        <div class="row barraEstadoM"></div>
+                        <div class="row">
+                            <div class="col-xs-5 col-sm-5">
+                                <p class="recaudado">3.523,52€</p>
+                                <p class="subText">contribuido de 20.000€</p>
+                            </div>
+                            <div class="col-xs-4 col-sm-4">
+                                <p class="datoNum">100</p>
+                                <p class="subText">patrocinadores</p>
+                            </div>
+                            <div class="col-xs-3 col-sm-3">
+                                <p class="datoNum">200</p>
+                                <p class="subText">días más</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-xs-12 col-sm-12 bloqueM">
-                        <h2>Objetivos</h2>
+                    <div class="row bloqueM">
+                        <div class="col-xs-12 col-sm-12 bloqueM">
+                            <h2>Objetivos</h2>
+                        </div>
                     </div>
-                    <div class="col-xs-12 col-sm-12 bloqueM">
-                        <h2>Recompensas</h2>
+                    <div class="row bloqueM">
+                        <div class="col-xs-12 col-sm-12 bloqueM">
+                            <h2>Recompensas</h2>
+                        </div>
+                    </div>
+                    
+                    <div class="row bloqueM">
+                        <div class="row">
+                                <a href="#MenuCampaignM" onclick="alertM()"><div class="mainButton">Patrocina este proyecto</div></a>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12"><div class=" Mock_RRSS_M">Bloque de RRSS</div></div>
+                        </div>
                     </div>
                 </div>
 
@@ -313,6 +295,18 @@
 
                 <div id="commentsM" class="row commentsM hide">
                     <h2>COMENTARIOS</h2>
+                </div>
+
+                <div id="teamM" class="row teamM hide">
+                    <div class="col-xs-12 col-sm-12 bloqueM">
+                        <h2>Nuestro equipo:</h2>
+                        <p><strong>·ALARCÓN RIERA, ÓSCAR</strong> - Música original</p>
+                        <p><strong>·BARRIGA PIÑERO, JAVIER</strong> - Game design (real: documentación y textos)</p>
+                        <p><strong>·LÓPEZ SÁNCHEZ, ALEJANDRO</strong> - Concept Pjs</p>
+                        <p><strong>·MARTIN HERNANDEZ, CARLOS</strong> - Animación y programación (real: código web y montaje de vídeo)</p>
+                        <p><strong>·RODRÍGUEZ CORDERO, BORJA</strong> - Game design (real: documentación y textos)</p>
+                        <p><strong>·SANZ CORONEL, JORGE</strong> - Concept escenarios e items (real: elaboración de imágenes)</p>
+                    </div>
                 </div>
 
             </div>
@@ -332,14 +326,10 @@
 
         <!-- HEADER -->
         <div id="localHeader" class="row desktop_header">
-            <div class="col-md-1 col-lg-1 mainMenu"><a href="#">Descubrir</a></div>
-            <div class="col-md-2 col-lg-2 mainMenu"><a href="#">Empieza un proyecto</a></div>
             
-            <div class="col-md-5 col-lg-5">
+            <div class="col-md-12 col-lg-12">
                 <img class="img-responsive logo" src="img/logo_kickstarter.PNG" alt="Logotipo de kickstarter">
             </div>
-            <div class="col-md-1 col-lg-1 mainMenu" style="float: right;"><a href="#">Búsqueda</span></a></div>
-            <div class="col-md-2 col-lg-2 mainMenu" style="float: right;"><a href="">Iniciar sesión</a></div>
         </div>
 
         <!-- HERO -->
@@ -352,68 +342,23 @@
                     <p class="disclaimer">ATENCIÓN: Esta página simula la campaña de microfinanciación de un videojuego ficticio (no representa un producto real). Práctica de Multimedia, 1º GDDV - Curso 20/21 (Móstoles), URJC. La URJC no se hace responsable del contenido expuesto por el autor.</p>
                 </div>
                 <div class="row">
-                    <div class="col-md-7 col-lg-7">
+                    <div class="col-md-12 col-lg-12">
                         <div class="row">
                             <div class="Mock_video_Desk">Cartel del juego</div>
                         </div>
                         <div class="row">
                             <div class="col-md-6 col-lg-6">
                                 <div class="row bloqueD">
-                                    <div class="col-md-4 col-lg-4">
-                                        <span class="subText">Nuestros favoritos</span>
-                                    </div>
-                                    <div class="col-md-4 col-lg-4">
-                                        <span class="subText">VIDeo-juegos</span>
-                                    </div>
-                                    <div class="col-md-4 col-lg-4">
-                                        <span class="subText">Móstoles (Spain)</span>
+                                    <div class="col-md-2 col-lg-2 Mock_logoEmpresa">LOGO</div>
+                                    <div class="col-md-10 col-lg-10">
+                                        <p style="padding-left: 10px;"><strong>Grupo E - Los sin nombre</strong></p>
+                                        <p style="padding-left: 10px;">1 proyecto creado · 0 proyectos patrocinados</p>
                                     </div>
                                 </div>
                             </div>
                     </div>
                     </div>
-                    <div class="col-md-5 col-lg-5">
-                        <div class="row bloqueD">
-                            <div class="col-md-12 col-lg-12 barraEstado"></div>
-                        </div>
-                        <div class="row bloqueD">
-                            <div class="col-md-5 col-lg-5">
-                                <p class="recaudado">3.523,52€</p>
-                                <p class="subText">contribuido de 20.000€</p>
-                            </div>
-                            <div class="col-md-7 col-lg-7"></div>
-                        </div>
-                        <div class="row bloqueD">
-                            <div class="col-md-4 col-lg-4">
-                                <p class="datoNum">100</p>
-                                <p class="subText">patrocinadores</p>
-                            </div>
-                        </div>
-                        <div class="row bloqueD">
-                            <div class="col-md-3 col-lg-3">
-                                <p class="datoNum">200</p>
-                                <p class="subText">días más</p>
-                            </div>
-                        </div>
-                        <div class="row bloqueD">
-                            <a href="#"><div class="mainButton">Patrocina este proyecto</div></a>
-                        </div>
-                        <div class="row bloqueD">
-                            <div class="col-md-6 col-lg-6">
-                                <a href="#"><div class="secondButton">Recordarme</div></a>
-                            </div>
-                            <div class="col-md-6 col-lg-6">
-                                <div class=" Mock_RRSS_D">Bloque RRSS</div>
-                            </div>
-                        </div>
-                        <div class="row bloqueD">
-                            <div class="col-md-2 col-lg-2 Mock_logoEmpresa">LOGO</div>
-                            <div class="col-md-10 col-lg-10">
-                                <p style="padding-left: 10px;"><strong>Grupo E - Los sin nombre</strong></p>
-                                <p style="padding-left: 10px;">1 proyecto creado · 0 proyectos patrocinados</p>
-                            </div>
-                        </div>
-                    </div>
+                    
                 </div>
 
             </div>
@@ -425,11 +370,17 @@
                 <div class="col-md-1 col-lg-1">
                     <input id="buttonCampaignD" value="Campaña" class="menuLink menuActive" onclick="showCampaignD()" type="button">
                 </div>
+                <div class="col-md-1 col-lg-1">
+                    <input id="buttonProjectD" value="El proyecto" class="menuLink" onclick="showProjectD()" type="button">
+                </div>
                 <div class="col-md-2 col-lg-2">
-                    <input id="buttonFaqsD" value="Preguntas frecuentes" class="menuLink" onclick="showFaqsD()" type="button">
+                    <input id="buttonFaqsD" value="Preguntas frecuentes" class="menuLink" style="width: 100%;" onclick="showFaqsD()" type="button">
                 </div>
                 <div class="col-md-1 col-lg-1">
                     <input id="buttonCommentsD" value="Comentarios" class="menuLink" onclick="showCommentsD()" type="button">
+                </div>
+                <div class="col-md-2 col-lg-2">
+                    <input id="buttonTeamD" value="Nuestro equipo" class="menuLink" onclick="showTeamD()" type="button">
                 </div>
             </div>
         </div>
@@ -448,11 +399,6 @@
                             <div class="row content_menuLink-row">
                                 <div class="col-md-12 col-lg-12 bloqueD">
                                     <a href="#musicD" onclick="contentMenuFixed()"><div class="content_menuLink">Música original</div></a>
-                                </div>
-                            </div>
-                            <div class="row content_menuLink-row">
-                                <div class="col-md-12 col-lg-12 bloqueD">
-                                    <a href="#projectD" onclick="contentMenuFixed()"><div class="content_menuLink">Nuestro proyecto</div></a>
                                 </div>
                             </div>
                             <div class="row content_menuLink-row">
@@ -481,13 +427,7 @@
                                     <audio src="music/space.mp3" controls="controls" type="audio/mpeg" preload="preload"></audio>
                                 </div>
                             </div>
-                            <div id="projectD" class="row"> <!-- Project descriptionDESKTOP -->
-                                <div class="col-md-12 col-lg-12">
-                                    <h3 class="contentSubTitle">Nuestro proyecto</h3>
-                                    <p>Galactic Expansion es un juego de estrategia freemium para móviles. Diferentes razas se enfrentaran por los distintos recursos de la galaxia. Elige a la raza que quieres llevar a la victoria a través de sus capacidades únicas. Crea tu propia ciudadela y prepara a tus ejércitos para las emocionantes batallas PVE y PVP. Se el soberano de la galaxia y porque no del universo.</p>
-                                    <p >Si por el contrario lo tuyo es la exploración, podrás descubrir el universo conocido y visitar otros planetas y ciudadelas, jugando en tu móvil y sin ningún tipo de conexión. Con ello conseguirás recursos que te ayudarán a expandir tu propia base.</p>
-                                </div>
-                            </div>
+                            
                             <div id="fullStoryD" class="row"> <!-- FULL STORY DESKTOP -->
                                 <div class="col-md-12 col-lg-12">
                                     <div class="row">
@@ -645,11 +585,66 @@
                             </div>
                         </div>
                     </div>
+                    <div id="projectD" class="row projectD hide">
+                        <div class="col-md-6 col-lg-6">
+                            <div id="projectDescriptionD" class="row"> <!-- Project descriptionDESKTOP -->
+                                <div class="col-md-12 col-lg-12">
+                                    <h3 class="contentSubTitle">Nuestro proyecto</h3>
+                                    <p>Galactic Expansion es un juego de estrategia freemium para móviles. Diferentes razas se enfrentaran por los distintos recursos de la galaxia. Elige a la raza que quieres llevar a la victoria a través de sus capacidades únicas. Crea tu propia ciudadela y prepara a tus ejércitos para las emocionantes batallas PVE y PVP. Se el soberano de la galaxia y porque no del universo.</p>
+                                    <p >Si por el contrario lo tuyo es la exploración, podrás descubrir el universo conocido y visitar otros planetas y ciudadelas, jugando en tu móvil y sin ningún tipo de conexión. Con ello conseguirás recursos que te ayudarán a expandir tu propia base.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-6">
+                            <div class="row bloqueD">
+                                <div class="col-md-12 col-lg-12 barraEstado"></div>
+                            </div>
+                            <div class="row bloqueD">
+                                <div class="col-md-5 col-lg-5">
+                                    <p class="recaudado">3.523,52€</p>
+                                    <p class="subText">contribuido de 20.000€</p>
+                                </div>
+                                <div class="col-md-7 col-lg-7"></div>
+                            </div>
+                            <div class="row bloqueD">
+                                <div class="col-md-4 col-lg-4">
+                                    <p class="datoNum">100</p>
+                                    <p class="subText">patrocinadores</p>
+                                </div>
+                            </div>
+                            <div class="row bloqueD">
+                                <div class="col-md-3 col-lg-3">
+                                    <p class="datoNum">200</p>
+                                    <p class="subText">días más</p>
+                                </div>
+                            </div>
+                            <div class="row bloqueD">
+                                <a href="#MenuCampaign" onclick="alertD()"><div class="mainButton">Patrocina este proyecto</div></a>
+                            </div>
+                            <div class="row bloqueD">
+                                <div class="col-md-12 col-lg-12">
+                                    <div class=" Mock_RRSS_D">Bloque RRSS</div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
                     <div id="faqsD" class="row faqD hide">
                         <div class="col-md-12 col-lg-12"><h2>FAQS</h2></div>
                     </div>
                     <div id="commentsD" class="row commentsD hide">
                         <div class="col-md-12 col-lg-12"><h2>COMENTARIOS</h2></div>
+                    </div>
+                    <div id="teamD" class="row teamD">
+                        <div class="col-md-12 col-lg-12 bloqueM">
+                            <h2>Nuestro equipo:</h2>
+                            <p><strong>·ALARCÓN RIERA, ÓSCAR</strong> - Música original</p>
+                            <p><strong>·BARRIGA PIÑERO, JAVIER</strong> - Game design (real: documentación y textos)</p>
+                            <p><strong>·LÓPEZ SÁNCHEZ, ALEJANDRO</strong> - Concept Pjs</p>
+                            <p><strong>·MARTIN HERNANDEZ, CARLOS</strong> - Animación y programación (real: código web y montaje de vídeo)</p>
+                            <p><strong>·RODRÍGUEZ CORDERO, BORJA</strong> - Game design (real: documentación y textos)</p>
+                            <p><strong>·SANZ CORONEL, JORGE</strong> - Concept escenarios e items (real: elaboración de imágenes)</p>
+                        </div>
                     </div>
                 </div>
             </div>
