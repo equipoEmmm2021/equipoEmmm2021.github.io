@@ -2,25 +2,32 @@
 
 window.onscroll = function() {
     var y = window.scrollY;
-    if(y >= 883){
+    if(y >= 803){
         document.getElementById("contentMenu").classList.add("menuFixed");
+        document.getElementById("MenuCampaign").classList.add("mainMenuFixed");
         document.getElementById("contentMain").style.marginLeft="16.8%";;
     }else{
         document.getElementById("contentMenu").classList.remove("menuFixed");
+        document.getElementById("MenuCampaign").classList.remove("mainMenuFixed");
         document.getElementById("contentMain").style.marginLeft="0px";
     }
-
-    console.log("Mayor: ",y >= 883)
 };
 
+document.getElementById("closeAlertD").addEventListener("click", function(event){
+    event.preventDefault();
+  });
+
+  
 function contentMenuFixed(){
     var scrollPosition = window.scrollY;
 
-    if(scrollPosition >= 883){
+    if(scrollPosition >= 803){
         document.getElementById("contentMenu").classList.add("menuFixed");
+        document.getElementById("MenuCampaign").classList.add("mainMenuFixed");
         document.getElementById("contentMain").style.marginLeft="16.8%";;
     }else{
         document.getElementById("contentMenu").classList.remove("menuFixed");
+        document.getElementById("MenuCampaign").classList.remove("mainMenuFixed");
         document.getElementById("contentMain").style.marginLeft="0px";
     }
 }
@@ -99,7 +106,6 @@ function showTeamM(){
 //Functions to show different content blocks in desktop
 
 function showCampaignD(){
-    console.log("Funciona");
     document.getElementById("campaignD").classList.remove("hide");
     document.getElementById("buttonCampaignD").classList.add("menuActive");
     document.getElementById("projectD").classList.add("hide");
@@ -114,7 +120,6 @@ function showCampaignD(){
 }
 
 function showProjectD(){
-    console.log("Dentro");
     document.getElementById("campaignD").classList.add("hide");
     document.getElementById("buttonCampaignD").classList.remove("menuActive");
     document.getElementById("projectD").classList.remove("hide");
@@ -183,5 +188,15 @@ function closeAlertM(){
 }
 
 function closeAlertD(){
+    
     document.getElementById("alertD").classList.add("hide");
 }
+
+//REWARDS HOVER
+
+/*function hoverReward1On(){
+    document.getElementById("reward1Hover").classList.add("rewardDHoverOn");
+}
+function hoverReward1Out(){
+    document.getElementById("reward1Hover").classList.remove("rewardDHoverOn");
+}*/

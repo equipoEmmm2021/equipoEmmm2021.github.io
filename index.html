@@ -23,6 +23,7 @@
 </head>
 <body>
     
+    <!-- ALERT MESSAGES -->
     <div id="alertM" class="alertM hide">
         <div class="alertTextM">
             <span class="alertCloseM" onclick="closeAlertM()">X</span>
@@ -32,7 +33,7 @@
     </div>
     <div id="alertD" class="alertD hide">
         <div class="alertTextD">
-            <span class="alertCloseD" onclick="closeAlertD()">X</span>
+            <a href="#" id="closeAlertD" data-role="button" class="alertCloseD" onclick="closeAlertD()">X</a>
             <p>ATENCIÓN: Recuerda que esta página simula la campaña de microfinanciación de un videojuego ficticio (no representa un producto real). Práctica de Multimedia, 1º GDDV - Curso 20/21 (Móstoles), URJC. La URJC no se hace responsable del contenido expuesto por el autor.</p>
         </div>
     </div>
@@ -45,8 +46,8 @@
 
             <div id="localHeaderM" class="row mobile_header">
                 <div class="row">
-                    <div class="col-xs-12 col-sm-12">
-                        <img class="img-responsive logo" src="img/logo_kickstarter.PNG" alt="Logotipo de kickstarter">
+                    <div class="col-xs-12 col-sm-12 mockupHeader">
+                        <p>TITULO DEL JUEGO</p>
                     </div>
                 </div>
             </div>
@@ -72,8 +73,8 @@
             </div>
         </div>
         <!-- MENU  -->
-        <div id="MenuCampaignM" class="menuM">
-            <div class="wrapper">
+        <div id="MenuCampaignM" class="row menuM">
+            <div class="col-xs-12 col-sm-12">
                 <input id="buttonCampaignM" value="Campaña" class="menuLink menuActive" onclick="showCampaignM()" type="button">
 
                 <input id="buttonRewardsM" value="Colabora" class="menuLink" onclick="showRewardsM()" type="button">
@@ -102,7 +103,7 @@
                             <p>Nuestro equipo ha creado una música, no solo perfecta para la ambientación de la exploración espacial o las batallas, sino que te transportará a esass aventuras espaciales en cualquier momento</p>
                             <p>Escucha una muestra:</p>
                             <audio src="music/space.mp3" controls="controls" type="audio/mpeg" preload="preload"></audio>
-                            <audio src="music/space.mp3" controls="controls" type="audio/mpeg" preload="preload"></audio>
+                            <audio src="music/space_accion.mp3" controls="controls" type="audio/mpeg" preload="preload"></audio>
                         </div>
                     </div>
                     <div class="row"> <!-- PROJECT DESCRIPTION MOBILE-->
@@ -250,7 +251,7 @@
                     
                 </div>
 
-                <div id="rewardsM" class="row"> <!-- REWARDS -->
+                <div id="rewardsM" class="row hide"> <!-- REWARDS -->
                     <div class="row bloqueM">
                         <div class="row barraEstadoM"></div>
                         <div class="row">
@@ -310,15 +311,7 @@
                 </div>
 
             </div>
-
-            <div class="row">
-                <footer> FOOTER </footer>
-            </div>
         </div>
-
-        
-            
-
     </div>
     
     <!-- DESKTOP -->
@@ -327,8 +320,8 @@
         <!-- HEADER -->
         <div id="localHeader" class="row desktop_header">
             
-            <div class="col-md-12 col-lg-12">
-                <img class="img-responsive logo" src="img/logo_kickstarter.PNG" alt="Logotipo de kickstarter">
+            <div class="col-md-12 col-lg-12 mockupHeader">
+                <p>TITULO DEL JUEGO</p>
             </div>
         </div>
 
@@ -348,11 +341,10 @@
                         </div>
                         <div class="row">
                             <div class="col-md-6 col-lg-6">
-                                <div class="row bloqueD">
+                                <div class="row">
                                     <div class="col-md-2 col-lg-2 Mock_logoEmpresa">LOGO</div>
                                     <div class="col-md-10 col-lg-10">
                                         <p style="padding-left: 10px;"><strong>Grupo E - Los sin nombre</strong></p>
-                                        <p style="padding-left: 10px;">1 proyecto creado · 0 proyectos patrocinados</p>
                                     </div>
                                 </div>
                             </div>
@@ -412,7 +404,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div id="contentMain" class="col-md-7 col-lg-7 mockupCampaign_center" style="margin-right: 1%;">
+                        <div id="contentMain" class="col-md-10 col-lg-10" style="margin-right: 1%;">
                             <div class="row"> <!-- MAIN VIDEO -->
                                 <div id="videoD" class="col-md-12 col-lg-12 video-responsive">
                                     <iframe src="https://www.youtube.com/embed/jk3XSZAxOfA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -424,7 +416,7 @@
                                     <p>Nuestro equipo ha creado una música, no solo perfecta para la ambientación de la exploración espacial o las batallas, sino que te transportará a esass aventuras espaciales en cualquier momento</p>
                                     <p>Escucha una muestra:</p>
                                     <audio src="music/space.mp3" controls="controls" type="audio/mpeg" preload="preload"></audio>
-                                    <audio src="music/space.mp3" controls="controls" type="audio/mpeg" preload="preload"></audio>
+                                    <audio src="music/space_accion.mp3" controls="controls" type="audio/mpeg" preload="preload"></audio>
                                 </div>
                             </div>
                             
@@ -564,69 +556,69 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-3 col-lg-3 mockupCampaign_right"> <!-- RIGHT BLOCK REWARDS -->
-                            <div id="rewardsD" class="row">
-                                <div class="col-md-12 col-lg-12 bloqueD">
-                                    <h2>Nuestro equipo:</h2>
-                                    <p><strong>·ALARCÓN RIERA, ÓSCAR</strong> - Música original</p>
-                                    <p><strong>·BARRIGA PIÑERO, JAVIER</strong> - Game design (real: documentación y textos)</p>
-                                    <p><strong>·LÓPEZ SÁNCHEZ, ALEJANDRO</strong> - Concept Pjs</p>
-                                    <p><strong>·MARTIN HERNANDEZ, CARLOS</strong> - Animación y programación (real: código web y montaje de vídeo)</p>
-                                    <p><strong>·RODRÍGUEZ CORDERO, BORJA</strong> - Game design (real: documentación y textos)</p>
-                                    <p><strong>·SANZ CORONEL, JORGE</strong> - Concept escenarios e items (real: elaboración de imágenes)</p>
-                                </div>
-                                <div class="col-md-12 col-lg-12 bloqueD">
-                                    <h2>Objetivos</h2>
-                                </div>
-                                <div class="col-md-12 col-lg-12 bloqueD">
-                                    <h2>Recompensas</h2>
-                                    <p>Apoyándonos a conseguir nuestras diferentes metas, aparte de obtener nuestra gratitud también podrás conseguir acceso exclusivo a la beta y beneficios que te facilitaran las etapas tempranas del juego.</p>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                     <div id="projectD" class="row projectD hide">
-                        <div class="col-md-6 col-lg-6">
-                            <div id="projectDescriptionD" class="row"> <!-- Project descriptionDESKTOP -->
-                                <div class="col-md-12 col-lg-12">
-                                    <h3 class="contentSubTitle">Nuestro proyecto</h3>
-                                    <p>Galactic Expansion es un juego de estrategia freemium para móviles. Diferentes razas se enfrentaran por los distintos recursos de la galaxia. Elige a la raza que quieres llevar a la victoria a través de sus capacidades únicas. Crea tu propia ciudadela y prepara a tus ejércitos para las emocionantes batallas PVE y PVP. Se el soberano de la galaxia y porque no del universo.</p>
-                                    <p >Si por el contrario lo tuyo es la exploración, podrás descubrir el universo conocido y visitar otros planetas y ciudadelas, jugando en tu móvil y sin ningún tipo de conexión. Con ello conseguirás recursos que te ayudarán a expandir tu propia base.</p>
+                        <div class="row ">
+                            <div class="col-md-6 col-lg-6">
+                                <div id="projectDescriptionD" class="row"> <!-- Project descriptionDESKTOP -->
+                                    <div class="col-md-12 col-lg-12">
+                                        <h3 class="contentSubTitle">Nuestro proyecto</h3>
+                                        <p>Galactic Expansion es un juego de estrategia freemium para móviles. Diferentes razas se enfrentaran por los distintos recursos de la galaxia. Elige a la raza que quieres llevar a la victoria a través de sus capacidades únicas. Crea tu propia ciudadela y prepara a tus ejércitos para las emocionantes batallas PVE y PVP. Se el soberano de la galaxia y porque no del universo.</p>
+                                        <p >Si por el contrario lo tuyo es la exploración, podrás descubrir el universo conocido y visitar otros planetas y ciudadelas, jugando en tu móvil y sin ningún tipo de conexión. Con ello conseguirás recursos que te ayudarán a expandir tu propia base.</p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-md-6 col-lg-6">
-                            <div class="row bloqueD">
-                                <div class="col-md-12 col-lg-12 barraEstado"></div>
-                            </div>
-                            <div class="row bloqueD">
-                                <div class="col-md-5 col-lg-5">
-                                    <p class="recaudado">3.523,52€</p>
-                                    <p class="subText">contribuido de 20.000€</p>
+                            <div class="col-md-6 col-lg-6">
+                                <div class="row bloqueD">
+                                    <div class="col-md-12 col-lg-12 barraEstado"></div>
                                 </div>
-                                <div class="col-md-7 col-lg-7"></div>
+                                <div class="row bloqueD">
+                                    <div class="col-md-5 col-lg-5">
+                                        <p class="recaudado">3.523,52€</p>
+                                        <p class="subText">contribuido de 20.000€</p>
+                                    </div>
+                                    <div class="col-md-4 col-lg-4">
+                                        <p class="datoNum">100</p>
+                                        <p class="subText">patrocinadores</p>
+                                    </div>
+                                    <div class="col-md-3 col-lg-3">
+                                        <p class="datoNum">200</p>
+                                        <p class="subText">días más</p>
+                                    </div>
+                                </div>
+                                <div class="row bloqueD">
+                                    <div class="col-md-12 col-lg-12">
+                                        <h2>Objetivos</h2>
+                                    </div>                                
+                                </div>
+                                
+                                <div class="row bloqueD">
+                                    <a href="#MenuCampaign" onclick="alertD()"><div class="mainButton">Patrocina este proyecto</div></a>
+                                </div>
+                                <div class="row bloqueD">
+                                    <div class="col-md-12 col-lg-12">
+                                        <div class=" Mock_RRSS_D">Bloque RRSS</div>
+                                    </div>
+                                </div>
+                                
                             </div>
-                            <div class="row bloqueD">
+                        </div>                       
+                        <div class="row ">
+                            <div class="col-md-12 col-lg-12 bloqueD">
+                                <h3 class="contentSubTitle">Recompensas</h3>
+                                <p>Apoyándonos a conseguir nuestras diferentes metas, aparte de obtener nuestra gratitud también podrás conseguir acceso exclusivo a la beta y beneficios que te facilitaran las etapas tempranas del juego.</p>
+                            </div>
+                            <div class="row">
                                 <div class="col-md-4 col-lg-4">
-                                    <p class="datoNum">100</p>
-                                    <p class="subText">patrocinadores</p>
+                                    <div id="reward1" class="rewardD" onmouseover="hoverReward1On()" onmouseout="hoverReward1Out()">
+                                        
+                                    </div>
+                                    
+                                    
                                 </div>
+                                <div class="col-md-4 col-lg-4"></div>
+                                <div class="col-md-4 col-lg-4"></div>
                             </div>
-                            <div class="row bloqueD">
-                                <div class="col-md-3 col-lg-3">
-                                    <p class="datoNum">200</p>
-                                    <p class="subText">días más</p>
-                                </div>
-                            </div>
-                            <div class="row bloqueD">
-                                <a href="#MenuCampaign" onclick="alertD()"><div class="mainButton">Patrocina este proyecto</div></a>
-                            </div>
-                            <div class="row bloqueD">
-                                <div class="col-md-12 col-lg-12">
-                                    <div class=" Mock_RRSS_D">Bloque RRSS</div>
-                                </div>
-                            </div>
-                            
                         </div>
                     </div>
                     <div id="faqsD" class="row faqD hide">
@@ -635,7 +627,7 @@
                     <div id="commentsD" class="row commentsD hide">
                         <div class="col-md-12 col-lg-12"><h2>COMENTARIOS</h2></div>
                     </div>
-                    <div id="teamD" class="row teamD">
+                    <div id="teamD" class="row teamD hide">
                         <div class="col-md-12 col-lg-12 bloqueM">
                             <h2>Nuestro equipo:</h2>
                             <p><strong>·ALARCÓN RIERA, ÓSCAR</strong> - Música original</p>
@@ -654,6 +646,17 @@
 
     </div>
     
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="row wrapper">
+            <div class="col-xs-12 col-sm-12">
+                <div class=" Mock_RRSS_D">Bloque RRSS</div>
+            </div>
+            <div class="col-md-12 col-lg-12">
+                <div class=" Mock_RRSS_D">Bloque RRSS</div>
+            </div>
+        </div>
+    </footer>
     <!-- Local JS -->
     <script src="js/local_js.js"></script>
 

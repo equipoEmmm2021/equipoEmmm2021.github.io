@@ -17,7 +17,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
  background: transparent;
  color: #282828;
 }
-body { line-height: 1.3rem; }
+body { line-height: 1.3rem;}
 ol, ul { list-style: none; }
 blockquote, q { quotes: none; }
 blockquote:before, blockquote:after,
@@ -32,6 +32,10 @@ del { text-decoration: line-through; }
 table {
  border-collapse: collapse;
  border-spacing: 0;
+}
+
+p{
+    margin-top: 10px;
 }
 
 a {
