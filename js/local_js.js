@@ -420,10 +420,13 @@ function showFaqsD(){
     document.getElementById('buttonTeamD').classList.remove('menuActive');
 
     var a = document.getElementById('main');
+
     document.getElementById('fullBody').style.backgroundColor="green";
     a.innerHTML='<div class=\"row wrapper\">\n' +
                     '<div id=\"faqsD\" class="row faqD\">\n' +
-                        '<div class=\"col-md-12 col-lg-12\"><h2>FAQS</h2></div>\n' +
+                        '<div class=\"col-md-12 col-lg-12 \">\n' +
+                            '<h2 class="contentSubTitle">Preguntas frecuentes</h2>\n' +
+                        '</div>\n' +
                     '</div>\n' +
                 '</div>'
 }
@@ -459,7 +462,7 @@ function showTeamD(){
     var a = document.getElementById('main');
     a.innerHTML='<div class=\"row wrapper\">\n' +
                     '<div id="teamD" class="row teamD">\n' +
-                        '<div class="col-md-12 col-lg-12 bloqueM">\n' +
+                        '<div class="col-md-12 col-lg-12 teamBlock">\n' +
                             '<h2>Nuestro equipo:</h2>\n' +
                             '<p><strong>·ALARCÓN RIERA, ÓSCAR</strong> - Música original</p>\n' +
                             '<p><strong>·BARRIGA PIÑERO, JAVIER</strong> - Game design (real: documentación y textos)</p>\n' +
