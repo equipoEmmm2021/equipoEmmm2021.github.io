@@ -115,6 +115,14 @@ function showTeamM(){
 
 
 function showCampaignD(){
+    document.getElementById('buttonCampaignD').classList.add('menuActive');
+    document.getElementById('buttonProjectD').classList.remove('menuActive');
+    document.getElementById('buttonFaqsD').classList.remove('menuActive');
+    document.getElementById('buttonCommentsD').classList.remove('menuActive');
+    document.getElementById('buttonTeamD').classList.remove('menuActive');
+
+    document.getElementById('fullBody').style.backgroundColor="white";
+
     var a = document.getElementById("main");
     a.innerHTML='<div class=\"row wrapper\"> \n' +
         '<div class=\"col-md-12 col-lg-12\">\n' +
@@ -297,6 +305,13 @@ function showCampaignD(){
 }
 
 function showProjectD(){
+    document.getElementById('buttonCampaignD').classList.remove('menuActive');
+    document.getElementById('buttonProjectD').classList.add('menuActive');
+    document.getElementById('buttonFaqsD').classList.remove('menuActive');
+    document.getElementById('buttonCommentsD').classList.remove('menuActive');
+    document.getElementById('buttonTeamD').classList.remove('menuActive');
+
+    document.getElementById('fullBody').style.backgroundColor="white";
 
     var a = document.getElementById('main');
     //a.style.backgroundColor="red";
@@ -397,8 +412,15 @@ function showProjectD(){
 }
 
 function showFaqsD(){
+
+    document.getElementById('buttonCampaignD').classList.remove('menuActive');
+    document.getElementById('buttonProjectD').classList.remove('menuActive');
+    document.getElementById('buttonFaqsD').classList.add('menuActive');
+    document.getElementById('buttonCommentsD').classList.remove('menuActive');
+    document.getElementById('buttonTeamD').classList.remove('menuActive');
+
     var a = document.getElementById('main');
-    a.style.backgroundColor="green";
+    document.getElementById('fullBody').style.backgroundColor="green";
     a.innerHTML='<div class=\"row wrapper\">\n' +
                     '<div id=\"faqsD\" class="row faqD\">\n' +
                         '<div class=\"col-md-12 col-lg-12\"><h2>FAQS</h2></div>\n' +
@@ -407,6 +429,15 @@ function showFaqsD(){
 }
 
 function showCommentsD(){
+
+    document.getElementById('buttonCampaignD').classList.remove('menuActive');
+    document.getElementById('buttonProjectD').classList.remove('menuActive');
+    document.getElementById('buttonFaqsD').classList.remove('menuActive');
+    document.getElementById('buttonCommentsD').classList.add('menuActive');
+    document.getElementById('buttonTeamD').classList.remove('menuActive');
+
+    document.getElementById('fullBody').style.backgroundColor="white";
+
     var a = document.getElementById('main');
     a.innerHTML='<div class=\"row wrapper\">\n' +
                     '<div id=\"commentsD\" class=\"row commentsD\">\n' +
@@ -416,6 +447,15 @@ function showCommentsD(){
 }
 
 function showTeamD(){
+
+    document.getElementById('buttonCampaignD').classList.remove('menuActive');
+    document.getElementById('buttonProjectD').classList.remove('menuActive');
+    document.getElementById('buttonFaqsD').classList.remove('menuActive');
+    document.getElementById('buttonCommentsD').classList.remove('menuActive');
+    document.getElementById('buttonTeamD').classList.add('menuActive');
+
+    document.getElementById('fullBody').style.backgroundColor="white";
+
     var a = document.getElementById('main');
     a.innerHTML='<div class=\"row wrapper\">\n' +
                     '<div id="teamD" class="row teamD">\n' +
