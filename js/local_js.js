@@ -299,7 +299,7 @@ function showCampaignD(){
 function showProjectD(){
 
     var a = document.getElementById('main');
-    a.style.backgroundColor="red";
+    //a.style.backgroundColor="red";
     a.innerHTML='<div class=\"row wrapper\">\n' +
                     '<div id=\"projectD\" class=\"row projectD\">\n' +
                         '<div class=\"row\" style=\"min-height: 400px;\">\n' +
@@ -346,23 +346,48 @@ function showProjectD(){
                             '</div>\n' +
                         '</div>\n' +
                         '<div class=\"row\" style=\"min-height: 400px; margin-top: 60px;\">\n' +
-                            '<div class=\"col-md-12 col-lg-12 bloqueD\">\n' +
+                            '<div class=\"col-md-12 col-lg-12\">\n' +
                                 '<h3 class=\"contentSubTitle\">Recompensas</h3>\n' +
                                 '<p>Apoyándonos a conseguir nuestras diferentes metas, aparte de obtener nuestra gratitud también podrás conseguir acceso exclusivo a la beta y beneficios que te facilitaran las etapas tempranas del juego.</p>\n' +
                             '</div>\n' +
                             '<div class=\"row rewardDBlock\">\n' +
                                 '<div class=\"col-md-4 col-lg-4\">\n' +
-                                    '<div id=\"reward1\" class=\"rewardD\" onmouseover=\"hoverReward1On()\" onmouseout=\"hoverReward1Out()\">\n' +
-                                        '<div id=\"reward1Low\"></div>\n' +
-                                        '<div id=\"reward1High\" class=\"hide reward1High\"></div>\n' +
+                                    '<div id=\"reward1\" class=\"rewardD\">\n' +
+                                        '<img class="img-responsive" src="img/concept_raza_1.jpg"></img>\n' +
+                                        '<h4>10€</h4>\n' +
+                                        '<p class="rewardTitle">Explorador espacial</p>\n' +
+                                        '<ul>Incluye:\n' +
+                                            '<li>· Una copia del juego</li>\n' +
+                                            '<li>· Paquete de ilustraciones originales (PDF)</li>\n' +
+                                            '<li>· Acceso a la descarga de la BSO del juego (MP3)</li>\n' +
+                                        '</ul>\n' +
+                                        '<input type="button" value="Contribuir" name="Contribuir" onclick="alertD()">\n' +
                                     '</div>\n' +
                                 '</div>\n' +
                                 '<div class=\"col-md-4 col-lg-4\">\n' +
                                     '<div id=\"reward2\" class=\"rewardD\"\">\n' +
+                                        '<img class="img-responsive" src="img/concept_raza_1.jpg"></img>\n' +
+                                        '<h4>50€</h4>\n' +
+                                        '<p class="rewardTitle">Alto dirigente</p>\n' +
+                                        '<ul>Incluye:\n' +
+                                            '<li>· Recompensas anteriores</li>\n' +
+                                            '<li>· Paquete completo de mejoras para tu ciudad inicial</li>\n' +
+                                            '<li>· Paquete completo de mejoras para tu nave de exploración</li>\n' +
+                                        '</ul>\n' +
+                                        '<input type="button" value="Contribuir" name="Contribuir" onclick="alertD()">\n' +
                                     '</div>\n' +
                                 '</div>\n' +
                                 '<div class=\"col-md-4 col-lg-4\">\n' +
                                     '<div id=\"reward3\" class=\"rewardD\"\">\n' +
+                                        '<img class="img-responsive" src="img/concept_raza_1.jpg"></img>\n' +
+                                        '<h4>100€</h4>\n' +
+                                        '<p class="rewardTitle">Megacorporación</p>\n' +
+                                        '<ul>Incluye:\n' +
+                                            '<li>· Recompensas anteriores</li>\n' +
+                                            '<li>· Copia digital del libro de desarrollo del juego</li>\n' +
+                                            '<li>· 4 figuras de resina de alta calidad (100mm) de las 4 razas</li>\n' +
+                                        '</ul>\n' +
+                                        '<input type="button" value="Contribuir" name="Contribuir" onclick="alertD()">\n' +
                                     '</div>\n' +
                                 '</div>\n' +
                             '</div>\n' +
@@ -431,10 +456,10 @@ function closeAlertD(){
 //REWARDS HOVER
 
 function hoverReward1On(){
-    document.getElementById("reward1High").classList.remove("hide");
-    document.getElementById("reward1High").classList.add("rewardDHoverOn");
+    /*document.getElementById("reward1High").classList.remove("hide");
+    document.getElementById("reward1High").classList.add("rewardDHoverOn");*/
 }
 function hoverReward1Out(){
-    document.getElementById("reward1High").classList.remove("rewardDHoverOn");
-    document.getElementById("reward1High").classList.add("hide");
+    /*document.getElementById("reward1High").classList.remove("rewardDHoverOn");
+    document.getElementById("reward1High").classList.add("hide");*/
 }
