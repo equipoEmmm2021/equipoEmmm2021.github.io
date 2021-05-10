@@ -1,4 +1,8 @@
 /* GENERAL */
+@font-face{
+    font-family: Origin Tech Demo;
+    src: url('../font/web.ttf');
+}
 
 body{
     background-color: #FBFBFA;
@@ -86,17 +90,39 @@ body{
     padding-top: 15px;
 }
 
-.desktop_header{
-    height: 66px;
-    border-bottom: 2px solid rgb(241, 241, 241);
-    background-color: white;
+#localHeader{
+    background-image: url("../img/cartel.png");
+    overflow: hidden;
     margin-top: -10px;
+    padding-top: 25px;
 }
 
-.mobile_Header{
+#localHeaderM{
+    background-image: url("../img/cartel.png");
+    overflow: hidden;
+    margin-top: -10px;
+    padding-top: 25px;
+}
+
+.desktopHeader{
+    height: 66px;
+    margin-top: -10px;
+    font-family: Origin Tech Demo;
+    font-size: 3rem;
+    color: black;
+    text-align: center;
+    line-height: normal;
+    font-weight: 400;
+}
+
+.mobileHeader{
     height: 80px;
-    border-bottom: 2px solid rgb(241, 241, 241);
-    background-color: white;
+    font-family: Origin Tech Demo;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    line-height: normal;
+    font-weight: 400;
 }
 
 .mainMenu{
@@ -132,6 +158,18 @@ body{
 }
 
 /* HERO */
+
+.heroImgD{
+    max-width: 1280px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.heroImgM{
+    width: 100%;
+    height: auto;
+}
 
 #hero{
     margin-bottom: 40px;
@@ -437,6 +475,44 @@ padding-top: 30px;
 
 .rewardD:hover input:hover{
     background-color: rgb(75,176,253,1);
+}
+
+.rewardM{
+    transition: all .5s;
+    position: relative;
+    overflow: hidden;
+    width: 75%;
+    height: 410px;
+    border: 1px solid #c1c0c0;
+    display: block;
+    margin: 10% 0 0 6%;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.rewardM input {
+    display: block;
+    margin: 10px auto;
+    width: 150px;
+    height: 50px;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: rgb(75,176,253,0.8);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.rewardM h4{
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 35px;
+}
+
+.rewardM .rewardTitle{
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 15px 0px 10px;
 }
 
 /* OUR TEAM */
