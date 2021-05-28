@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: #FBFBFA;
+    /*background-color: #FBFBFA;*/
     
 }
 
@@ -109,10 +109,11 @@ body{
     margin-top: -10px;
     font-family: Origin Tech Demo;
     font-size: 3rem;
-    color: black;
+    color: white;
     text-align: center;
     line-height: normal;
     font-weight: 400;
+    -webkit-text-stroke: 0.8px black;
 }
 
 .mobileHeader{
@@ -123,6 +124,7 @@ body{
     text-align: center;
     line-height: normal;
     font-weight: 400;
+    -webkit-text-stroke: 0.5px black;
 }
 
 .mainMenu{
@@ -529,8 +531,26 @@ padding-top: 30px;
 
 footer{
     width: 100%;
-    height: 150px;
+    height: 75px;
     margin-top: 60px;
+}
+
+
+.bloqueRRSS{
+    text-align: center;
+    height: auto;
+}
+
+.logoRRSS{
+    max-width: 30px;
+    margin: 0px 100px;
+    display: inline-block;
+}
+
+.logoRRSSM{
+    max-width: 25px;
+    margin: 0px 25px;
+    display: inline-block;
 }
 /* ADAPTING */
 

@@ -50,6 +50,7 @@ function showCampaignM(){
     document.getElementById("buttonTeamM").classList.remove("menuActive");
 
     var a =document.getElementById('mainM');
+    document.getElementById('fullBody').style.backgroundImage="url('../img/fondo_nasa.png')";
     a.innerHTML='<div id="campaignM" class="row campaignM">\n' +
                     '<div class="row"> <!-- MAIN VIDEO MOBILE -->\n' +
                         '<div id="videoM" class="col-xs-12 col-sm-12 video-responsive">\n' +
@@ -154,8 +155,20 @@ function showCampaignM(){
                             '</div>\n' +
                             
                             '<div class="row">\n' +
-                                '<div class="col-xs-12 col-sm-12 musicaMockup">\n' +
-                                    'Imagen de emblemas Mega corporaciones\n' +
+                                '<div class="col-md-12 col-lg-12">\n' +
+                                    '<h3 class="contentSubTitle">Mega corporaciones</h3>\n' +
+                                    '<p>Las Mega corporaciones son los poderes más influyentes del Universo. Estas corporaciones tienen cientos de razas asociadas y todas se benefician de lo que pueden ofrecer las otras ya que cada una está especializada en un sector, así que deberás recapacitar seriamente acciones que puedan dañar este equilibrio.</p>\n' +
+                                '</div>\n' +
+                                '<div class="row">\n' +
+                                    '<div class="col-md-4 col-lg-4">\n' +
+                                        '<img src="img/simbolo_guerrillero.png" alt="Símbolo de una megacorporación" class="img-responsive">\n' +
+                                    '</div>\n' +
+                                    '<div class="col-md-4 col-lg-4">\n' +
+                                        '<img src="img/simbolo_prospero.png" alt="Símbolo de una megacorporación" class="img-responsive">\n' +
+                                    '</div>\n' +
+                                    '<div class="col-md-4 col-lg-4">\n' +
+                                        '<img src="img/simbolo_tecnologico.png" alt="Símbolo de una megacorporación" class="img-responsive">\n' +
+                                    '</div>\n' +
                                 '</div>\n' +
                             '</div>\n' +
 
@@ -223,7 +236,7 @@ function showRewardsM(){
     document.getElementById("buttonTeamM").classList.remove("menuActive");
 
     var a = document.getElementById('mainM');
-    //a.style.backgroundColor="red";
+    document.getElementById('fullBody').style.backgroundImage="url('../img/fondo_nasa_2.png')";
     a.innerHTML='<div id="rewardsM" class="row"> <!-- REWARDS -->\n' +
                     '<div class="row bloqueM">\n' +
                         '<div class="row barraEstadoM"></div>\n' +
@@ -324,6 +337,7 @@ function showFaqsM(){
     document.getElementById("buttonTeamM").classList.remove("menuActive");
 
     var a=document.getElementById('mainM');
+    document.getElementById('fullBody').style.backgroundImage="url('../img/fondo1.png')";
     a.innerHTML='<div id="faqsM" class="row faqM">\n' +
                     '<h2>FAQS</h2>\n' +
                 '</div>'
@@ -338,6 +352,7 @@ function showCommentsM(){
     document.getElementById("buttonTeamM").classList.remove("menuActive");
 
     var a=document.getElementById('mainM');
+    document.getElementById('fullBody').style.backgroundImage="url('../img/fondo_eagle-nebula-2.png')";
     a.innerHTML='<div id="commentsM" class="row commentsM">\n' +
                     '<h2>COMENTARIOS</h2>\n' +
                 '</div>'
@@ -351,6 +366,7 @@ function showTeamM(){
     document.getElementById("buttonTeamM").classList.add("menuActive");
 
     var a=document.getElementById('mainM');
+    document.getElementById('fullBody').style.backgroundImage="url('../img/fondo_carina-nebula-wide.png')";
     a.innerHTML='<div id="teamM" class="row teamM">\n' +
                     '<div class="col-xs-12 col-sm-12 bloqueM">\n' +
                         '<h2>Nuestro equipo:</h2>\n' +
@@ -374,9 +390,8 @@ function showCampaignD(){
     document.getElementById('buttonCommentsD').classList.remove('menuActive');
     document.getElementById('buttonTeamD').classList.remove('menuActive');
 
-    document.getElementById('fullBody').style.backgroundColor="white";
-
     var a = document.getElementById("main");
+    document.getElementById('fullBody').style.backgroundImage="url('../img/fondo_nasa.png')";
     a.innerHTML='<div class=\"row wrapper\"> \n' +
         '<div class=\"col-md-12 col-lg-12\">\n' +
             '<div id=\"campaignD\" class=\"row campaignD\">\n' +
@@ -565,10 +580,8 @@ function showProjectD(){
     document.getElementById('buttonCommentsD').classList.remove('menuActive');
     document.getElementById('buttonTeamD').classList.remove('menuActive');
 
-    document.getElementById('fullBody').style.backgroundColor="white";
-
     var a = document.getElementById('main');
-    //a.style.backgroundColor="red";
+    document.getElementById('fullBody').style.backgroundImage="url('../img/fondo_nasa_2.png')";
     a.innerHTML='<div class=\"row wrapper\">\n' +
                     '<div id=\"projectD\" class=\"row projectD\">\n' +
                         '<div class=\"row\" style=\"min-height: 400px;\">\n' +
@@ -674,8 +687,7 @@ function showFaqsD(){
     document.getElementById('buttonTeamD').classList.remove('menuActive');
 
     var a = document.getElementById('main');
-
-    document.getElementById('fullBody').style.backgroundColor="green";
+    document.getElementById('fullBody').style.backgroundImage="url('../img/fondo1.png')";
     a.innerHTML='<div class=\"row wrapper\">\n' +
                     '<div id=\"faqsD\" class="row faqD\">\n' +
                         '<div class=\"col-md-12 col-lg-12 \">\n' +
@@ -693,9 +705,8 @@ function showCommentsD(){
     document.getElementById('buttonCommentsD').classList.add('menuActive');
     document.getElementById('buttonTeamD').classList.remove('menuActive');
 
-    document.getElementById('fullBody').style.backgroundColor="white";
-
     var a = document.getElementById('main');
+    document.getElementById('fullBody').style.backgroundImage="url('../img/fondo_eagle-nebula-2.png')";
     a.innerHTML='<div class=\"row wrapper\">\n' +
                     '<div id=\"commentsD\" class=\"row commentsD\">\n' +
                         '<div class=\"col-md-12 col-lg-12\"><h2>COMENTARIOS</h2></div>\n' +
@@ -711,9 +722,8 @@ function showTeamD(){
     document.getElementById('buttonCommentsD').classList.remove('menuActive');
     document.getElementById('buttonTeamD').classList.add('menuActive');
 
-    document.getElementById('fullBody').style.backgroundColor="white";
-
     var a = document.getElementById('main');
+    document.getElementById('fullBody').style.backgroundImage="url('../img/fondo_carina-nebula-wide.png')";
     a.innerHTML='<div class=\"row wrapper\">\n' +
                     '<div id="teamD" class="row teamD">\n' +
                         '<div class="col-md-12 col-lg-12 teamBlock">\n' +

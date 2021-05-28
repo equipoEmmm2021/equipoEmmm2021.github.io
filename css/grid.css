@@ -2,7 +2,7 @@
     position: relative;
     display: block;
     width: 100%;
-    margin-top: 10px;
+    margin-top: 15px;
     padding: 0;
 }
 
@@ -80,6 +80,7 @@
 
 .col-xs-11:last-of-type,.col-sm-11:last-of-type,.col-md-11:last-of-type,.col-lg-11:last-of-type,.col-xs-10:last-of-type,.col-sm-10:last-of-type,.col-md-10:last-of-type,.col-lg-10:last-of-type,.col-xs-9:last-of-type,.col-sm-9:last-of-type,.col-md-9:last-of-type,.col-lg-9:last-of-type,.col-xs-8:last-of-type,.col-sm-8:last-of-type,.col-md-8:last-of-type,.col-lg-8:last-of-type,.col-xs-7:last-of-type,.col-sm-7:last-of-type,.col-md-7:last-of-type,.col-lg-7:last-of-type,.col-xs-6:last-of-type,.col-sm-6:last-of-type,.col-md-6:last-of-type,.col-lg-6:last-of-type,.col-xs-5:last-of-type,.col-sm-5:last-of-type,.col-md-5:last-of-type,.col-lg-5:last-of-type,.col-xs-4:last-of-type,.col-sm-4:last-of-type,.col-md-4:last-of-type,.col-lg-4:last-of-type,.col-xs-3:last-of-type,.col-sm-3:last-of-type,.col-md-3:last-of-type,.col-lg-3:last-of-type,.col-xs-2:last-of-type,.col-sm-2:last-of-type,.col-md-2:last-of-type,.col-lg-2:last-of-type,.col-xs-1:last-of-type,.col-sm-1:last-of-type,.col-md-1:last-of-type,.col-lg-1:last-of-type{
     margin-right: 0px;
+    float: none;
 }
 
 .img-responsive{
