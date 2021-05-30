@@ -3,7 +3,7 @@
 window.onscroll = function() {
     var y = window.scrollY;
     var a = document.getElementById("contentMenu");
-    if(y >= 803){
+    if(y >= 1128){
         document.getElementById("MenuCampaign").classList.add("mainMenuFixed");
         if(a){
             document.getElementById("contentMenu").classList.add("menuFixed");
@@ -236,7 +236,7 @@ function showRewardsM(){
     document.getElementById("buttonTeamM").classList.remove("menuActive");
 
     var a = document.getElementById('mainM');
-    document.getElementById('fullBody').style.backgroundImage="url('../img/fondo_nasa_2.png')";
+    //document.getElementById('fullBody').style.backgroundImage="url('../img/fondo_nasa_2.png')";
     a.innerHTML='<div id="rewardsM" class="row"> <!-- REWARDS -->\n' +
                     '<div class="row bloqueM">\n' +
                         '<div class="row barraEstadoM"></div>\n' +
@@ -280,7 +280,7 @@ function showRewardsM(){
                     '<div class=\"row\">\n' +
                         '<div class=\"col-xs-12 col-sm-12\">\n' +
                             '<div id=\"rewardM1\" class=\"rewardM\">\n' +
-                                '<img class="img-responsive" style="width: 50%;" src="img/concept_raza_1.jpg"></img>\n' +
+                                '<img class="img-responsive" style="width: 50%;" src="img/recompensa_10.png"></img>\n' +
                                 '<h4>10€</h4>\n' +
                                 '<p class="rewardTitle">Explorador espacial</p>\n' +
                                 '<ul>Incluye:\n' +
@@ -295,7 +295,7 @@ function showRewardsM(){
                     '<div class=\"row\">\n' +
                         '<div class=\"col-xs-12 col-sm-12\">\n' +
                             '<div id=\"rewardM2\" class=\"rewardM\"\">\n' +
-                                '<img class="img-responsive" style="width: 50%;" src="img/concept_raza_1.jpg"></img>\n' +
+                                '<img class="img-responsive" style="width: 50%;" src="img/recompensa_50.png"></img>\n' +
                                 '<h4>50€</h4>\n' +
                                 '<p class="rewardTitle">Alto dirigente</p>\n' +
                                 '<ul>Incluye:\n' +
@@ -310,7 +310,7 @@ function showRewardsM(){
                     '<div class=\"row\">\n' +
                         '<div class=\"col-xs-12 col-sm-12\">\n' +
                             '<div id=\"rewardM3\" class=\"rewardM\"\">\n' +
-                                '<img class="img-responsive" style="width: 50%;" src="img/concept_raza_1.jpg"></img>\n' +
+                                '<img class="img-responsive" style="width: 50%;" src="img/recompensa_100.png"></img>\n' +
                                 '<h4>100€</h4>\n' +
                                 '<p class="rewardTitle">Megacorporación</p>\n' +
                                 '<ul>Incluye:\n' +
@@ -391,7 +391,8 @@ function showCampaignD(){
     document.getElementById('buttonTeamD').classList.remove('menuActive');
 
     var a = document.getElementById("main");
-    document.getElementById('fullBody').style.backgroundImage="url('../img/fondo_nasa.png')";
+    /*document.getElementById('bodySup').style.backgroundImage="url('img/fondo_nasa.jpg')";
+    document.getElementById('bodyInf').style.backgroundImage="url('img/fondo_nasa.jpg')";*/
     a.innerHTML='<div class=\"row wrapper\"> \n' +
         '<div class=\"col-md-12 col-lg-12\">\n' +
             '<div id=\"campaignD\" class=\"row campaignD\">\n' +
@@ -420,7 +421,6 @@ function showCampaignD(){
                 '<div id=\"contentMain\" class=\"col-md-10 col-lg-10\" style=\"margin-right: 1%;\">\n' +
                     '<div class=\"row\"> <!-- MAIN VIDEO -->\n' +
                         '<div id=\"videoD\" class=\"col-md-12 col-lg-12 video-responsive\">\n' +
-                            //'<iframe src=\"https://www.youtube.com/embed/jk3XSZAxOfA\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n' +
                             '<video src="video/secuencia_01.mp4" controls="true" width="100%" height="auto"></video>\n' +
                         '</div>\n' +
                     '</div>\n' +
@@ -581,7 +581,8 @@ function showProjectD(){
     document.getElementById('buttonTeamD').classList.remove('menuActive');
 
     var a = document.getElementById('main');
-    document.getElementById('fullBody').style.backgroundImage="url('../img/fondo_nasa_2.png')";
+    /*document.getElementById('bodySup').style.backgroundImage="url('../img/fondo_nasa_2.png')";
+    document.getElementById('bodyInf').style.backgroundImage="url('../img/fondo_nasa_2.png')";*/
     a.innerHTML='<div class=\"row wrapper\">\n' +
                     '<div id=\"projectD\" class=\"row projectD\">\n' +
                         '<div class=\"row\" style=\"min-height: 400px;\">\n' +
@@ -635,7 +636,7 @@ function showProjectD(){
                             '<div class=\"row rewardDBlock\">\n' +
                                 '<div class=\"col-md-4 col-lg-4\">\n' +
                                     '<div id=\"reward1\" class=\"rewardD\">\n' +
-                                        '<img class="img-responsive" src="img/concept_raza_1.jpg"></img>\n' +
+                                        '<img class="img-responsive" src="img/recompensa_10.png"></img>\n' +
                                         '<h4>10€</h4>\n' +
                                         '<p class="rewardTitle">Explorador espacial</p>\n' +
                                         '<ul>Incluye:\n' +
@@ -648,7 +649,7 @@ function showProjectD(){
                                 '</div>\n' +
                                 '<div class=\"col-md-4 col-lg-4\">\n' +
                                     '<div id=\"reward2\" class=\"rewardD\"\">\n' +
-                                        '<img class="img-responsive" src="img/concept_raza_1.jpg"></img>\n' +
+                                        '<img class="img-responsive" src="img/recompensa_50.png"></img>\n' +
                                         '<h4>50€</h4>\n' +
                                         '<p class="rewardTitle">Alto dirigente</p>\n' +
                                         '<ul>Incluye:\n' +
@@ -661,7 +662,7 @@ function showProjectD(){
                                 '</div>\n' +
                                 '<div class=\"col-md-4 col-lg-4\">\n' +
                                     '<div id=\"reward3\" class=\"rewardD\"\">\n' +
-                                        '<img class="img-responsive" src="img/concept_raza_1.jpg"></img>\n' +
+                                        '<img class="img-responsive" src="img/recompensa_100.png"></img>\n' +
                                         '<h4>100€</h4>\n' +
                                         '<p class="rewardTitle">Megacorporación</p>\n' +
                                         '<ul>Incluye:\n' +
@@ -687,7 +688,8 @@ function showFaqsD(){
     document.getElementById('buttonTeamD').classList.remove('menuActive');
 
     var a = document.getElementById('main');
-    document.getElementById('fullBody').style.backgroundImage="url('../img/fondo1.png')";
+    /*document.getElementById('bodySup').style.backgroundImage="url('../img/fondo1.png')";
+    document.getElementById('bodyInf').style.backgroundImage="url('../img/fondo1.png')";*/
     a.innerHTML='<div class=\"row wrapper\">\n' +
                     '<div id=\"faqsD\" class="row faqD\">\n' +
                         '<div class=\"col-md-12 col-lg-12 \">\n' +
@@ -706,10 +708,13 @@ function showCommentsD(){
     document.getElementById('buttonTeamD').classList.remove('menuActive');
 
     var a = document.getElementById('main');
-    document.getElementById('fullBody').style.backgroundImage="url('../img/fondo_eagle-nebula-2.png')";
+    /*document.getElementById('bodySup').style.backgroundImage="url('img/fondo_eagle-nebula-2.jpg')";
+    document.getElementById('bodyInf').style.backgroundImage="url('img/fondo_eagle-nebula-2.jpg')";*/
     a.innerHTML='<div class=\"row wrapper\">\n' +
                     '<div id=\"commentsD\" class=\"row commentsD\">\n' +
-                        '<div class=\"col-md-12 col-lg-12\"><h2>COMENTARIOS</h2></div>\n' +
+                        '<div class=\"col-md-12 col-lg-12\">\n' +
+                            '<h2>COMENTARIOS</h2>\n' +
+                        '</div>\n' +
                     '</div>\n' +
                 '</div>'
 }
@@ -723,7 +728,8 @@ function showTeamD(){
     document.getElementById('buttonTeamD').classList.add('menuActive');
 
     var a = document.getElementById('main');
-    document.getElementById('fullBody').style.backgroundImage="url('../img/fondo_carina-nebula-wide.png')";
+    /*document.getElementById('bodySup').style.backgroundImage="url('../img/fondo_carina-nebula-wide.png')";
+    document.getElementById('bodyInf').style.backgroundImage="url('../img/fondo_carina-nebula-wide.png')";*/
     a.innerHTML='<div class=\"row wrapper\">\n' +
                     '<div id="teamD" class="row teamD">\n' +
                         '<div class="col-md-12 col-lg-12 teamBlock">\n' +

@@ -2,6 +2,8 @@
 @font-face{
     font-family: Origin Tech Demo;
     src: url('../font/web.ttf');
+    
+    -webkit-text-stroke: 0.1px white;
 }
 
 body{
@@ -389,6 +391,7 @@ padding-top: 30px;
     margin: 10% 0 0 25%;
     border-radius: 5px;
     padding: 20px;
+    background-color: white;
 }
 
 .rewardD img{
