@@ -50,7 +50,7 @@ function showCampaignM(){
     document.getElementById("buttonTeamM").classList.remove("menuActive");
 
     var a =document.getElementById('mainM');
-    document.getElementById('fullBody').style.backgroundImage="url('../img/fondo_nasa.png')";
+    //document.getElementById('fullBody').style.backgroundImage="url('../img/fondo_nasa.png')";
     a.innerHTML='<div id="campaignM" class="row campaignM">\n' +
                     '<div class="row"> <!-- MAIN VIDEO MOBILE -->\n' +
                         '<div id="videoM" class="col-xs-12 col-sm-12 video-responsive">\n' +
@@ -92,134 +92,167 @@ function showCampaignM(){
                                 '</div>\n' +
                             '</div>\n' +
                             '<div class="row">\n' +
-                                '<div class="col-xs-12 col-sm-12">\n' +
-                                    '<p>En Galactic Expansion se recompensara la buena toma de decisiones, las estrategias y la constancia. Cada movimiento te acercara o alejara de ser el emperador de la galaxia.</p>\n' +
-                                    '<h3 class="contentSubTitle">Razas</h3>\n' +
-                                    '<h4 class="contentMiniTitle">Humanos</h4>\n' +
-                                    '<p>Su ambición y su desesperación por la supervivencia les llevó a salir de su planeta en una aventura a ciegas. Ahora son un pueblo extendido y respetado que ha creado una gran coalición con otras razas.</p>\n' +
-                                    '<p>Su equilibrio en armamento, defensa y recursos es casi perfecto</p>\n' +
+                                '<div class=\"col-xs-12 col-sm-12\">\n' +
+                                '<p>En Galactic Expansion se recompensara la buena toma de decisiones, las estrategias y la constancia. Cada movimiento te acercara o alejara de ser el emperador de la galaxia.</p>\n' +
+                                '<h3 class=\"contentSubTitle\">Razas</h3>\n' +
+                                '<h4 class=\"contentMiniTitle\">Humanos</h4>\n' +
+                                '<p>Su ambición y su desesperación por la supervivencia les llevó a salir de su planeta en una aventura a ciegas. Ahora son un pueblo extendido y respetado que ha creado una gran coalición con otras razas. Su equilibrio en armamento, defensa y recursos es casi perfecto</p>\n' +
+                                '<p>En el año 2090 la tierra estaba casi al borde de la muerte debido a la mala inversión de los\n' +
+                                'antibióticos en la comida, originando superbacterias que eran inmunes a los tratamientos y\n' +
+                                'provocaron millones de muertes, la tala de árboles desmedida de los años, la gran dependencia a\n' +
+                                'la tecnología de la población y el imparable calentamiento global, dejando la tierra en un punto\n' +
+                                'crítico y de no retorno, no obstante todo cambiaría.</p>\n' +
+                                '<p>Tiempo después los humanos sufrieron la caída de varios meteoritos en diferentes partes del mundo\n' +
+                                'construidos por una clase de roca espacial extraña, según los científicos terrícolas a esos meteoritos\n' +
+                                'no lo hacía especial la roca en sí, sino las partículas microscópicas que dicha roca presentaba.\n' +
+                                '13.</p>\n' +
+                                '<p>Estas, además de su fácil reproducción entre sí, contenían un poder energético colosal que los\n' +
+                                'humanos aprendieron a utilizar principalmente en armamento, combustible y tecnología, e incluso\n' +
+                                'en medicina, dándoles un fuerza e inteligencia tremendas y haciéndoles inmunes a enfermedades\n' +
+                                'tanto mortales como comunes y a las superbacterias que se estaba cobrando millones de vidas en ese entonces.</p>\n' +
+                                '<p>Sin embargo el correcto uso de esas partículas les otorgó a los humanos una nueva energía\n' +
+                                'absolutamente ecológica que destronó a las energías no renovables, dándoles otra oportunidad\n' +
+                                'para arreglar su planeta. Muchos años después la humanidad logró un gran avance cultural,\n' +
+                                'tecnológico y medioambiental formando un nuevo planeta tierra de gran prosperidad.\n' +
+                                'Sin embargo, la ambición y la conducta destructiva humana nunca cambió y con el descubrimiento\n' +
+                                'de las partículas aplicadas al viaje espacial crearon naves reforzadas con la capacidad de viajar a\n' +
+                                'través del universo para poblar nuevos planetas y establecer contacto con nuevas especies, y tal\n' +
+                                'vez... encontrar más asteroides con las partículas que movieron el planeta, bautizadas como\n' +
+                                'Gamma.</p>\n' +
+                            '</div>\n' +
+                        '</div>\n' +
+                        '<div class=\"row\">\n' +
+                            '<div class=\"col-xs-12 col-sm-12\">\n' +
+                                '<div class=\"imgContent\">\n' +
+                                    '<img src=\"img/humanos.png\" alt=\"Símbolo de una raza\" class=\"img-responsive\">\n' +
                                 '</div>\n' +
                             '</div>\n' +
-                            '<div class="row">\n' +
-                                '<div class="col-xs-12 col-sm-12 musicaMockup">\n' +
-                                    'Imagen de Humanos\n' +
-                                '</div>\n' +
-                            '</div>\n' +
+                        '</div>\n' +
 
-                            '<div class="row">\n' +
-                                '<div class="col-xs-12 col-sm-12">\n' +
-                                    '<h4 class="contentMiniTitle">Los guerreros</h4>\n' +
-                                    '<p>Una raza conocida en todo el universo por su habilidad en la batalla y sus guerreros sin miedo a la muerte. Toman lo que quieren, destruyendo a todo lo que se interponga en su camino.</p>\n' +
-                                    '<p>Entre sus filas encontraras algunos de los mejores guerreros cuerpo a cuerpo del universo.</p>\n' +
+                        '<div class=\"row\">\n' +
+                            '<div class=\"col-xs-12 col-sm-12\">\n' +
+                                '<h4 class=\"contentminiTitle\">Los Dukich</h4>\n' +
+                                '<p>Una raza conocida en todo el universo por su habilidad en la batalla y sus guerreros sin miedo a la muerte. Toman lo que quieren, destruyendo a todo lo que se interponga en su camino.</p>\n' +
+                                '<p>Entre sus filas encontraras algunos de los mejores guerreros cuerpo a cuerpo del universo. Se caracterizan por sus grandes cuerpos y aspecto barbárico, tienen una gran capacidad para entrenar a sus tropas pero carecen de una gran cantidad de trabajadores.</p>\n' +
+                                '<p>100 años en la denominada galaxia Prime, existía un mundo que vivía en una guerra\n' +
+                                'constante, este planeta estaba habitado por los Dukich una raza inicialmente pacífica.\n' +
+                                'Pero era un mundo donde el más fuerte cogía lo que quería, no había sitio para la paz así que\n' +
+                                'tuvieron que adaptarse, fortaleciéndose cada vez más y exterminando al resto de razas logrando\n' +
+                                'ser las alfas del planeta. Pero cuando los enemigos desaparecieron, se crearon nuevos entre ellos\n' +
+                                'mismos y así la guerra continuó de forma imparable.</p>\n' +
+                                '<p>La raza avanzó lentamente en la tecnología, con el único objetivo de poder estar por delante del\n' +
+                                'enemigo, hasta que el enemigo dejó de ser los que tenían al lado y fue la naturaleza la que marcaba\n' +
+                                'el fin. La estrella que les iluminaba estaba moribunda y amenazaba con el fin de la galaxia, pero los\n' +
+                                'Dukich ya eran guerreros y no aceptarían su fin si no era en batalla pues ellos no esperarían la\n' +
+                                'muerte. Ellos eran la muerte.</p>\n' +
+                                '<p>Así dejaron sus guerras y unieron a las mentes más brillantes de su raza y diseñaron una nave para\n' +
+                                'viajar por las estrellas y llegar a nuevos mundos donde llevar la guerra que está arraigada en sus\n' +
+                                'corazones y la muerte que nace de sus manos.</p>\n' +
+                            '</div>\n' +
+                        '</div>\n' +
+                        '<div class=\"row\">\n' +
+                            '<div class=\"col-xs-12 col-sm-12\">\n' +
+                                '<div class=\"imgContent\">\n' +
+                                    '<img src=\"img/vulcanos.png\" alt=\"Símbolo de una raza\" class=\"img-responsive\">\n' +
                                 '</div>\n' +
                             '</div>\n' +
-                            '<div class="row">\n' +
-                                '<div class="col-xs-12 col-sm-12 musicaMockup">\n' +
-                                    'Imagen de Guerreros\n' +
-                                '</div>\n' +
-                            '</div>\n' +
+                        '</div>\n' +
 
-                            '<div class="row">\n' +
-                                '<div class="col-xs-12 col-sm-12">\n' +
-                                    '<h4 class="contentMiniTitle">Los prósperos</h4>\n' +
-                                    '<p>Conocidos en el universo por su gran capacidad para adaptarse a las situaciones más extremas. </p>\n' +
-                                    '<p>Puede que no tengan el mayor poder ofensivo pero no se les escapan los secretos de la tierra y de cómo obtener el máximo de beneficios con el mínimo esfuerzo.</p>\n' +
+                        '<div class=\"row\">\n' +
+                            '<div class=\"col-xs-12 col-sm-12\">\n' +
+                                '<h4 class=\"contentminiTitle\">Välmående (Prósperos)</h4>\n' +
+                                '<p>Conocidos en el universo por su gran capacidad para adaptarse a las situaciones más extremas. </p>\n' +
+                                '<p>Puede que no tengan el mayor poder ofensivo pero no se les escapan los secretos de la tierra y de cómo obtener el máximo de beneficios con el mínimo esfuerzo.</p>\n' +
+                                '<p>Vienen del planeta Välmån, un planeta lleno de vida y naturaleza que vivió para la prosperidad\n' +
+                                'durante muchos años. Sin embargo esta raza, pacífica por naturaleza, se vio involucrada en una\n' +
+                                'guerra ajena y su mundo fue una víctima de esta. Ahora buscan un nuevo hogar en el que\n' +
+                                'reconstruir su mundo; y si tienen que luchar esta vez lo harán.</p>\n' +
+                                '<p>Han evolucionado en tecnología, sociedad y cultura de una forma en la que no hay conflictos entre\n' +
+                                'ellos, pues tienen lo que necesitan. Sin embargo, crecen en número y deben encontrar el nuevo\n' +
+                                'Välmån enseguida, pues todavía no han encontrado un planeta que les satisfaga.</p>\n' +
+                                '<p>A pesar de que su creencia en la tecnología, mantienen y tienen muy arraigada la fe en su religión,\n' +
+                                'pues hace que mantengan el respeto con el planeta en el que habitan así como en su especie.\n' +
+                                'Por lo tanto son una especie que tiene la habilidad de prosperar en cualquier planeta por mucho\n' +
+                                'más tiempo que otras, a pesar de que no sean la mejor en defensas ni ataque.</p>\n' +
+                            '</div>\n' +
+                        '</div>\n' +
+                        
+                        '<div class=\"row\">\n' +
+                            '<div class=\"col-xs-12 col-sm-12\">\n' +
+                                '<div class=\"imgContent\">\n' +
+                                    '<img src=\"img/prosperos.png\" alt=\"Símbolo de una raza\" class=\"img-responsive\">\n' +
                                 '</div>\n' +
                             '</div>\n' +
-                            
-                            '<div class="row">\n' +
-                                '<div class="col-xs-12 col-sm-12 musicaMockup">\n' +
-                                    'Imagen de Prósperos\n' +
-                                '</div>\n' +
+                        '</div>\n' +
+                        
+                        '<div class=\"row\">\n' +
+                            '<div class=\"col-xs-12 col-sm-12\">\n' +
+                                '<h3 class=\"contentSubTitle\">Mega corporaciones</h3>\n' +
+                                '<p>Las Mega corporaciones son los poderes más influyentes del Universo. Estas corporaciones tienen cientos de razas asociadas y todas se benefician de lo que pueden ofrecer las otras ya que cada una está especializada en un sector, así que deberás recapacitar seriamente acciones que puedan dañar este equilibrio.</p>\n' +
                             '</div>\n' +
+                        '</div>\n' +
 
-                            '<div class="row">\n' +
-                                '<div class="col-xs-12 col-sm-12">\n' +
-                                    '<h4 class="contentMiniTitle">Los avanzados</h4>\n' +
-                                    '<p>Conocidos en el universo por sus grandes conocimientos, son una especie muy avanzada tecnológicamente y pocos pueden compararse a ellos.</p>\n' +
-                                    '<p>La construcción de grandes estructuras es su especialidad y defensivamente se encuentran a la vanguardia.</p>\n' +
+                        '<div class=\"row\">\n' +
+                            '<div class=\"col-xs-12 col-sm-12\">\n' +
+                                '<h4 class=\"contentminiTitle\">Artemis Inc.</h4>\n' +
+                                '<p>Nacida en la época en la que las guerras  estaban como primera orden del día. Esta corporación se especializa en el intercambio de armamentos y soldados especializados en la conquista.</p>\n' +
+                                '<p>No se toman a la ligera el ataque a sus asociados y ello puede dañar gravemente las relaciones y tu imperio en consecuencia.</p>\n' +
+                            '</div>\n' +
+                        '</div>\n' +
+                        
+                        '<div class=\"row\">\n' +
+                            '<div class=\"col-xs-12 col-sm-12\">\n' +
+                                '<div class=\"imgContentLogo\">\n' +
+                                    '<img src=\"img/simbolo_guerrillero.png\" alt=\"Símbolo de una megacorporación\" class=\"img-responsive\">\n' +
                                 '</div>\n' +
                             '</div>\n' +
-                            
-                            '<div class="row">\n' +
-                                '<div class="col-xs-12 col-sm-12 musicaMockup">\n' +
-                                    'Imagen de Avanzados\n' +
+                        '</div>\n' +
+
+                        '<div class=\"row\">\n' +
+                            '<div class=\"col-xs-12 col-sm-12\">\n' +
+                                '<h4 class=\"contentminiTitle\">Spacemaker Group</h4>\n' +
+                                '<p>Buscando el poder económico, tienen una gran cantidad de recursos que ofrecen a todo aquel dispuesto a pagar el precio adecuado. Esta corporación te ofrece una gran cantidad de materiales únicos a precios increíbles si eres su asociado.</p>\n' +
+                                '<p>Cualquier acción que les haga perder beneficios no quedara sin un castigo acorde.</p>\n' +
+                            '</div>\n' +
+                        '</div>\n' +
+                        
+                        '<div class=\"row\">\n' +
+                            '<div class=\"col-xs-12 col-sm-12\">\n' +
+                                '<div class=\"imgContentLogo\">\n' +
+                                    '<img src=\"img/simbolo_prospero.png\" alt=\"Símbolo de una megacorporación\" class=\"img-responsive\">\n' +
                                 '</div>\n' +
                             '</div>\n' +
-                            
-                            '<div class="row">\n' +
-                                '<div class="col-xs-12 col-sm-12">\n' +
-                                    '<h3 class="contentSubTitle">Mega corporaciones</h3>\n' +
-                                    '<p>Las Mega corporaciones son los poderes más influyentes del Universo. Estas corporaciones tienen cientos de razas asociadas y todas se benefician de lo que pueden ofrecer las otras ya que cada una está especializada en un sector, así que deberás recapacitar seriamente acciones que puedan dañar este equilibrio.</p>\n' +
-                                '</div>\n' +
+                        '</div>\n' +
+
+                        '<div class=\"row\">\n' +
+                            '<div class=\"col-xs-12 col-sm-12\">\n' +
+                                '<h4 class=\"contentminiTitle\">Hardship Corp.</h4>\n' +
+                                '<p>Defender a los suyos es su misión por ello tienen los mejores sistemas de defensa. Esta corporación te ofrece sistemas especiales para que no tengas que temer a los ataques.</p>\n' +
+                                '<p>Para crecer es imprescindible conservar lo ya conseguido.</p>\n' +
                             '</div>\n' +
-                            
-                            '<div class="row">\n' +
-                                '<div class="col-md-12 col-lg-12">\n' +
-                                    '<h3 class="contentSubTitle">Mega corporaciones</h3>\n' +
-                                    '<p>Las Mega corporaciones son los poderes más influyentes del Universo. Estas corporaciones tienen cientos de razas asociadas y todas se benefician de lo que pueden ofrecer las otras ya que cada una está especializada en un sector, así que deberás recapacitar seriamente acciones que puedan dañar este equilibrio.</p>\n' +
-                                '</div>\n' +
-                                '<div class="row">\n' +
-                                    '<div class="col-md-4 col-lg-4">\n' +
-                                        '<img src="img/simbolo_guerrillero.png" alt="Símbolo de una megacorporación" class="img-responsive">\n' +
+                        '</div>\n' +
+                        
+                        '<div class=\"row\">\n' +
+                            '<div class=\"col-xs-12 col-sm-12\">\n' +
+                                '<div class=\"imgContentLogo\">\n' +
+                                        '<img src=\"img/simbolo_tecnologico.png\" alt=\"Símbolo de una megacorporación\" class=\"img-responsive\">\n' +
                                     '</div>\n' +
-                                    '<div class="col-md-4 col-lg-4">\n' +
-                                        '<img src="img/simbolo_prospero.png" alt="Símbolo de una megacorporación" class="img-responsive">\n' +
-                                    '</div>\n' +
-                                    '<div class="col-md-4 col-lg-4">\n' +
-                                        '<img src="img/simbolo_tecnologico.png" alt="Símbolo de una megacorporación" class="img-responsive">\n' +
-                                    '</div>\n' +
-                                '</div>\n' +
-                            '</div>\n' +
-
-                            '<div class="row">\n' +
-                                '<div class="col-xs-12 col-sm-12">\n' +
-                                    '<h4 class="contentMiniTitle">Primera corporación</h4>\n' +
-                                    '<p>Nacida en la época en la que las guerras  estaban como primera orden del día. Esta corporación se especializa en el intercambio de armamentos y soldados especializados en la conquista.</p>\n' +
-                                    '<p>No se toman a la ligera el ataque a sus asociados y ello puede dañar gravemente las relaciones y tu imperio en consecuencia.</p>\n' +
-                                '</div>\n' +
-                            '</div>\n' +
-                            
-                            '<div class="row">\n' +
-                                '<div class="col-xs-12 col-sm-12 musicaMockup">\n' +
-                                    'Imagen primera Mega corporación\n' +
-                                '</div>\n' +
-                            '</div>\n' +
-
-                            '<div class="row">\n' +
-                                '<div class="col-xs-12 col-sm-12">\n' +
-                                    '<h4 class="contentMiniTitle">Segunda corporación</h4>\n' +
-                                    '<p>Buscando el poder económico, tienen una gran cantidad de recursos que ofrecen a todo aquel dispuesto a pagar el precio adecuado. Esta corporación te ofrece una gran cantidad de materiales únicos a precios increíbles si eres su asociado.</p>\n' +
-                                    '<p>Cualquier acción que les haga perder beneficios no quedara sin un castigo acorde.</p>\n' +
-                                '</div>\n' +
-                            '</div>\n' +
-                            
-                            '<div class="row">\n' +
-                                '<div class="col-xs-12 col-sm-12 musicaMockup">\n' +
-                                    'Imagen segunda Mega corporación\n' +
-                                '</div>\n' +
-                            '</div>\n' +
-
-                            '<div class="row">\n' +
-                                '<div class="col-xs-12 col-sm-12">\n' +
-                                    '<h4 class="contentMiniTitle">Tercera corporación</h4>\n' +
-                                    '<p>Defender a los suyos es su misión por ello tienen los mejores sistemas de defensa. Esta corporación te ofrece sistemas especiales para que no tengas que temer a los ataques.</p>\n' +
-                                    '<p>Para crecer es imprescindible conservar lo ya conseguido.</p>\n' +
-                                '</div>\n' +
-                            '</div>\n' +
-                            
-                            '<div class="row">\n' +
-                                '<div class="col-xs-12 col-sm-12 musicaMockup">\n' +
-                                    'Imagen tercera Mega corporación\n' +
-                                '</div>\n' +
                             '</div>\n' +
                         '</div>\n' +
                     '</div>\n' +
-                    '<div class="row"> <!-- GAMEPLAY MOBILE -->\n' +
-                        '<div class="col-xs-12 col-sm-12 musicaMockup">\n' +
-                            '<h3 class="contentSubTitle">Cómo se juega</h3>\n' +
-                        '</div>\n' +
-                    '</div>'
+                '</div>\n' +
+                '<div id=\"gameplayD\" class=\"row\"> <!-- GAMEPLAY DESKTOP -->\n' +
+                    '<div class=\"col-xs-12 col-sm-12\">\n' +
+                        '<h3 class=\"contentSubTitle\">Cómo se juega</h3>\n' +
+                        '<p>Dos modos principales de juego</p>\n' +
+                        '<p>Sin conexión:</p>\n' +
+                            '<p>Juego de exploración y recursos. Contruye tu propia base y visita otros lugares creados por otros jugadores o por el sistema para comerciar</p>\n' +
+                        '<p>Online</p>\n' +
+                            '<p>Únete a una Megacorporación para conseguir mejoras en un grupo concreto de recursos. Enfréntate a otras Megacorporaciones en batallas multitudinarias junto a miles de jugadores para conseguir el dominio comercial del universo. Pero cuidado, porque si una raza o una megacorporación desaparece, los recursos que producen en exclusiva también lo harán.</p>\n' +
+                    '</div>\n' +
+                '</div>\n' +
+            '</div>\n' +
+        '</div>'
 
 }
 
@@ -337,7 +370,7 @@ function showFaqsM(){
     document.getElementById("buttonTeamM").classList.remove("menuActive");
 
     var a=document.getElementById('mainM');
-    document.getElementById('fullBody').style.backgroundImage="url('../img/fondo1.png')";
+    //document.getElementById('fullBody').style.backgroundImage="url('../img/fondo1.png')";
     a.innerHTML='<div id="faqsM" class="row faqM">\n' +
                     '<h2>FAQS</h2>\n' +
                 '</div>'
@@ -352,7 +385,7 @@ function showCommentsM(){
     document.getElementById("buttonTeamM").classList.remove("menuActive");
 
     var a=document.getElementById('mainM');
-    document.getElementById('fullBody').style.backgroundImage="url('../img/fondo_eagle-nebula-2.png')";
+    //document.getElementById('fullBody').style.backgroundImage="url('../img/fondo_eagle-nebula-2.png')";
     a.innerHTML='<div id="commentsM" class="row commentsM">\n' +
                     '<h2>COMENTARIOS</h2>\n' +
                 '</div>'
@@ -366,7 +399,7 @@ function showTeamM(){
     document.getElementById("buttonTeamM").classList.add("menuActive");
 
     var a=document.getElementById('mainM');
-    document.getElementById('fullBody').style.backgroundImage="url('../img/fondo_carina-nebula-wide.png')";
+    //document.getElementById('fullBody').style.backgroundImage="url('../img/fondo_carina-nebula-wide.png')";
     a.innerHTML='<div id="teamM" class="row teamM">\n' +
                     '<div class="col-xs-12 col-sm-12 bloqueM">\n' +
                         '<h2>Nuestro equipo:</h2>\n' +
@@ -391,8 +424,8 @@ function showCampaignD(){
     document.getElementById('buttonTeamD').classList.remove('menuActive');
 
     var a = document.getElementById("main");
-    /*document.getElementById('bodySup').style.backgroundImage="url('img/fondo_nasa.jpg')";
-    document.getElementById('bodyInf').style.backgroundImage="url('img/fondo_nasa.jpg')";*/
+    /*document.getElementById('bodySup').style.backgroundImage="url('img/fondo_nasa.jpg')";*/
+    document.getElementById('bodyInf').style.backgroundImage="url('img/fondo_nasa.jpg')";
     a.innerHTML='<div class=\"row wrapper\"> \n' +
         '<div class=\"col-md-12 col-lg-12\">\n' +
             '<div id=\"campaignD\" class=\"row campaignD\">\n' +
@@ -457,54 +490,92 @@ function showCampaignD(){
                                     '<p>En Galactic Expansion se recompensara la buena toma de decisiones, las estrategias y la constancia. Cada movimiento te acercara o alejara de ser el emperador de la galaxia.</p>\n' +
                                     '<h3 class=\"contentSubTitle\">Razas</h3>\n' +
                                     '<h4 class=\"contentMiniTitle\">Humanos</h4>\n' +
-                                    '<p>Su ambición y su desesperación por la supervivencia les llevó a salir de su planeta en una aventura a ciegas. Ahora son un pueblo extendido y respetado que ha creado una gran coalición con otras razas.</p>\n' +
-                                    '<p>Su equilibrio en armamento, defensa y recursos es casi perfecto</p>\n' +
+                                    '<p>Su ambición y su desesperación por la supervivencia les llevó a salir de su planeta en una aventura a ciegas. Ahora son un pueblo extendido y respetado que ha creado una gran coalición con otras razas. Su equilibrio en armamento, defensa y recursos es casi perfecto</p>\n' +
+                                    '<p>En el año 2090 la tierra estaba casi al borde de la muerte debido a la mala inversión de los\n' +
+                                    'antibióticos en la comida, originando superbacterias que eran inmunes a los tratamientos y\n' +
+                                    'provocaron millones de muertes, la tala de árboles desmedida de los años, la gran dependencia a\n' +
+                                    'la tecnología de la población y el imparable calentamiento global, dejando la tierra en un punto\n' +
+                                    'crítico y de no retorno, no obstante todo cambiaría.</p>\n' +
+                                    '<p>Tiempo después los humanos sufrieron la caída de varios meteoritos en diferentes partes del mundo\n' +
+                                    'construidos por una clase de roca espacial extraña, según los científicos terrícolas a esos meteoritos\n' +
+                                    'no lo hacía especial la roca en sí, sino las partículas microscópicas que dicha roca presentaba.\n' +
+                                    '13.</p>\n' +
+                                    '<p>Estas, además de su fácil reproducción entre sí, contenían un poder energético colosal que los\n' +
+                                    'humanos aprendieron a utilizar principalmente en armamento, combustible y tecnología, e incluso\n' +
+                                    'en medicina, dándoles un fuerza e inteligencia tremendas y haciéndoles inmunes a enfermedades\n' +
+                                    'tanto mortales como comunes y a las superbacterias que se estaba cobrando millones de vidas en ese entonces.</p>\n' +
+                                    '<p>Sin embargo el correcto uso de esas partículas les otorgó a los humanos una nueva energía\n' +
+                                    'absolutamente ecológica que destronó a las energías no renovables, dándoles otra oportunidad\n' +
+                                    'para arreglar su planeta. Muchos años después la humanidad logró un gran avance cultural,\n' +
+                                    'tecnológico y medioambiental formando un nuevo planeta tierra de gran prosperidad.\n' +
+                                    'Sin embargo, la ambición y la conducta destructiva humana nunca cambió y con el descubrimiento\n' +
+                                    'de las partículas aplicadas al viaje espacial crearon naves reforzadas con la capacidad de viajar a\n' +
+                                    'través del universo para poblar nuevos planetas y establecer contacto con nuevas especies, y tal\n' +
+                                    'vez... encontrar más asteroides con las partículas que movieron el planeta, bautizadas como\n' +
+                                    'Gamma.</p>\n' +
                                 '</div>\n' +
                             '</div>\n' +
                             '<div class=\"row\">\n' +
-                                '<div class=\"col-md-12 col-lg-12 musicaMockup\">\n' +
-                                    'Imagen de Humanos\n' +
+                                '<div class=\"col-md-12 col-lg-12\">\n' +
+                                    '<div class=\"imgContent\">\n' +
+                                        '<img src=\"img/humanos.png\" alt=\"Símbolo de una raza\" class=\"img-responsive\">\n' +
+                                    '</div>\n' +
                                 '</div>\n' +
                             '</div>\n' +
 
                             '<div class=\"row\">\n' +
                                 '<div class=\"col-md-12 col-lg-12\">\n' +
-                                    '<h4 class=\"contentminiTitle\">Los guerreros</h4>\n' +
+                                    '<h4 class=\"contentminiTitle\">Los Dukich</h4>\n' +
                                     '<p>Una raza conocida en todo el universo por su habilidad en la batalla y sus guerreros sin miedo a la muerte. Toman lo que quieren, destruyendo a todo lo que se interponga en su camino.</p>\n' +
-                                    '<p>Entre sus filas encontraras algunos de los mejores guerreros cuerpo a cuerpo del universo.</p>\n' +
+                                    '<p>Entre sus filas encontraras algunos de los mejores guerreros cuerpo a cuerpo del universo. Se caracterizan por sus grandes cuerpos y aspecto barbárico, tienen una gran capacidad para entrenar a sus tropas pero carecen de una gran cantidad de trabajadores.</p>\n' +
+                                    '<p>100 años en la denominada galaxia Prime, existía un mundo que vivía en una guerra\n' +
+                                    'constante, este planeta estaba habitado por los Dukich una raza inicialmente pacífica.\n' +
+                                    'Pero era un mundo donde el más fuerte cogía lo que quería, no había sitio para la paz así que\n' +
+                                    'tuvieron que adaptarse, fortaleciéndose cada vez más y exterminando al resto de razas logrando\n' +
+                                    'ser las alfas del planeta. Pero cuando los enemigos desaparecieron, se crearon nuevos entre ellos\n' +
+                                    'mismos y así la guerra continuó de forma imparable.</p>\n' +
+                                    '<p>La raza avanzó lentamente en la tecnología, con el único objetivo de poder estar por delante del\n' +
+                                    'enemigo, hasta que el enemigo dejó de ser los que tenían al lado y fue la naturaleza la que marcaba\n' +
+                                    'el fin. La estrella que les iluminaba estaba moribunda y amenazaba con el fin de la galaxia, pero los\n' +
+                                    'Dukich ya eran guerreros y no aceptarían su fin si no era en batalla pues ellos no esperarían la\n' +
+                                    'muerte. Ellos eran la muerte.</p>\n' +
+                                    '<p>Así dejaron sus guerras y unieron a las mentes más brillantes de su raza y diseñaron una nave para\n' +
+                                    'viajar por las estrellas y llegar a nuevos mundos donde llevar la guerra que está arraigada en sus\n' +
+                                    'corazones y la muerte que nace de sus manos.</p>\n' +
                                 '</div>\n' +
                             '</div>\n' +
                             '<div class=\"row\">\n' +
-                                '<div class=\"col-md-12 col-lg-12 musicaMockup\">\n' +
-                                    'Imagen de Guerreros\n' +
+                                '<div class=\"col-md-12 col-lg-12\">\n' +
+                                    '<div class=\"imgContent\">\n' +
+                                        '<img src=\"img/vulcanos.png\" alt=\"Símbolo de una raza\" class=\"img-responsive\">\n' +
+                                    '</div>\n' +
                                 '</div>\n' +
                             '</div>\n' +
 
                             '<div class=\"row\">\n' +
                                 '<div class=\"col-md-12 col-lg-12\">\n' +
-                                    '<h4 class=\"contentminiTitle\">Los prósperos</h4>\n' +
+                                    '<h4 class=\"contentminiTitle\">Välmående (Prósperos)</h4>\n' +
                                     '<p>Conocidos en el universo por su gran capacidad para adaptarse a las situaciones más extremas. </p>\n' +
                                     '<p>Puede que no tengan el mayor poder ofensivo pero no se les escapan los secretos de la tierra y de cómo obtener el máximo de beneficios con el mínimo esfuerzo.</p>\n' +
+                                    '<p>Vienen del planeta Välmån, un planeta lleno de vida y naturaleza que vivió para la prosperidad\n' +
+                                    'durante muchos años. Sin embargo esta raza, pacífica por naturaleza, se vio involucrada en una\n' +
+                                    'guerra ajena y su mundo fue una víctima de esta. Ahora buscan un nuevo hogar en el que\n' +
+                                    'reconstruir su mundo; y si tienen que luchar esta vez lo harán.</p>\n' +
+                                    '<p>Han evolucionado en tecnología, sociedad y cultura de una forma en la que no hay conflictos entre\n' +
+                                    'ellos, pues tienen lo que necesitan. Sin embargo, crecen en número y deben encontrar el nuevo\n' +
+                                    'Välmån enseguida, pues todavía no han encontrado un planeta que les satisfaga.</p>\n' +
+                                    '<p>A pesar de que su creencia en la tecnología, mantienen y tienen muy arraigada la fe en su religión,\n' +
+                                    'pues hace que mantengan el respeto con el planeta en el que habitan así como en su especie.\n' +
+                                    'Por lo tanto son una especie que tiene la habilidad de prosperar en cualquier planeta por mucho\n' +
+                                    'más tiempo que otras, a pesar de que no sean la mejor en defensas ni ataque.</p>\n' +
                                 '</div>\n' +
                             '</div>\n' +
                             
-                            '<div class=\"row\">\n' +
-                                '<div class=\"col-md-12 col-lg-12 musicaMockup\">\n' +
-                                    'Imagen de Prósperos\n' +
-                                '</div>\n' +
-                            '</div>\n' +
-
                             '<div class=\"row\">\n' +
                                 '<div class=\"col-md-12 col-lg-12\">\n' +
-                                    '<h4 class=\"contentminiTitle\">Los avanzados</h4>\n' +
-                                    '<p>Conocidos en el universo por sus grandes conocimientos, son una especie muy avanzada tecnológicamente y pocos pueden compararse a ellos.</p>\n' +
-                                    '<p>La construcción de grandes estructuras es su especialidad y defensivamente se encuentran a la vanguardia.</p>\n' +
-                                '</div>\n' +
-                            '</div>\n' +
-                            
-                            '<div class=\"row\">\n' +
-                                '<div class=\"col-md-12 col-lg-12 musicaMockup\">\n' +
-                                    'Imagen de Avanzados\n' +
+                                    '<div class=\"imgContent\">\n' +
+                                        '<img src=\"img/prosperos.png\" alt=\"Símbolo de una raza\" class=\"img-responsive\">\n' +
+                                    '</div>\n' +
                                 '</div>\n' +
                             '</div>\n' +
                             
@@ -514,63 +585,68 @@ function showCampaignD(){
                                     '<p>Las Mega corporaciones son los poderes más influyentes del Universo. Estas corporaciones tienen cientos de razas asociadas y todas se benefician de lo que pueden ofrecer las otras ya que cada una está especializada en un sector, así que deberás recapacitar seriamente acciones que puedan dañar este equilibrio.</p>\n' +
                                 '</div>\n' +
                             '</div>\n' +
-                            
-                            '<div class=\"row\">\n' +
-                                '<div class=\"col-md-12 col-lg-12 musicaMockup\">\n' +
-                                    'Imagen de emblemas Mega corporaciones\n' +
-                                '</div>\n' +
-                            '</div>\n' +
 
                             '<div class=\"row\">\n' +
                                 '<div class=\"col-md-12 col-lg-12\">\n' +
-                                    '<h4 class=\"contentminiTitle\">Primera corporación</h4>\n' +
+                                    '<h4 class=\"contentminiTitle\">Artemis Inc.</h4>\n' +
                                     '<p>Nacida en la época en la que las guerras  estaban como primera orden del día. Esta corporación se especializa en el intercambio de armamentos y soldados especializados en la conquista.</p>\n' +
                                     '<p>No se toman a la ligera el ataque a sus asociados y ello puede dañar gravemente las relaciones y tu imperio en consecuencia.</p>\n' +
                                 '</div>\n' +
                             '</div>\n' +
                             
                             '<div class=\"row\">\n' +
-                                '<div class=\"col-md-12 col-lg-12 musicaMockup\">\n' +
-                                    'Imagen primera Mega corporación\n' +
+                                '<div class=\"col-md-12 col-lg-12\">\n' +
+                                    '<div class=\"imgContentLogo\">\n' +
+                                        '<img src=\"img/simbolo_guerrillero.png\" alt=\"Símbolo de una megacorporación\" class=\"img-responsive\">\n' +
+                                    '</div>\n' +
                                 '</div>\n' +
                             '</div>\n' +
 
                             '<div class=\"row\">\n' +
                                 '<div class=\"col-md-12 col-lg-12\">\n' +
-                                    '<h4 class=\"contentminiTitle\">Segunda corporación</h4>\n' +
+                                    '<h4 class=\"contentminiTitle\">Spacemaker Group</h4>\n' +
                                     '<p>Buscando el poder económico, tienen una gran cantidad de recursos que ofrecen a todo aquel dispuesto a pagar el precio adecuado. Esta corporación te ofrece una gran cantidad de materiales únicos a precios increíbles si eres su asociado.</p>\n' +
                                     '<p>Cualquier acción que les haga perder beneficios no quedara sin un castigo acorde.</p>\n' +
                                 '</div>\n' +
                             '</div>\n' +
                             
                             '<div class=\"row\">\n' +
-                                '<div class=\"col-md-12 col-lg-12 musicaMockup\">\n' +
-                                    'Imagen segunda Mega corporación\n' +
+                                '<div class=\"col-md-12 col-lg-12\">\n' +
+                                    '<div class=\"imgContentLogo\">\n' +
+                                        '<img src=\"img/simbolo_prospero.png\" alt=\"Símbolo de una megacorporación\" class=\"img-responsive\">\n' +
+                                    '</div>\n' +
                                 '</div>\n' +
                             '</div>\n' +
 
                             '<div class=\"row\">\n' +
                                 '<div class=\"col-md-12 col-lg-12\">\n' +
-                                    '<h4 class=\"contentminiTitle\">Tercera corporación</h4>\n' +
+                                    '<h4 class=\"contentminiTitle\">Hardship Corp.</h4>\n' +
                                     '<p>Defender a los suyos es su misión por ello tienen los mejores sistemas de defensa. Esta corporación te ofrece sistemas especiales para que no tengas que temer a los ataques.</p>\n' +
                                     '<p>Para crecer es imprescindible conservar lo ya conseguido.</p>\n' +
                                 '</div>\n' +
                             '</div>\n' +
                             
                             '<div class=\"row\">\n' +
-                                '<div class=\"col-md-12 col-lg-12 musicaMockup\">\n' +
-                                    'Imagen tercera Mega corporación\n' +
+                                '<div class=\"col-md-12 col-lg-12\">\n' +
+                                    '<div class=\"imgContentLogo\">\n' +
+                                            '<img src=\"img/simbolo_tecnologico.png\" alt=\"Símbolo de una megacorporación\" class=\"img-responsive\">\n' +
+                                        '</div>\n' +
                                 '</div>\n' +
                             '</div>\n' +
                         '</div>\n' +
                     '</div>\n' +
                     '<div id=\"gameplayD\" class=\"row\"> <!-- GAMEPLAY DESKTOP -->\n' +
-                        '<div class=\"col-md-12 col-lg-12 musicaMockup\">\n' +
+                        '<div class=\"col-md-12 col-lg-12\">\n' +
                             '<h3 class=\"contentSubTitle\">Cómo se juega</h3>\n' +
+                            '<p>Dos modos principales de juego</p>\n' +
+                            '<p>Sin conexión:</p>\n' +
+                                '<p>Juego de exploración y recursos. Contruye tu propia base y visita otros lugares creados por otros jugadores o por el sistema para comerciar</p>\n' +
+                            '<p>Online</p>\n' +
+                                '<p>Únete a una Megacorporación para conseguir mejoras en un grupo concreto de recursos. Enfréntate a otras Megacorporaciones en batallas multitudinarias junto a miles de jugadores para conseguir el dominio comercial del universo. Pero cuidado, porque si una raza o una megacorporación desaparece, los recursos que producen en exclusiva también lo harán.</p>\n' +
                         '</div>\n' +
                     '</div>\n' +
                 '</div>\n' +
-            '</div>\n'
+            '</div>'
 }
 
 function showProjectD(){
@@ -581,8 +657,8 @@ function showProjectD(){
     document.getElementById('buttonTeamD').classList.remove('menuActive');
 
     var a = document.getElementById('main');
-    /*document.getElementById('bodySup').style.backgroundImage="url('../img/fondo_nasa_2.png')";
-    document.getElementById('bodyInf').style.backgroundImage="url('../img/fondo_nasa_2.png')";*/
+    /*document.getElementById('bodySup').style.backgroundImage="url('../img/fondo_nasa_2.png')";*/
+    document.getElementById('bodyInf').style.backgroundImage="url('img/fondo_nasa_2.jpg')";
     a.innerHTML='<div class=\"row wrapper\">\n' +
                     '<div id=\"projectD\" class=\"row projectD\">\n' +
                         '<div class=\"row\" style=\"min-height: 400px;\">\n' +
@@ -688,8 +764,8 @@ function showFaqsD(){
     document.getElementById('buttonTeamD').classList.remove('menuActive');
 
     var a = document.getElementById('main');
-    /*document.getElementById('bodySup').style.backgroundImage="url('../img/fondo1.png')";
-    document.getElementById('bodyInf').style.backgroundImage="url('../img/fondo1.png')";*/
+    /*document.getElementById('bodySup').style.backgroundImage="url('../img/fondo1.png')";*/
+    document.getElementById('bodyInf').style.backgroundImage="url('img/fondo1.jpg')";
     a.innerHTML='<div class=\"row wrapper\">\n' +
                     '<div id=\"faqsD\" class="row faqD\">\n' +
                         '<div class=\"col-md-12 col-lg-12 \">\n' +
@@ -708,8 +784,8 @@ function showCommentsD(){
     document.getElementById('buttonTeamD').classList.remove('menuActive');
 
     var a = document.getElementById('main');
-    /*document.getElementById('bodySup').style.backgroundImage="url('img/fondo_eagle-nebula-2.jpg')";
-    document.getElementById('bodyInf').style.backgroundImage="url('img/fondo_eagle-nebula-2.jpg')";*/
+    /*document.getElementById('bodySup').style.backgroundImage="url('img/fondo_eagle-nebula-2.jpg')";*/
+    document.getElementById('bodyInf').style.backgroundImage="url('img/fondo_eagle-nebula-2.jpg')";
     a.innerHTML='<div class=\"row wrapper\">\n' +
                     '<div id=\"commentsD\" class=\"row commentsD\">\n' +
                         '<div class=\"col-md-12 col-lg-12\">\n' +
@@ -728,8 +804,8 @@ function showTeamD(){
     document.getElementById('buttonTeamD').classList.add('menuActive');
 
     var a = document.getElementById('main');
-    /*document.getElementById('bodySup').style.backgroundImage="url('../img/fondo_carina-nebula-wide.png')";
-    document.getElementById('bodyInf').style.backgroundImage="url('../img/fondo_carina-nebula-wide.png')";*/
+    /*document.getElementById('bodySup').style.backgroundImage="url('../img/fondo_carina-nebula-wide.png')";*/
+    document.getElementById('bodyInf').style.backgroundImage="url('img/fondo_carina-nebula-wide.jpg')";
     a.innerHTML='<div class=\"row wrapper\">\n' +
                     '<div id="teamD" class="row teamD">\n' +
                         '<div class="col-md-12 col-lg-12 teamBlock">\n' +
