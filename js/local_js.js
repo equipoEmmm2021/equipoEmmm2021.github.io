@@ -646,7 +646,30 @@ function showCampaignD(){
                         '</div>\n' +
                     '</div>\n' +
                 '</div>\n' +
-            '</div>'
+            '</div>\n' +
+            '<!-- FOOTER -->\n' +
+            '<footer class=\"footer\">\n' +
+                '<div class=\"row wrapper\">\n' +
+                    '<div class=\"col-xs-12 col-sm-12\">\n' +
+                        '<div class=\"bloqueRRSS\">\n' +
+                            '<img src=\"img/logo_facebook.png\" onclick=\"alertM()\" style=\"cursor: pointer;\" alt=\"Logo Facebook\" class=\"img-responsive logoRRSSM\">\n' +
+                            '<img src=\"img/logo_twitter.png\" onclick=\"alertM()\" style=\"cursor: pointer;\" alt=\"Logo Facebook\" class=\"img-responsive logoRRSSM\">\n' +
+                            '<img src=\"img/logo_instagram.png\" onclick=\"alertM()\" style=\"cursor: pointer;\" alt=\"Logo Facebook\" class=\"img-responsive logoRRSSM\">\n' +
+                            '<img src=\"img/logo_youtube.png\" onclick=\"alertM()\" style=\"cursor: pointer;\" alt=\"Logo Facebook\" class=\"img-responsive logoRRSSM\">\n' +
+                        '</div>\n' +
+                    '</div>\n' +
+                    '<div class=\"col-md-12 col-lg-12\">\n' +
+                        '<div class=\"bloqueRRSS\">\n' +
+                            '<img src=\"img/logo_facebook.png\" onclick=\"alertD()\" style=\"cursor: pointer;\" alt=\"Logo Facebook\" class=\"img-responsive logoRRSS\">\n' +
+                            '<img src=\"img/logo_twitter.png\" onclick=\"alertD()\" style=\"cursor: pointer;\" alt=\"Logo Facebook\" class=\"img-responsive logoRRSS\">\n' +
+                            '<img src=\"img/logo_instagram.png\" onclick=\"alertD()\" style=\"cursor: pointer;\" alt=\"Logo Facebook\" class=\"img-responsive logoRRSS\">\n' +
+                            '<img src=\"img/logo_youtube.png\" onclick=\"alertD()\" style=\"cursor: pointer;\" alt=\"Logo Facebook\" class=\"img-responsive logoRRSS\">\n' +
+                        '</div>\n' +
+                    '</div>\n' +
+                '</div>\n' +
+            '</footer>\n' +
+        '</div>\n' +
+    '</div>'
 }
 
 function showProjectD(){
@@ -752,6 +775,27 @@ function showProjectD(){
                             '</div>\n' +
                         '</div>\n' +
                     '</div>\n' +
+                    '<!-- FOOTER -->\n' +
+                    '<footer class=\"footer\">\n' +
+                        '<div class=\"row wrapper\">\n' +
+                            '<div class=\"col-xs-12 col-sm-12\">\n' +
+                                '<div class=\"bloqueRRSS\">\n' +
+                                    '<img src=\"img/logo_facebook.png\" onclick=\"alertM()\" style=\"cursor: pointer;\" alt=\"Logo Facebook\" class=\"img-responsive logoRRSSM\">\n' +
+                                    '<img src=\"img/logo_twitter.png\" onclick=\"alertM()\" style=\"cursor: pointer;\" alt=\"Logo Facebook\" class=\"img-responsive logoRRSSM\">\n' +
+                                    '<img src=\"img/logo_instagram.png\" onclick=\"alertM()\" style=\"cursor: pointer;\" alt=\"Logo Facebook\" class=\"img-responsive logoRRSSM\">\n' +
+                                    '<img src=\"img/logo_youtube.png\" onclick=\"alertM()\" style=\"cursor: pointer;\" alt=\"Logo Facebook\" class=\"img-responsive logoRRSSM\">\n' +
+                                '</div>\n' +
+                            '</div>\n' +
+                            '<div class=\"col-md-12 col-lg-12\">\n' +
+                                '<div class=\"bloqueRRSS\">\n' +
+                                    '<img src=\"img/logo_facebook.png\" onclick=\"alertD()\" style=\"cursor: pointer;\" alt=\"Logo Facebook\" class=\"img-responsive logoRRSS\">\n' +
+                                    '<img src=\"img/logo_twitter.png\" onclick=\"alertD()\" style=\"cursor: pointer;\" alt=\"Logo Facebook\" class=\"img-responsive logoRRSS\">\n' +
+                                    '<img src=\"img/logo_instagram.png\" onclick=\"alertD()\" style=\"cursor: pointer;\" alt=\"Logo Facebook\" class=\"img-responsive logoRRSS\">\n' +
+                                    '<img src=\"img/logo_youtube.png\" onclick=\"alertD()\" style=\"cursor: pointer;\" alt=\"Logo Facebook\" class=\"img-responsive logoRRSS\">\n' +
+                                '</div>\n' +
+                            '</div>\n' +
+                        '</div>\n' +
+                    '</footer>\n' +
                 '</div>'
 }
 
@@ -772,6 +816,27 @@ function showFaqsD(){
                             '<h2 class="contentSubTitle">Preguntas frecuentes</h2>\n' +
                         '</div>\n' +
                     '</div>\n' +
+                    '<!-- FOOTER -->\n' +
+                    '<footer class=\"footer\">\n' +
+                        '<div class=\"row wrapper\">\n' +
+                            '<div class=\"col-xs-12 col-sm-12\">\n' +
+                                '<div class=\"bloqueRRSS\">\n' +
+                                    '<img src=\"img/logo_facebook.png\" onclick=\"alertM()\" style=\"cursor: pointer;\" alt=\"Logo Facebook\" class=\"img-responsive logoRRSSM\">\n' +
+                                    '<img src=\"img/logo_twitter.png\" onclick=\"alertM()\" style=\"cursor: pointer;\" alt=\"Logo Facebook\" class=\"img-responsive logoRRSSM\">\n' +
+                                    '<img src=\"img/logo_instagram.png\" onclick=\"alertM()\" style=\"cursor: pointer;\" alt=\"Logo Facebook\" class=\"img-responsive logoRRSSM\">\n' +
+                                    '<img src=\"img/logo_youtube.png\" onclick=\"alertM()\" style=\"cursor: pointer;\" alt=\"Logo Facebook\" class=\"img-responsive logoRRSSM\">\n' +
+                                '</div>\n' +
+                            '</div>\n' +
+                            '<div class=\"col-md-12 col-lg-12\">\n' +
+                                '<div class=\"bloqueRRSS\">\n' +
+                                    '<img src=\"img/logo_facebook.png\" onclick=\"alertD()\" style=\"cursor: pointer;\" alt=\"Logo Facebook\" class=\"img-responsive logoRRSS\">\n' +
+                                    '<img src=\"img/logo_twitter.png\" onclick=\"alertD()\" style=\"cursor: pointer;\" alt=\"Logo Facebook\" class=\"img-responsive logoRRSS\">\n' +
+                                    '<img src=\"img/logo_instagram.png\" onclick=\"alertD()\" style=\"cursor: pointer;\" alt=\"Logo Facebook\" class=\"img-responsive logoRRSS\">\n' +
+                                    '<img src=\"img/logo_youtube.png\" onclick=\"alertD()\" style=\"cursor: pointer;\" alt=\"Logo Facebook\" class=\"img-responsive logoRRSS\">\n' +
+                                '</div>\n' +
+                            '</div>\n' +
+                        '</div>\n' +
+                    '</footer>\n' +
                 '</div>'
 }
 
@@ -792,6 +857,27 @@ function showCommentsD(){
                             '<h2>COMENTARIOS</h2>\n' +
                         '</div>\n' +
                     '</div>\n' +
+                    '<!-- FOOTER -->\n' +
+                    '<footer class=\"footer\">\n' +
+                        '<div class=\"row wrapper\">\n' +
+                            '<div class=\"col-xs-12 col-sm-12\">\n' +
+                                '<div class=\"bloqueRRSS\">\n' +
+                                    '<img src=\"img/logo_facebook.png\" onclick=\"alertM()\" style=\"cursor: pointer;\" alt=\"Logo Facebook\" class=\"img-responsive logoRRSSM\">\n' +
+                                    '<img src=\"img/logo_twitter.png\" onclick=\"alertM()\" style=\"cursor: pointer;\" alt=\"Logo Facebook\" class=\"img-responsive logoRRSSM\">\n' +
+                                    '<img src=\"img/logo_instagram.png\" onclick=\"alertM()\" style=\"cursor: pointer;\" alt=\"Logo Facebook\" class=\"img-responsive logoRRSSM\">\n' +
+                                    '<img src=\"img/logo_youtube.png\" onclick=\"alertM()\" style=\"cursor: pointer;\" alt=\"Logo Facebook\" class=\"img-responsive logoRRSSM\">\n' +
+                                '</div>\n' +
+                            '</div>\n' +
+                            '<div class=\"col-md-12 col-lg-12\">\n' +
+                                '<div class=\"bloqueRRSS\">\n' +
+                                    '<img src=\"img/logo_facebook.png\" onclick=\"alertD()\" style=\"cursor: pointer;\" alt=\"Logo Facebook\" class=\"img-responsive logoRRSS\">\n' +
+                                    '<img src=\"img/logo_twitter.png\" onclick=\"alertD()\" style=\"cursor: pointer;\" alt=\"Logo Facebook\" class=\"img-responsive logoRRSS\">\n' +
+                                    '<img src=\"img/logo_instagram.png\" onclick=\"alertD()\" style=\"cursor: pointer;\" alt=\"Logo Facebook\" class=\"img-responsive logoRRSS\">\n' +
+                                    '<img src=\"img/logo_youtube.png\" onclick=\"alertD()\" style=\"cursor: pointer;\" alt=\"Logo Facebook\" class=\"img-responsive logoRRSS\">\n' +
+                                '</div>\n' +
+                            '</div>\n' +
+                        '</div>\n' +
+                    '</footer>\n' +
                 '</div>'
 }
 
@@ -818,6 +904,27 @@ function showTeamD(){
                             '<p><strong>·SANZ CORONEL, JORGE</strong> - Concept escenarios e items (real: elaboración de imágenes)</p>\n' +
                         '</div>\n' +
                     '</div>\n' +
+                    '<!-- FOOTER -->\n' + 
+                    '<footer class=\"footer\">\n' +
+                        '<div class=\"row wrapper\">\n' +
+                            '<div class=\"col-xs-12 col-sm-12\">\n' +
+                                '<div class=\"bloqueRRSS\">\n' +
+                                    '<img src=\"img/logo_facebook.png\" onclick=\"alertM()\" style=\"cursor: pointer;\" alt=\"Logo Facebook\" class=\"img-responsive logoRRSSM\">\n' +
+                                    '<img src=\"img/logo_twitter.png\" onclick=\"alertM()\" style=\"cursor: pointer;\" alt=\"Logo Facebook\" class=\"img-responsive logoRRSSM\">\n' +
+                                    '<img src=\"img/logo_instagram.png\" onclick=\"alertM()\" style=\"cursor: pointer;\" alt=\"Logo Facebook\" class=\"img-responsive logoRRSSM\">\n' +
+                                    '<img src=\"img/logo_youtube.png\" onclick=\"alertM()\" style=\"cursor: pointer;\" alt=\"Logo Facebook\" class=\"img-responsive logoRRSSM\">\n' +
+                                '</div>\n' +
+                            '</div>\n' +
+                            '<div class=\"col-md-12 col-lg-12\">\n' +
+                                '<div class=\"bloqueRRSS\">\n' +
+                                    '<img src=\"img/logo_facebook.png\" onclick=\"alertD()\" style=\"cursor: pointer;\" alt=\"Logo Facebook\" class=\"img-responsive logoRRSS\">\n' +
+                                    '<img src=\"img/logo_twitter.png\" onclick=\"alertD()\" style=\"cursor: pointer;\" alt=\"Logo Facebook\" class=\"img-responsive logoRRSS\">\n' +
+                                    '<img src=\"img/logo_instagram.png\" onclick=\"alertD()\" style=\"cursor: pointer;\" alt=\"Logo Facebook\" class=\"img-responsive logoRRSS\">\n' +
+                                    '<img src=\"img/logo_youtube.png\" onclick=\"alertD()\" style=\"cursor: pointer;\" alt=\"Logo Facebook\" class=\"img-responsive logoRRSS\">\n' +
+                                '</div>\n' +
+                            '</div>\n' +
+                        '</div>\n' +
+                    '</footer>\n' +
                 '</div>'
 }
 
