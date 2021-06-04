@@ -6,6 +6,10 @@
     -webkit-text-stroke: 0.1px white;
 }
 
+/*.bodySup{
+    background-image: url('../img/fondo_nasa.jpg');
+}*/
+
 .bodyInf{
     margin-top: -10px;
     background-image: url('../img/fondo_nasa.jpg');
@@ -13,7 +17,7 @@
 .wrapper{
     max-width: 1280px;
     display: block;
-    margin: 0 auto;
+    margin: -10px auto 0px;
     padding: 0 10px;
 }
 
@@ -172,7 +176,8 @@
 }
 
 #hero{
-    margin-bottom: 40px;
+    padding: 0px 10px 40px;
+    background-color: white;
 }
 
 .mainMenuMob{
@@ -331,6 +336,7 @@
 .contentMiniTitle{
     font-weight: 600;
     margin: 15px 0px 5px;
+    font-size: 1.1rem;
 }
 
 .content_menuLink{
@@ -534,6 +540,26 @@ background-color: white;
 .faqD{
     padding: 30px 10px 0px;
     background-color: white;
+}
+
+.faq{
+    border-top: 1px solid #DDD;
+    margin: 20px 0px 0px;
+    padding-top: 20px;
+}
+
+.fechaFaq{
+    font-size: 0.65rem;
+    color: #656969;
+}
+
+/* COMMENTS */
+
+.commentsM,.commentsD{
+    padding: 30px 10px 0px;
+    background-color: white;
+}
+
 }
 
 /* OUR TEAM */
