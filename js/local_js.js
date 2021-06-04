@@ -1016,6 +1016,10 @@ function showCommentsD(){
                             '<p>¿Quieres dejarnos algún comentario? ¡Adelante! Solo recuerda que necesitarás conexión a internet y una cuenta de Facebook para hacerlo.</p>\n' +
                             '<div id="disqus_thread"></div>\n' +
                             '<script>\n' +
+                                'var disqus_config = function () {\n' +
+                                'this.page.url = https://equipoemmm2021.github.io/;\n' +
+                                'this.page.identifier = grupoEMultimedia;\n' +
+                                '};\n' +
                                 '(function() {\n' +
                                 'var d = document, s = d.createElement(\'script\');\n' +
                                 's.src = \'https://practica-6.disqus.com/embed.js\';\n' +
