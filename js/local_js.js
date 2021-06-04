@@ -471,7 +471,16 @@ function showCommentsM(){
     a.innerHTML='<div id="commentsM" class="row commentsM">\n' +
                     '<h2>COMENTARIOS</h2>\n' +
                     '<p>¿Quieres dejarnos algún comentario? ¡Adelante! Solo recuerda que necesitarás conexión a internet y una cuenta de Facebook para hacerlo.</p>\n' +
-                    '<div class="fb-comment-embed" data-href="https://equipoemmm2021.github.io/" data-width="100%" data-include-parent="true"></div>\n' +
+                    '<div id="disqus_thread"></div>\n' +
+                    '<script>\n' +
+                        '(function() {\n' +
+                        'var d = document, s = d.createElement(\'script\');\n' +
+                        's.src = \'https://practica-6.disqus.com/embed.js\';\n' +
+                        's.setAttribute(\'data-timestamp\', +new Date());\n' +
+                        '(d.head || d.body).appendChild(s);\n' +
+                        '})();\n' +
+                    '</script>\n' +
+                    '<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>\n' +
                 '</div>\n' +
                 '<!-- FOOTER -->\n' +
                     '<footer class=\"footer\">\n' +
@@ -1005,7 +1014,17 @@ function showCommentsD(){
                         '<div class=\"col-md-12 col-lg-12\">\n' +
                             '<h2>COMENTARIOS</h2>\n' +
                             '<p>¿Quieres dejarnos algún comentario? ¡Adelante! Solo recuerda que necesitarás conexión a internet y una cuenta de Facebook para hacerlo.</p>\n' +
-                            '<div class="fb-comment-embed" data-href="https://equipoemmm2021.github.io/" data-width="100%" data-include-parent="true"></div>\n' +
+                            '<div id="disqus_thread"></div>\n' +
+                            '<script>\n' +
+                                '(function() {\n' +
+                                'var d = document, s = d.createElement(\'script\');\n' +
+                                's.src = \'https://practica-6.disqus.com/embed.js\';\n' +
+                                's.setAttribute(\'data-timestamp\', +new Date());\n' +
+                                '(d.head || d.body).appendChild(s);\n' +
+                                '})();\n' +
+                            '</script>\n' +
+                            '<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>\n' +
+                        '</div>\n' +
                         '</div>\n' +
                     '</div>\n' +
                     '<!-- FOOTER -->\n' +
