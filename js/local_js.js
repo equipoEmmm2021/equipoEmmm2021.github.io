@@ -1026,8 +1026,7 @@ function showCommentsD(){
                             '<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>\n' +
                         '</div>\n' +
                         '</div>\n' +
-                    '</div>\n' +
-                    '<!-- FOOTER -->\n' +
+                        '<!-- FOOTER -->\n' +
                     '<footer class=\"footer\">\n' +
                         '<div class=\"row wrapper\">\n' +
                             '<div class=\"col-xs-12 col-sm-12\">\n' +
@@ -1048,6 +1047,8 @@ function showCommentsD(){
                             '</div>\n' +
                         '</div>\n' +
                     '</footer>\n' +
+                    '</div>\n' +
+                    
                 '</div>'
 }
 
