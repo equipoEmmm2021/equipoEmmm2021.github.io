@@ -53,7 +53,7 @@ function showCampaignM(){
     a.innerHTML='<div id="campaignM" class="row campaignM">\n' +
                     '<div class="row"> <!-- MAIN VIDEO MOBILE -->\n' +
                         '<div id="videoM" class="col-xs-12 col-sm-12 video-responsive">\n' +
-                            '<video src="video/secuencia_01.mp4" poster="img/heroD.png" controls="true" width="100%" height="auto"></video>\n' +
+                            '<video src="video/video.mp4" poster="img/heroD.png" controls="true" width="100%" height="auto"></video>\n' +
                         '</div>\n' +
                     '</div>\n' +
                     '<div class="row"> <!-- ORIGINAL MUSIC MOBILE -->\n' +
@@ -587,7 +587,7 @@ function showCampaignD(){
                 '<div id=\"contentMain\" class=\"col-md-10 col-lg-10\" style=\"margin-right: 1%;\">\n' +
                     '<div class=\"row\"> <!-- MAIN VIDEO -->\n' +
                         '<div id=\"videoD\" class=\"col-md-12 col-lg-12 video-responsive\">\n' +
-                            '<video src="video/secuencia_01.mp4" poster="img/heroD.png" controls="true" width="100%" height="auto"></video>\n' +
+                            '<video src="video/video.mp4" poster="img/heroD.png" controls="true" width="100%" height="auto"></video>\n' +
                         '</div>\n' +
                     '</div>\n' +
                     '<div id=\"musicD\" class=\"row\"> <!-- Original music DESKTOP -->\n' +
