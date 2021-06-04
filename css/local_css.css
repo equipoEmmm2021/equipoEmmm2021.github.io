@@ -555,17 +555,15 @@ background-color: white;
 
 /* COMMENTS */
 
-.commentsM,.commentsD{
+.commentsD,.teamD{
     padding: 30px 10px 0px;
     background-color: white;
-}
-
 }
 
 /* OUR TEAM */
 
 .teamBlock{
-    padding: 20px 10px 0px;
+    padding: 20px 0px 0px;
     background-color: white;
 }
 
