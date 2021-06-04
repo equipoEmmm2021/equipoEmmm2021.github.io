@@ -470,17 +470,36 @@ function showCommentsM(){
     var a=document.getElementById('mainM');
     a.innerHTML='<div id="commentsM" class="row commentsM">\n' +
                     '<h2>COMENTARIOS</h2>\n' +
-                    '<p>¿Quieres dejarnos algún comentario? ¡Adelante! Solo recuerda que necesitarás conexión a internet y una cuenta de Facebook para hacerlo.</p>\n' +
-                    '<div id="disqus_thread"></div>\n' +
-                    '<script>\n' +
-                        '(function() {\n' +
-                        'var d = document, s = d.createElement(\'script\');\n' +
-                        's.src = \'https://practica-6.disqus.com/embed.js\';\n' +
-                        's.setAttribute(\'data-timestamp\', +new Date());\n' +
-                        '(d.head || d.body).appendChild(s);\n' +
-                        '})();\n' +
-                    '</script>\n' +
-                    '<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>\n' +
+                    '<p>¿Quieres dejarnos algún comentario? ¡Adelante! Solo recuerda que necesitarás conexión a internet.</p>\n' +
+                    '<section class="u-clearfix u-section-1" id="sec-c57e">\n' +
+                        '<div class="u-clearfix u-sheet u-sheet-1">\n' +
+                            '<div class="u-form u-form-1">\n' +
+                                '<form action="https://nicepage.com/editor/Forms/Process" method="POST" class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form" style="padding: 10px" source="email" name="form">\n' +
+                                    '<input type="hidden" id="siteId" name="siteId" value="434937">\n' +
+                                    '<input type="hidden" id="pageId" name="pageId" value="434938">\n' +
+                                    '<div class="u-form-group u-form-name">\n' +
+                                    '<label for="name-c4e7" class="u-form-control-hidden u-label">Nombre</label>\n' +
+                                    '<input type="text" placeholder="Introduzca su nombre" id="name-c4e7" name="name" class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-white" required="">\n' +
+                                    '</div>\n' +
+                                    '<div class="u-form-email u-form-group">\n' +
+                                    '<label for="email-c4e7" class="u-form-control-hidden u-label">Email</label>\n' +
+                                    '<input type="email" placeholder="Introduzca una dirección de correo electrónico válida" id="email-c4e7" name="email" class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-white" required="">\n' +
+                                    '</div>\n' +
+                                    '<div class="u-form-group u-form-message">\n' +
+                                    '<label for="message-c4e7" class="u-form-control-hidden u-label">Mensaje</label>\n' +
+                                    '<textarea placeholder="Ingrese su mensaje" rows="4" cols="50" id="message-c4e7" name="message" class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-white" required=""></textarea>\n' +
+                                    '</div>\n' +
+                                    '<div class="u-align-left u-form-group u-form-submit">\n' +
+                                    '<a href="#" class="u-btn u-btn-submit u-button-style">Enviar</a>\n' +
+                                    '<input type="submit" value="submit" class="u-form-control-hidden">\n' +
+                                    '</div>\n' +
+                                    '<div class="u-form-send-message u-form-send-success"> Gracias! Tu mensaje ha sido enviado. </div>\n' +
+                                    '<div class="u-form-send-error u-form-send-message"> No se puede enviar su mensaje. Por favor, corrija los errores y vuelva a intentarlo. </div>\n' +
+                                    '<input type="hidden" value="" name="recaptchaResponse">\n' +
+                                '</form>\n' +
+                            '</div>\n' +
+                        '</div>\n' +
+                    '</section>\n' +
                 '</div>\n' +
                 '<!-- FOOTER -->\n' +
                     '<footer class=\"footer\">\n' +
@@ -1013,21 +1032,36 @@ function showCommentsD(){
                     '<div id=\"commentsD\" class=\"row commentsD\">\n' +
                         '<div class=\"col-md-12 col-lg-12\">\n' +
                             '<h2>COMENTARIOS</h2>\n' +
-                            '<p>¿Quieres dejarnos algún comentario? ¡Adelante! Solo recuerda que necesitarás conexión a internet y una cuenta de Facebook para hacerlo.</p>\n' +
-                            '<div id="disqus_thread"></div>\n' +
-                            '<script>\n' +
-                                'var disqus_config = function () {\n' +
-                                'this.page.url = \"https://equipoemmm2021.github.io/\";\n' +
-                                'this.page.identifier = \"grupoEMultimedia\";\n' +
-                                '};\n' +
-                                '(function() {\n' +
-                                'var d = document, s = d.createElement(\'script\');\n' +
-                                's.src = \'https://practica-6.disqus.com/embed.js\';\n' +
-                                's.setAttribute(\'data-timestamp\', +new Date());\n' +
-                                '(d.head || d.body).appendChild(s);\n' +
-                                '})();\n' +
-                            '</script>\n' +
-                            '<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>\n' +
+                            '<p>¿Quieres dejarnos algún comentario? ¡Adelante! Solo recuerda que necesitarás conexión a internet.</p>\n' +
+                            '<section class="u-clearfix u-section-1" id="sec-c57e">\n' +
+                                '<div class="u-clearfix u-sheet u-sheet-1">\n' +
+                                    '<div class="u-form u-form-1">\n' +
+                                        '<form action="https://nicepage.com/editor/Forms/Process" method="POST" class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form" style="padding: 10px" source="email" name="form">\n' +
+                                            '<input type="hidden" id="siteId" name="siteId" value="434937">\n' +
+                                            '<input type="hidden" id="pageId" name="pageId" value="434938">\n' +
+                                            '<div class="u-form-group u-form-name">\n' +
+                                            '<label for="name-c4e7" class="u-form-control-hidden u-label">Nombre</label>\n' +
+                                            '<input type="text" placeholder="Introduzca su nombre" id="name-c4e7" name="name" class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-white" required="">\n' +
+                                            '</div>\n' +
+                                            '<div class="u-form-email u-form-group">\n' +
+                                            '<label for="email-c4e7" class="u-form-control-hidden u-label">Email</label>\n' +
+                                            '<input type="email" placeholder="Introduzca una dirección de correo electrónico válida" id="email-c4e7" name="email" class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-white" required="">\n' +
+                                            '</div>\n' +
+                                            '<div class="u-form-group u-form-message">\n' +
+                                            '<label for="message-c4e7" class="u-form-control-hidden u-label">Mensaje</label>\n' +
+                                            '<textarea placeholder="Ingrese su mensaje" rows="4" cols="50" id="message-c4e7" name="message" class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-white" required=""></textarea>\n' +
+                                            '</div>\n' +
+                                            '<div class="u-align-left u-form-group u-form-submit">\n' +
+                                            '<a href="#" class="u-btn u-btn-submit u-button-style">Enviar</a>\n' +
+                                            '<input type="submit" value="submit" class="u-form-control-hidden">\n' +
+                                            '</div>\n' +
+                                            '<div class="u-form-send-message u-form-send-success"> Gracias! Tu mensaje ha sido enviado. </div>\n' +
+                                            '<div class="u-form-send-error u-form-send-message"> No se puede enviar su mensaje. Por favor, corrija los errores y vuelva a intentarlo. </div>\n' +
+                                            '<input type="hidden" value="" name="recaptchaResponse">\n' +
+                                        '</form>\n' +
+                                    '</div>\n' +
+                                '</div>\n' +
+                            '</section>\n' +
                         '</div>\n' +
                         '</div>\n' +
                         '<!-- FOOTER -->\n' +
