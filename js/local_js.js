@@ -314,11 +314,6 @@ function showRewardsM(){
                         '<div class=\"col-xs-12 col-sm-12\">\n' +
                             '<a href=\"#MenuCampaign\" onclick=\"alertD()\"><div class=\"mainButton\">Patrocina este proyecto</div></a>\n' +
                         '</div>\n' +
-                    '<div class="row bloqueM">\n' +
-                        '<div class="col-xs-12 col-sm-12">\n' +
-                            '<h2>Objetivos</h2>\n' +
-                        '</div>\n' +
-                    '</div>\n' +
                     '<div class="row">\n' +
                         '<div class="col-xs-12 col-sm-12">\n' +
                             '<h2>Recompensas</h2>\n' +
@@ -839,11 +834,6 @@ function showProjectD(){
                                         '<p class=\"datoNum\">200</p>\n' +
                                         '<p class=\"subText\">días más</p>\n' +
                                     '</div>\n' +
-                                '</div>\n' +
-                                '<div class=\"row bloqueD\">\n' +
-                                    '<div class=\"col-md-12 col-lg-12\">\n' +
-                                        '<h2>Objetivos</h2>\n' +
-                                    '</div>\n' +           
                                 '</div>\n' +
                                 '<div class=\"row\">\n' +
                                     '<a href=\"#MenuCampaign\" onclick=\"alertD()\"><div class=\"mainButton\">Patrocina este proyecto</div></a>\n' +
