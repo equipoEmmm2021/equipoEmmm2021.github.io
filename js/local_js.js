@@ -471,7 +471,7 @@ function showCommentsM(){
     a.innerHTML='<div id="commentsM" class="row commentsM">\n' +
                     '<h2>COMENTARIOS</h2>\n' +
                     '<p>¿Quieres dejarnos algún comentario? ¡Adelante! Solo recuerda que necesitarás conexión a internet y una cuenta de Facebook para hacerlo.</p>\n' +
-                    '<div class="fb-comments" data-href="https://equipoemmm2021.github.io/" data-width="335" data-numposts="5"></div>\n' +
+                    '<div class="fb-comments" data-href="https://equipoemmm2021.github.io/" data-width="100%" data-numposts="5"></div>\n' +
                 '</div>\n' +
                 '<!-- FOOTER -->\n' +
                     '<footer class=\"footer\">\n' +
@@ -1005,7 +1005,7 @@ function showCommentsD(){
                         '<div class=\"col-md-12 col-lg-12\">\n' +
                             '<h2>COMENTARIOS</h2>\n' +
                             '<p>¿Quieres dejarnos algún comentario? ¡Adelante! Solo recuerda que necesitarás conexión a internet y una cuenta de Facebook para hacerlo.</p>\n' +
-                            '<div class="fb-comments" data-href="https://equipoemmm2021.github.io/" data-width="900" data-numposts="5"></div>\n' +
+                            '<div class="fb-comments" data-href="https://equipoemmm2021.github.io/" data-width="100%" data-numposts="5"></div>\n' +
                         '</div>\n' +
                     '</div>\n' +
                     '<!-- FOOTER -->\n' +
