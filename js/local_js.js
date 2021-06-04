@@ -544,7 +544,8 @@ function showTeamM(){
                         '<p><strong>·RODRÍGUEZ CORDERO, BORJA</strong> - Game design (real: documentación y textos)</p>\n' +
                         '<p><strong>·SANZ CORONEL, JORGE</strong> - Concept escenarios e items (real: elaboración de imágenes)</p>\n' +
                     '</div>\n' +
-                    '<!-- FOOTER -->\n' +
+                '</div>\n' +
+                '<!-- FOOTER -->\n' +
                     '<footer class=\"footer\">\n' +
                         '<div class=\"row wrapper\">\n' +
                             '<div class=\"col-xs-12 col-sm-12\">\n' +
@@ -565,7 +566,7 @@ function showTeamM(){
                             '</div>\n' +
                         '</div>\n' +
                     '</footer>\n' +
-                '</div>\n' +
+                '</div>'
 }
 
 //Functions to show different content blocks in desktop
@@ -1112,7 +1113,8 @@ function showTeamD(){
                             '<p><strong>·RODRÍGUEZ CORDERO, BORJA</strong> - Game design (real: documentación y textos)</p>\n' +
                             '<p><strong>·SANZ CORONEL, JORGE</strong> - Concept escenarios e items (real: elaboración de imágenes)</p>\n' +
                         '</div>\n' +
-                        '<!-- FOOTER -->\n' + 
+                    '</div>\n' +
+                    '<!-- FOOTER -->\n' + 
                     '<footer class=\"footer\">\n' +
                         '<div class=\"row wrapper\">\n' +
                             '<div class=\"col-xs-12 col-sm-12\">\n' +
@@ -1133,8 +1135,6 @@ function showTeamD(){
                             '</div>\n' +
                         '</div>\n' +
                     '</footer>\n' +
-                    '</div>\n' +
-                    
                 '</div>'
 }
 
