@@ -50,7 +50,6 @@ function showCampaignM(){
     document.getElementById("buttonTeamM").classList.remove("menuActive");
 
     var a =document.getElementById('mainM');
-    //document.getElementById('fullBody').style.backgroundImage="url('../img/fondo_nasa.png')";
     a.innerHTML='<div id="campaignM" class="row campaignM">\n' +
                     '<div class="row"> <!-- MAIN VIDEO MOBILE -->\n' +
                         '<div id="videoM" class="col-xs-12 col-sm-12 video-responsive">\n' +
@@ -84,11 +83,6 @@ function showCampaignM(){
                                     '<p>Cada raza es única y por tanto tienen sus propias fortalezas. Obtén más rápido recursos, ten unidades más poderosas o conquista sin necesidad de luchar.</p>\n' +
                                     '<h4 class="contentMiniTitle">El poder de estar unidos</h4>\n' +
                                     '<p>Una vez que has elegido a tu raza deberás tomar una decisión quieres luchar solo o tener ayuda en momentos críticos. Únete a una Mega corporación y utiliza sus conexiones con otras razas para obtener recursos únicos por los que de otra forma tendrías que matar.</p>\n' +
-                                '</div>\n' +
-                            '</div>\n' +
-                            '<div class="row">\n' +
-                                '<div class="col-xs-12 col-sm-12 musicaMockup">\n' +
-                                    'Imagen de ejemplo (Razas)\n' +
                                 '</div>\n' +
                             '</div>\n' +
                             '<div class="row">\n' +
@@ -131,7 +125,7 @@ function showCampaignM(){
 
                         '<div class=\"row\">\n' +
                             '<div class=\"col-xs-12 col-sm-12\">\n' +
-                                '<h4 class=\"contentminiTitle\">Los Dukich</h4>\n' +
+                                '<h4 class=\"contentMiniTitle\">Los Dukich</h4>\n' +
                                 '<p>Una raza conocida en todo el universo por su habilidad en la batalla y sus guerreros sin miedo a la muerte. Toman lo que quieren, destruyendo a todo lo que se interponga en su camino.</p>\n' +
                                 '<p>Entre sus filas encontraras algunos de los mejores guerreros cuerpo a cuerpo del universo. Se caracterizan por sus grandes cuerpos y aspecto barbárico, tienen una gran capacidad para entrenar a sus tropas pero carecen de una gran cantidad de trabajadores.</p>\n' +
                                 '<p>100 años en la denominada galaxia Prime, existía un mundo que vivía en una guerra\n' +
@@ -160,7 +154,7 @@ function showCampaignM(){
 
                         '<div class=\"row\">\n' +
                             '<div class=\"col-xs-12 col-sm-12\">\n' +
-                                '<h4 class=\"contentminiTitle\">Välmående (Prósperos)</h4>\n' +
+                                '<h4 class=\"contentMiniTitle\">Välmående (Prósperos)</h4>\n' +
                                 '<p>Conocidos en el universo por su gran capacidad para adaptarse a las situaciones más extremas. </p>\n' +
                                 '<p>Puede que no tengan el mayor poder ofensivo pero no se les escapan los secretos de la tierra y de cómo obtener el máximo de beneficios con el mínimo esfuerzo.</p>\n' +
                                 '<p>Vienen del planeta Välmån, un planeta lleno de vida y naturaleza que vivió para la prosperidad\n' +
@@ -194,7 +188,7 @@ function showCampaignM(){
 
                         '<div class=\"row\">\n' +
                             '<div class=\"col-xs-12 col-sm-12\">\n' +
-                                '<h4 class=\"contentminiTitle\">Artemis Inc.</h4>\n' +
+                                '<h4 class=\"contentMiniTitle\">Artemis Inc.</h4>\n' +
                                 '<p>Nacida en la época en la que las guerras  estaban como primera orden del día. Esta corporación se especializa en el intercambio de armamentos y soldados especializados en la conquista.</p>\n' +
                                 '<p>No se toman a la ligera el ataque a sus asociados y ello puede dañar gravemente las relaciones y tu imperio en consecuencia.</p>\n' +
                             '</div>\n' +
@@ -210,7 +204,7 @@ function showCampaignM(){
 
                         '<div class=\"row\">\n' +
                             '<div class=\"col-xs-12 col-sm-12\">\n' +
-                                '<h4 class=\"contentminiTitle\">Spacemaker Group</h4>\n' +
+                                '<h4 class=\"contentMiniTitle\">Spacemaker Group</h4>\n' +
                                 '<p>Buscando el poder económico, tienen una gran cantidad de recursos que ofrecen a todo aquel dispuesto a pagar el precio adecuado. Esta corporación te ofrece una gran cantidad de materiales únicos a precios increíbles si eres su asociado.</p>\n' +
                                 '<p>Cualquier acción que les haga perder beneficios no quedara sin un castigo acorde.</p>\n' +
                             '</div>\n' +
@@ -226,7 +220,7 @@ function showCampaignM(){
 
                         '<div class=\"row\">\n' +
                             '<div class=\"col-xs-12 col-sm-12\">\n' +
-                                '<h4 class=\"contentminiTitle\">Hardship Corp.</h4>\n' +
+                                '<h4 class=\"contentMiniTitle\">Hardship Corp.</h4>\n' +
                                 '<p>Defender a los suyos es su misión por ello tienen los mejores sistemas de defensa. Esta corporación te ofrece sistemas especiales para que no tengas que temer a los ataques.</p>\n' +
                                 '<p>Para crecer es imprescindible conservar lo ya conseguido.</p>\n' +
                             '</div>\n' +
@@ -252,7 +246,29 @@ function showCampaignM(){
                     '</div>\n' +
                 '</div>\n' +
             '</div>\n' +
-        '</div>'
+        '</div>\n' +
+        '<!-- FOOTER -->\n' +
+                    '<footer class=\"footer\">\n' +
+                        '<div class=\"row wrapper\">\n' +
+                            '<div class=\"col-xs-12 col-sm-12\">\n' +
+                                '<div class=\"bloqueRRSS\">\n' +
+                                    '<img src=\"img/logo_facebook.png\" onclick=\"alertM()\" style=\"cursor: pointer;\" alt=\"Logo Facebook\" class=\"img-responsive logoRRSSM\">\n' +
+                                    '<img src=\"img/logo_twitter.png\" onclick=\"alertM()\" style=\"cursor: pointer;\" alt=\"Logo Facebook\" class=\"img-responsive logoRRSSM\">\n' +
+                                    '<img src=\"img/logo_instagram.png\" onclick=\"alertM()\" style=\"cursor: pointer;\" alt=\"Logo Facebook\" class=\"img-responsive logoRRSSM\">\n' +
+                                    '<img src=\"img/logo_youtube.png\" onclick=\"alertM()\" style=\"cursor: pointer;\" alt=\"Logo Facebook\" class=\"img-responsive logoRRSSM\">\n' +
+                                '</div>\n' +
+                            '</div>\n' +
+                            '<div class=\"col-md-12 col-lg-12\">\n' +
+                                '<div class=\"bloqueRRSS\">\n' +
+                                    '<img src=\"img/logo_facebook.png\" onclick=\"alertD()\" style=\"cursor: pointer;\" alt=\"Logo Facebook\" class=\"img-responsive logoRRSS\">\n' +
+                                    '<img src=\"img/logo_twitter.png\" onclick=\"alertD()\" style=\"cursor: pointer;\" alt=\"Logo Facebook\" class=\"img-responsive logoRRSS\">\n' +
+                                    '<img src=\"img/logo_instagram.png\" onclick=\"alertD()\" style=\"cursor: pointer;\" alt=\"Logo Facebook\" class=\"img-responsive logoRRSS\">\n' +
+                                    '<img src=\"img/logo_youtube.png\" onclick=\"alertD()\" style=\"cursor: pointer;\" alt=\"Logo Facebook\" class=\"img-responsive logoRRSS\">\n' +
+                                '</div>\n' +
+                            '</div>\n' +
+                        '</div>\n' +
+                    '</footer>\n' +
+                '</div>'
 
 }
 
@@ -269,7 +285,6 @@ function showRewardsM(){
     document.getElementById("buttonTeamM").classList.remove("menuActive");
 
     var a = document.getElementById('mainM');
-    //document.getElementById('fullBody').style.backgroundImage="url('../img/fondo_nasa_2.png')";
     a.innerHTML='<div id="rewardsM" class="row"> <!-- REWARDS -->\n' +
                     '<div class="row bloqueM">\n' +
                         '<div class="row barraEstadoM"></div>\n' +
@@ -358,6 +373,28 @@ function showRewardsM(){
                     '<div class="row" style="margin-top: 3rem;">\n' +
                         '<a href="#MenuCampaignM" onclick="alertM()"><div class="mainButton">Patrocina este proyecto</div></a>\n' +
                     '</div>\n' +
+                '</div>\n' +
+                '<!-- FOOTER -->\n' +
+                    '<footer class=\"footer\">\n' +
+                        '<div class=\"row wrapper\">\n' +
+                            '<div class=\"col-xs-12 col-sm-12\">\n' +
+                                '<div class=\"bloqueRRSS\">\n' +
+                                    '<img src=\"img/logo_facebook.png\" onclick=\"alertM()\" style=\"cursor: pointer;\" alt=\"Logo Facebook\" class=\"img-responsive logoRRSSM\">\n' +
+                                    '<img src=\"img/logo_twitter.png\" onclick=\"alertM()\" style=\"cursor: pointer;\" alt=\"Logo Facebook\" class=\"img-responsive logoRRSSM\">\n' +
+                                    '<img src=\"img/logo_instagram.png\" onclick=\"alertM()\" style=\"cursor: pointer;\" alt=\"Logo Facebook\" class=\"img-responsive logoRRSSM\">\n' +
+                                    '<img src=\"img/logo_youtube.png\" onclick=\"alertM()\" style=\"cursor: pointer;\" alt=\"Logo Facebook\" class=\"img-responsive logoRRSSM\">\n' +
+                                '</div>\n' +
+                            '</div>\n' +
+                            '<div class=\"col-md-12 col-lg-12\">\n' +
+                                '<div class=\"bloqueRRSS\">\n' +
+                                    '<img src=\"img/logo_facebook.png\" onclick=\"alertD()\" style=\"cursor: pointer;\" alt=\"Logo Facebook\" class=\"img-responsive logoRRSS\">\n' +
+                                    '<img src=\"img/logo_twitter.png\" onclick=\"alertD()\" style=\"cursor: pointer;\" alt=\"Logo Facebook\" class=\"img-responsive logoRRSS\">\n' +
+                                    '<img src=\"img/logo_instagram.png\" onclick=\"alertD()\" style=\"cursor: pointer;\" alt=\"Logo Facebook\" class=\"img-responsive logoRRSS\">\n' +
+                                    '<img src=\"img/logo_youtube.png\" onclick=\"alertD()\" style=\"cursor: pointer;\" alt=\"Logo Facebook\" class=\"img-responsive logoRRSS\">\n' +
+                                '</div>\n' +
+                            '</div>\n' +
+                        '</div>\n' +
+                    '</footer>\n' +
                 '</div>'
 }
     
@@ -370,10 +407,61 @@ function showFaqsM(){
     document.getElementById("buttonTeamM").classList.remove("menuActive");
 
     var a=document.getElementById('mainM');
-    //document.getElementById('fullBody').style.backgroundImage="url('../img/fondo1.png')";
-    a.innerHTML='<div id="faqsM" class="row faqM">\n' +
-                    '<h2>FAQS</h2>\n' +
-                '</div>'
+    a.innerHTML='<div id="faqsM" class="row">\n' +
+                    '<div class="row">\n' +
+                        '<h2 class="contentSubTitle">Preguntas frecuentes</h2>\n' +
+                        '<div>Es posible que te surjan dudas respecto al proyecto. No te preocupes, busca primero en este listado y, si no encuentras respuesta a tu pregunta, ponte en contacto con nosotros. ¡Estaremos encantados de ayudarte!</div>\n' +
+                    '</div>\n' +
+                    '<div class="row">\n' +
+                        '<div id="faq1" class="faq col-xs-12 col-sm-12">\n' +
+                            '<span><strong>¿El juego es de pago o tiene elementos de juegos de pago?</strong></span>\n' +
+                            '<p>No. El juego no incluirá ningún tipo de pay-to-win (nunca venderemos en Galactic Expansion objetos que te ayuden en las batallas o aumentos de experiencia).</p>\n' +
+                            '<p class="fechaFaq">Última actualización: martes, 1 de junio de 2021 0:17 CEST</p>\n' +
+                        '</div>\n' +
+                    '</div>\n' +
+                    '<div class="row">\n' +
+                        '<div id="faq1" class="faq col-xs-12 col-sm-12">\n' +
+                            '<span><strong>¿Contará con un modo offline?</strong></span>\n' +
+                            '<p>Sí. El juego tiene dos modos de juego: offline para exploración y online para unirte a una megacorporación y participar en batallas MMORPG.\n' +
+                            '<p class="fechaFaq">Última actualización: martes, 1 de junio de 2021 0:17 CEST</p>\n' +
+                        '</div>\n' +
+                    '</div>\n' +
+                    '<div class="row">\n' +
+                        '<div id="faq1" class="faq col-xs-12 col-sm-12">\n' +
+                            '<span><strong>¿Va a haber un lanzamiento físico? ¿O sólo digital?</strong></span>\n' +
+                            '<p>Si éste fuese un proyecto real, no tendríamos planes para un lanzamiento físico del juego. Al ser un juego para móviles, no tiene sentido un formato físico</p>.\n' +
+                            '<p class="fechaFaq">Última actualización: martes, 1 de junio de 2021 0:17 CEST</p>\n' +
+                        '</div>\n' +
+                    '</div>\n' +
+                    '<div class="row">\n' +
+                        '<div id="faq1" class="faq col-xs-12 col-sm-12">\n' +
+                            '<span><strong>¿Será el juego compatible con otros idiomas?</strong></span>\n' +
+                            '<p>Nuestro soporte inicial de idiomas va a ser para el inglés y el español. Queremos añadir muchos más idiomas y buscaremos la forma de hacerlo.</p>\n' +
+                            '<p class="fechaFaq">Última actualización: martes, 1 de junio de 2021 0:17 CEST</p>\n' +
+                        '</div>\n' +
+                    '</div>\n' +
+                '</div>\n' +
+                '<!-- FOOTER -->\n' +
+                    '<footer class=\"footer\">\n' +
+                        '<div class=\"row wrapper\">\n' +
+                            '<div class=\"col-xs-12 col-sm-12\">\n' +
+                                '<div class=\"bloqueRRSS\">\n' +
+                                    '<img src=\"img/logo_facebook.png\" onclick=\"alertM()\" style=\"cursor: pointer;\" alt=\"Logo Facebook\" class=\"img-responsive logoRRSSM\">\n' +
+                                    '<img src=\"img/logo_twitter.png\" onclick=\"alertM()\" style=\"cursor: pointer;\" alt=\"Logo Facebook\" class=\"img-responsive logoRRSSM\">\n' +
+                                    '<img src=\"img/logo_instagram.png\" onclick=\"alertM()\" style=\"cursor: pointer;\" alt=\"Logo Facebook\" class=\"img-responsive logoRRSSM\">\n' +
+                                    '<img src=\"img/logo_youtube.png\" onclick=\"alertM()\" style=\"cursor: pointer;\" alt=\"Logo Facebook\" class=\"img-responsive logoRRSSM\">\n' +
+                                '</div>\n' +
+                            '</div>\n' +
+                            '<div class=\"col-md-12 col-lg-12\">\n' +
+                                '<div class=\"bloqueRRSS\">\n' +
+                                    '<img src=\"img/logo_facebook.png\" onclick=\"alertD()\" style=\"cursor: pointer;\" alt=\"Logo Facebook\" class=\"img-responsive logoRRSS\">\n' +
+                                    '<img src=\"img/logo_twitter.png\" onclick=\"alertD()\" style=\"cursor: pointer;\" alt=\"Logo Facebook\" class=\"img-responsive logoRRSS\">\n' +
+                                    '<img src=\"img/logo_instagram.png\" onclick=\"alertD()\" style=\"cursor: pointer;\" alt=\"Logo Facebook\" class=\"img-responsive logoRRSS\">\n' +
+                                    '<img src=\"img/logo_youtube.png\" onclick=\"alertD()\" style=\"cursor: pointer;\" alt=\"Logo Facebook\" class=\"img-responsive logoRRSS\">\n' +
+                                '</div>\n' +
+                            '</div>\n' +
+                        '</div>\n' +
+                    '</footer>'
 
 }
 
@@ -385,9 +473,32 @@ function showCommentsM(){
     document.getElementById("buttonTeamM").classList.remove("menuActive");
 
     var a=document.getElementById('mainM');
-    //document.getElementById('fullBody').style.backgroundImage="url('../img/fondo_eagle-nebula-2.png')";
     a.innerHTML='<div id="commentsM" class="row commentsM">\n' +
                     '<h2>COMENTARIOS</h2>\n' +
+                    '<p>¿Quieres dejarnos algún comentario? ¡Adelante! Solo recuerda que necesitarás conexión a internet y una cuenta de Facebook para hacerlo.</p>\n' +
+                    '<div class="fb-comments" data-href="https://equipoemmm2021.github.io/" data-width="335" data-numposts="5"></div>\n' +
+                '</div>\n' +
+                '<!-- FOOTER -->\n' +
+                    '<footer class=\"footer\">\n' +
+                        '<div class=\"row wrapper\">\n' +
+                            '<div class=\"col-xs-12 col-sm-12\">\n' +
+                                '<div class=\"bloqueRRSS\">\n' +
+                                    '<img src=\"img/logo_facebook.png\" onclick=\"alertM()\" style=\"cursor: pointer;\" alt=\"Logo Facebook\" class=\"img-responsive logoRRSSM\">\n' +
+                                    '<img src=\"img/logo_twitter.png\" onclick=\"alertM()\" style=\"cursor: pointer;\" alt=\"Logo Facebook\" class=\"img-responsive logoRRSSM\">\n' +
+                                    '<img src=\"img/logo_instagram.png\" onclick=\"alertM()\" style=\"cursor: pointer;\" alt=\"Logo Facebook\" class=\"img-responsive logoRRSSM\">\n' +
+                                    '<img src=\"img/logo_youtube.png\" onclick=\"alertM()\" style=\"cursor: pointer;\" alt=\"Logo Facebook\" class=\"img-responsive logoRRSSM\">\n' +
+                                '</div>\n' +
+                            '</div>\n' +
+                            '<div class=\"col-md-12 col-lg-12\">\n' +
+                                '<div class=\"bloqueRRSS\">\n' +
+                                    '<img src=\"img/logo_facebook.png\" onclick=\"alertD()\" style=\"cursor: pointer;\" alt=\"Logo Facebook\" class=\"img-responsive logoRRSS\">\n' +
+                                    '<img src=\"img/logo_twitter.png\" onclick=\"alertD()\" style=\"cursor: pointer;\" alt=\"Logo Facebook\" class=\"img-responsive logoRRSS\">\n' +
+                                    '<img src=\"img/logo_instagram.png\" onclick=\"alertD()\" style=\"cursor: pointer;\" alt=\"Logo Facebook\" class=\"img-responsive logoRRSS\">\n' +
+                                    '<img src=\"img/logo_youtube.png\" onclick=\"alertD()\" style=\"cursor: pointer;\" alt=\"Logo Facebook\" class=\"img-responsive logoRRSS\">\n' +
+                                '</div>\n' +
+                            '</div>\n' +
+                        '</div>\n' +
+                    '</footer>\n' +
                 '</div>'
 }
 
@@ -399,7 +510,6 @@ function showTeamM(){
     document.getElementById("buttonTeamM").classList.add("menuActive");
 
     var a=document.getElementById('mainM');
-    //document.getElementById('fullBody').style.backgroundImage="url('../img/fondo_carina-nebula-wide.png')";
     a.innerHTML='<div id="teamM" class="row teamM">\n' +
                     '<div class="col-xs-12 col-sm-12 bloqueM">\n' +
                         '<h2>Nuestro equipo:</h2>\n' +
@@ -410,6 +520,28 @@ function showTeamM(){
                         '<p><strong>·RODRÍGUEZ CORDERO, BORJA</strong> - Game design (real: documentación y textos)</p>\n' +
                         '<p><strong>·SANZ CORONEL, JORGE</strong> - Concept escenarios e items (real: elaboración de imágenes)</p>\n' +
                     '</div>\n' +
+                '</div>\n' +
+                '<!-- FOOTER -->\n' +
+                    '<footer class=\"footer\">\n' +
+                        '<div class=\"row wrapper\">\n' +
+                            '<div class=\"col-xs-12 col-sm-12\">\n' +
+                                '<div class=\"bloqueRRSS\">\n' +
+                                    '<img src=\"img/logo_facebook.png\" onclick=\"alertM()\" style=\"cursor: pointer;\" alt=\"Logo Facebook\" class=\"img-responsive logoRRSSM\">\n' +
+                                    '<img src=\"img/logo_twitter.png\" onclick=\"alertM()\" style=\"cursor: pointer;\" alt=\"Logo Facebook\" class=\"img-responsive logoRRSSM\">\n' +
+                                    '<img src=\"img/logo_instagram.png\" onclick=\"alertM()\" style=\"cursor: pointer;\" alt=\"Logo Facebook\" class=\"img-responsive logoRRSSM\">\n' +
+                                    '<img src=\"img/logo_youtube.png\" onclick=\"alertM()\" style=\"cursor: pointer;\" alt=\"Logo Facebook\" class=\"img-responsive logoRRSSM\">\n' +
+                                '</div>\n' +
+                            '</div>\n' +
+                            '<div class=\"col-md-12 col-lg-12\">\n' +
+                                '<div class=\"bloqueRRSS\">\n' +
+                                    '<img src=\"img/logo_facebook.png\" onclick=\"alertD()\" style=\"cursor: pointer;\" alt=\"Logo Facebook\" class=\"img-responsive logoRRSS\">\n' +
+                                    '<img src=\"img/logo_twitter.png\" onclick=\"alertD()\" style=\"cursor: pointer;\" alt=\"Logo Facebook\" class=\"img-responsive logoRRSS\">\n' +
+                                    '<img src=\"img/logo_instagram.png\" onclick=\"alertD()\" style=\"cursor: pointer;\" alt=\"Logo Facebook\" class=\"img-responsive logoRRSS\">\n' +
+                                    '<img src=\"img/logo_youtube.png\" onclick=\"alertD()\" style=\"cursor: pointer;\" alt=\"Logo Facebook\" class=\"img-responsive logoRRSS\">\n' +
+                                '</div>\n' +
+                            '</div>\n' +
+                        '</div>\n' +
+                    '</footer>\n' +
                 '</div>'
 }
 
@@ -481,11 +613,6 @@ function showCampaignD(){
                                 '</div>\n' +
                             '</div>\n' +
                             '<div class=\"row\">\n' +
-                                '<div class=\"col-md-12 col-lg-12 musicaMockup\">\n' +
-                                    'Imagen de ejemplo (Razas)\n' +
-                                '</div>\n' +
-                            '</div>\n' +
-                            '<div class=\"row\">\n' +
                                 '<div class=\"col-md-12 col-lg-12\">\n' +
                                     '<p>En Galactic Expansion se recompensara la buena toma de decisiones, las estrategias y la constancia. Cada movimiento te acercara o alejara de ser el emperador de la galaxia.</p>\n' +
                                     '<h3 class=\"contentSubTitle\">Razas</h3>\n' +
@@ -525,7 +652,7 @@ function showCampaignD(){
 
                             '<div class=\"row\">\n' +
                                 '<div class=\"col-md-12 col-lg-12\">\n' +
-                                    '<h4 class=\"contentminiTitle\">Los Dukich</h4>\n' +
+                                    '<h4 class=\"contentMiniTitle\">Los Dukich</h4>\n' +
                                     '<p>Una raza conocida en todo el universo por su habilidad en la batalla y sus guerreros sin miedo a la muerte. Toman lo que quieren, destruyendo a todo lo que se interponga en su camino.</p>\n' +
                                     '<p>Entre sus filas encontraras algunos de los mejores guerreros cuerpo a cuerpo del universo. Se caracterizan por sus grandes cuerpos y aspecto barbárico, tienen una gran capacidad para entrenar a sus tropas pero carecen de una gran cantidad de trabajadores.</p>\n' +
                                     '<p>100 años en la denominada galaxia Prime, existía un mundo que vivía en una guerra\n' +
@@ -554,7 +681,7 @@ function showCampaignD(){
 
                             '<div class=\"row\">\n' +
                                 '<div class=\"col-md-12 col-lg-12\">\n' +
-                                    '<h4 class=\"contentminiTitle\">Välmående (Prósperos)</h4>\n' +
+                                    '<h4 class=\"contentMiniTitle\">Välmående (Prósperos)</h4>\n' +
                                     '<p>Conocidos en el universo por su gran capacidad para adaptarse a las situaciones más extremas. </p>\n' +
                                     '<p>Puede que no tengan el mayor poder ofensivo pero no se les escapan los secretos de la tierra y de cómo obtener el máximo de beneficios con el mínimo esfuerzo.</p>\n' +
                                     '<p>Vienen del planeta Välmån, un planeta lleno de vida y naturaleza que vivió para la prosperidad\n' +
@@ -588,7 +715,7 @@ function showCampaignD(){
 
                             '<div class=\"row\">\n' +
                                 '<div class=\"col-md-12 col-lg-12\">\n' +
-                                    '<h4 class=\"contentminiTitle\">Artemis Inc.</h4>\n' +
+                                    '<h4 class=\"contentMiniTitle\">Artemis Inc.</h4>\n' +
                                     '<p>Nacida en la época en la que las guerras  estaban como primera orden del día. Esta corporación se especializa en el intercambio de armamentos y soldados especializados en la conquista.</p>\n' +
                                     '<p>No se toman a la ligera el ataque a sus asociados y ello puede dañar gravemente las relaciones y tu imperio en consecuencia.</p>\n' +
                                 '</div>\n' +
@@ -604,7 +731,7 @@ function showCampaignD(){
 
                             '<div class=\"row\">\n' +
                                 '<div class=\"col-md-12 col-lg-12\">\n' +
-                                    '<h4 class=\"contentminiTitle\">Spacemaker Group</h4>\n' +
+                                    '<h4 class=\"contentMiniTitle\">Spacemaker Group</h4>\n' +
                                     '<p>Buscando el poder económico, tienen una gran cantidad de recursos que ofrecen a todo aquel dispuesto a pagar el precio adecuado. Esta corporación te ofrece una gran cantidad de materiales únicos a precios increíbles si eres su asociado.</p>\n' +
                                     '<p>Cualquier acción que les haga perder beneficios no quedara sin un castigo acorde.</p>\n' +
                                 '</div>\n' +
@@ -620,7 +747,7 @@ function showCampaignD(){
 
                             '<div class=\"row\">\n' +
                                 '<div class=\"col-md-12 col-lg-12\">\n' +
-                                    '<h4 class=\"contentminiTitle\">Hardship Corp.</h4>\n' +
+                                    '<h4 class=\"contentMiniTitle\">Hardship Corp.</h4>\n' +
                                     '<p>Defender a los suyos es su misión por ello tienen los mejores sistemas de defensa. Esta corporación te ofrece sistemas especiales para que no tengas que temer a los ataques.</p>\n' +
                                     '<p>Para crecer es imprescindible conservar lo ya conseguido.</p>\n' +
                                 '</div>\n' +
@@ -813,7 +940,38 @@ function showFaqsD(){
     a.innerHTML='<div class=\"row wrapper\">\n' +
                     '<div id=\"faqsD\" class="row faqD\">\n' +
                         '<div class=\"col-md-12 col-lg-12 \">\n' +
-                            '<h2 class="contentSubTitle">Preguntas frecuentes</h2>\n' +
+                            '<div class="row">\n' +
+                                '<h2 class="contentSubTitle">Preguntas frecuentes</h2>\n' +
+                                '<div>Es posible que te surjan dudas respecto al proyecto. No te preocupes, busca primero en este listado y, si no encuentras respuesta a tu pregunta, ponte en contacto con nosotros. ¡Estaremos encantados de ayudarte!</div>\n' +
+                            '</div>\n' +
+                            '<div class="row">\n' +
+                                '<div id="faq1" class="faq col-md-12 col-lg-12">\n' +
+                                    '<span><strong>¿El juego es de pago o tiene elementos de juegos de pago?</strong></span>\n' +
+                                    '<p>No. El juego no incluirá ningún tipo de pay-to-win (nunca venderemos en Galactic Expansion objetos que te ayuden en las batallas o aumentos de experiencia).</p>\n' +
+                                    '<p class="fechaFaq">Última actualización: martes, 1 de junio de 2021 0:17 CEST</p>\n' +
+                                '</div>\n' +
+                            '</div>\n' +
+                            '<div class="row">\n' +
+                                '<div id="faq1" class="faq col-md-12 col-lg-12">\n' +
+                                    '<span><strong>¿Contará con un modo offline?</strong></span>\n' +
+                                    '<p>Sí. El juego tiene dos modos de juego: offline para exploración y online para unirte a una megacorporación y participar en batallas MMORPG.\n' +
+                                    '<p class="fechaFaq">Última actualización: martes, 1 de junio de 2021 0:17 CEST</p>\n' +
+                                '</div>\n' +
+                            '</div>\n' +
+                            '<div class="row">\n' +
+                                '<div id="faq1" class="faq col-md-12 col-lg-12">\n' +
+                                    '<span><strong>¿Va a haber un lanzamiento físico? ¿O sólo digital?</strong></span>\n' +
+                                    '<p>Si éste fuese un proyecto real, no tendríamos planes para un lanzamiento físico del juego. Al ser un juego para móviles, no tiene sentido un formato físico</p>.\n' +
+                                    '<p class="fechaFaq">Última actualización: martes, 1 de junio de 2021 0:17 CEST</p>\n' +
+                                '</div>\n' +
+                            '</div>\n' +
+                            '<div class="row">\n' +
+                                '<div id="faq1" class="faq col-md-12 col-lg-12">\n' +
+                                    '<span><strong>¿Será el juego compatible con otros idiomas?</strong></span>\n' +
+                                    '<p>Nuestro soporte inicial de idiomas va a ser para el inglés y el español. Queremos añadir muchos más idiomas y buscaremos la forma de hacerlo.</p>\n' +
+                                    '<p class="fechaFaq">Última actualización: martes, 1 de junio de 2021 0:17 CEST</p>\n' +
+                                '</div>\n' +
+                            '</div>\n' +
                         '</div>\n' +
                     '</div>\n' +
                     '<!-- FOOTER -->\n' +
@@ -855,6 +1013,8 @@ function showCommentsD(){
                     '<div id=\"commentsD\" class=\"row commentsD\">\n' +
                         '<div class=\"col-md-12 col-lg-12\">\n' +
                             '<h2>COMENTARIOS</h2>\n' +
+                            '<p>¿Quieres dejarnos algún comentario? ¡Adelante! Solo recuerda que necesitarás conexión a internet y una cuenta de Facebook para hacerlo.</p>\n' +
+                            '<div class="fb-comments" data-href="https://equipoemmm2021.github.io/" data-width="900" data-numposts="5"></div>\n' +
                         '</div>\n' +
                     '</div>\n' +
                     '<!-- FOOTER -->\n' +
