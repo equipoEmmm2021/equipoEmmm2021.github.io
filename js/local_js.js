@@ -1017,8 +1017,8 @@ function showCommentsD(){
                             '<div id="disqus_thread"></div>\n' +
                             '<script>\n' +
                                 'var disqus_config = function () {\n' +
-                                'this.page.url = https://equipoemmm2021.github.io/;\n' +
-                                'this.page.identifier = grupoEMultimedia;\n' +
+                                'this.page.url = \"https://equipoemmm2021.github.io/\";\n' +
+                                'this.page.identifier = \"grupoEMultimedia\";\n' +
                                 '};\n' +
                                 '(function() {\n' +
                                 'var d = document, s = d.createElement(\'script\');\n' +
